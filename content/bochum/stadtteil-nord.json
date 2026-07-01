@@ -1,0 +1,103 @@
+{
+  "slug": [
+    "bochum",
+    "immobilienmakler-nord"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Bochum",
+  "stadtSlug": "bochum",
+  "stadtteil": "Nord",
+  "h1": "Immobilienmakler in Bochum-Nord",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Bochum-Nord, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "WEYEL-IMMOBILIEN - Immobilienmakler Bochum & Metropole Ruhr",
+      "slug": "weyel-immobilien-immobilienmakler-bochum-metropole-ruhr",
+      "url": "https://www.weyel-immobilien.de/",
+      "rating": 5,
+      "reviewsCount": 123,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Nord",
+      "html": "<a href=\"https://www.weyel-immobilien.de/\" target=\"_blank\" rel=\"noopener\"><strong>WEYEL-IMMOBILIEN - Immobilienmakler Bochum & Metropole Ruhr</strong></a> gehört mit 5 Sternen bei 123 Bewertungen zu den bestbewerteten Immobilienmaklern in Bochum. Die Erfahrungen und Bewertungen zum Immobilienmakler Bochum zeigen ein konsistentes Bild: Kunden heben besonders die Marktkenntnis, die transparente Kommunikation und die zuverlässige Erreichbarkeit während des gesamten Kauf- oder Verkaufsprozesses hervor. Mehrfach wird betont, dass Unterlagen strukturiert vorbereitet wurden und Abläufe reibungslos sowie schneller als erwartet verliefen. Der Makler ist auf Wohnimmobilien spezialisiert und in Bochum-Nord ansässig. Mehr zu <a href=\"/bochum/immobilienmakler-nord\">Maklern in Bochum-Nord</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Bochum-Nord tätig?",
+      "a": "WEYEL-IMMOBILIEN - Immobilienmakler Bochum & Metropole Ruhr ist mit 5 Sternen bei 123 Bewertungen in Bochum-Nord vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Bochum – Stadtteil Nord: WEYEL-IMMOBILIEN - Immobilienmakler Bochum & Metropole Ruhr (5★, 123 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/bochum/haus-verkaufen",
+      "label": "Haus verkaufen Bochum"
+    },
+    {
+      "href": "/bochum/immobilienbewertung",
+      "label": "Immobilienbewertung Bochum"
+    },
+    {
+      "href": "/duisburg",
+      "label": "Immobilienmakler Duisburg"
+    },
+    {
+      "href": "/nuernberg",
+      "label": "Immobilienmakler Nürnberg"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/bochum",
+      "label": "Immobilienmakler Bochum"
+    },
+    {
+      "href": "/bochum/haus-verkaufen",
+      "label": "Haus verkaufen Bochum"
+    },
+    {
+      "href": "/bochum/immobilienbewertung",
+      "label": "Immobilienbewertung Bochum"
+    },
+    {
+      "href": "/bochum/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Bochum"
+    },
+    {
+      "href": "/bochum/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Bochum"
+    },
+    {
+      "href": "/bochum/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Bochum"
+    },
+    {
+      "href": "/bochum/immobilienmakler-nord",
+      "label": "Immobilienmakler Bochum-Nord"
+    },
+    {
+      "href": "/bochum/immobilienmakler-ost",
+      "label": "Immobilienmakler Bochum-Ost"
+    },
+    {
+      "href": "/bochum/immobilienmakler-sued",
+      "label": "Immobilienmakler Bochum-Süd"
+    },
+    {
+      "href": "/bochum/immobilienmakler-suedwest",
+      "label": "Immobilienmakler Bochum-Südwest"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/duisburg",
+      "label": "Immobilienmakler Duisburg"
+    },
+    {
+      "href": "/nuernberg",
+      "label": "Immobilienmakler Nürnberg"
+    }
+  ]
+}

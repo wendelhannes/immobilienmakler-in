@@ -1,0 +1,99 @@
+{
+  "slug": [
+    "stuttgart",
+    "immobilienmakler-bad"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Stuttgart",
+  "stadtSlug": "stuttgart",
+  "stadtteil": "Bad",
+  "h1": "Immobilienmakler in Stuttgart-Bad",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Stuttgart-Bad, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Neckartal Immobilien GmbH ⭐⭐⭐⭐⭐Stuttgart, Bad Cannstatt (Zentrale)",
+      "slug": "neckartal-immobilien-gmbh-stuttgart-bad-cannstatt-zentrale",
+      "url": "https://neckartal.immo/",
+      "rating": 4.8,
+      "reviewsCount": 94,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Bad",
+      "html": "<a href=\"https://neckartal.immo/\" target=\"_blank\" rel=\"noopener\"><strong>Neckartal Immobilien GmbH ⭐⭐⭐⭐⭐Stuttgart, Bad Cannstatt (Zentrale)</strong></a> gehört mit 4.8 Sternen bei 94 Bewertungen zu den bestbewerteten Immobilienmaklern in Stuttgart. Mit einer Bewertung von 4,8 Sternen bei 94 Bewertungen zählt dieser Immobilienmakler Stuttgart zu den gut bewerteten Adressen für Wohnimmobilien. Kunden berichten in ihren Erfahrungen von professioneller Beratungsqualität, zügiger Abwicklung auch in schwierigen Verkaufssituationen sowie transparenter Kommunikation während des gesamten Kauf- oder Verkaufsprozesses. Einzelne negative Bewertungen zu Reservierungsabsprachen und Erreichbarkeit sind in den Bewertungen ebenfalls dokumentiert. Der Makler ist auf Wohnimmobilien spezialisiert und in Stuttgart-Bad ansässig. Mehr zu <a href=\"/stuttgart/immobilienmakler-bad\">Maklern in Stuttgart-Bad</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Stuttgart-Bad tätig?",
+      "a": "Neckartal Immobilien GmbH ⭐⭐⭐⭐⭐Stuttgart, Bad Cannstatt (Zentrale) ist mit 4.8 Sternen bei 94 Bewertungen in Stuttgart-Bad vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Stuttgart – Stadtteil Bad: Neckartal Immobilien GmbH ⭐⭐⭐⭐⭐Stuttgart, Bad Cannstatt (Zentrale) (4.8★, 94 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/stuttgart/haus-verkaufen",
+      "label": "Haus verkaufen Stuttgart"
+    },
+    {
+      "href": "/stuttgart/immobilienbewertung",
+      "label": "Immobilienbewertung Stuttgart"
+    },
+    {
+      "href": "/frankfurt",
+      "label": "Immobilienmakler Frankfurt"
+    },
+    {
+      "href": "/koeln",
+      "label": "Immobilienmakler Köln"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/stuttgart",
+      "label": "Immobilienmakler Stuttgart"
+    },
+    {
+      "href": "/stuttgart/haus-verkaufen",
+      "label": "Haus verkaufen Stuttgart"
+    },
+    {
+      "href": "/stuttgart/immobilienbewertung",
+      "label": "Immobilienbewertung Stuttgart"
+    },
+    {
+      "href": "/stuttgart/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Stuttgart"
+    },
+    {
+      "href": "/stuttgart/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Stuttgart"
+    },
+    {
+      "href": "/stuttgart/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Stuttgart"
+    },
+    {
+      "href": "/stuttgart/immobilienmakler-west",
+      "label": "Immobilienmakler Stuttgart-West"
+    },
+    {
+      "href": "/stuttgart/immobilienmakler-ost",
+      "label": "Immobilienmakler Stuttgart-Ost"
+    },
+    {
+      "href": "/stuttgart/immobilienmakler-bad",
+      "label": "Immobilienmakler Stuttgart-Bad"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/frankfurt",
+      "label": "Immobilienmakler Frankfurt"
+    },
+    {
+      "href": "/koeln",
+      "label": "Immobilienmakler Köln"
+    }
+  ]
+}

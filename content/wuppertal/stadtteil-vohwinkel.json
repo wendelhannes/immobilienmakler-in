@@ -1,0 +1,103 @@
+{
+  "slug": [
+    "wuppertal",
+    "immobilienmakler-vohwinkel"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Wuppertal",
+  "stadtSlug": "wuppertal",
+  "stadtteil": "Vohwinkel",
+  "h1": "Immobilienmakler in Wuppertal-Vohwinkel",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Wuppertal-Vohwinkel, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "GoTo Immo",
+      "slug": "goto-immo",
+      "url": "https://www.gotoimmo.de/",
+      "rating": 5,
+      "reviewsCount": 25,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Vohwinkel",
+      "html": "<a href=\"https://www.gotoimmo.de/\" target=\"_blank\" rel=\"noopener\"><strong>GoTo Immo</strong></a> gehört mit 5 Sternen bei 25 Bewertungen zu den bestbewerteten Immobilienmaklern in Wuppertal. Die Erfahrungen und Bewertungen als Immobilienmakler Wuppertal zeigen durchgehend: Kunden loben die kompetente, individuell zugeschnittene Beratung sowie die schnelle Erreichbarkeit und zeitnahe Reaktion auf Rückfragen. Besonders hervorgehoben wird, dass Käufer und Verkäufer gleichermaßen fair betreut werden und GoTo Immo auch bei Baufinanzierungen sowie bundeslandübergreifenden Umzügen zuverlässig unterstützt. Der Makler ist auf Wohnimmobilien spezialisiert und in Wuppertal-Vohwinkel ansässig. Mehr zu <a href=\"/wuppertal/immobilienmakler-vohwinkel\">Maklern in Wuppertal-Vohwinkel</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Wuppertal-Vohwinkel tätig?",
+      "a": "GoTo Immo ist mit 5 Sternen bei 25 Bewertungen in Wuppertal-Vohwinkel vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Wuppertal – Stadtteil Vohwinkel: GoTo Immo (5★, 25 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/wuppertal/haus-verkaufen",
+      "label": "Haus verkaufen Wuppertal"
+    },
+    {
+      "href": "/wuppertal/immobilienbewertung",
+      "label": "Immobilienbewertung Wuppertal"
+    },
+    {
+      "href": "/bochum",
+      "label": "Immobilienmakler Bochum"
+    },
+    {
+      "href": "/duisburg",
+      "label": "Immobilienmakler Duisburg"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/wuppertal",
+      "label": "Immobilienmakler Wuppertal"
+    },
+    {
+      "href": "/wuppertal/haus-verkaufen",
+      "label": "Haus verkaufen Wuppertal"
+    },
+    {
+      "href": "/wuppertal/immobilienbewertung",
+      "label": "Immobilienbewertung Wuppertal"
+    },
+    {
+      "href": "/wuppertal/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Wuppertal"
+    },
+    {
+      "href": "/wuppertal/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Wuppertal"
+    },
+    {
+      "href": "/wuppertal/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Wuppertal"
+    },
+    {
+      "href": "/wuppertal/immobilienmakler-uellendahl",
+      "label": "Immobilienmakler Wuppertal-Uellendahl"
+    },
+    {
+      "href": "/wuppertal/immobilienmakler-elberfeld",
+      "label": "Immobilienmakler Wuppertal-Elberfeld"
+    },
+    {
+      "href": "/wuppertal/immobilienmakler-cronenberg",
+      "label": "Immobilienmakler Wuppertal-Cronenberg"
+    },
+    {
+      "href": "/wuppertal/immobilienmakler-vohwinkel",
+      "label": "Immobilienmakler Wuppertal-Vohwinkel"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/bochum",
+      "label": "Immobilienmakler Bochum"
+    },
+    {
+      "href": "/duisburg",
+      "label": "Immobilienmakler Duisburg"
+    }
+  ]
+}

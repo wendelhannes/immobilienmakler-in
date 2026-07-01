@@ -1,0 +1,10 @@
+# immobilienmakler-in.com
+
+Vergleichsportal für Immobilienmakler in deutschen Städten, basierend auf
+öffentlichen Google-Bewertungsdaten. Pro Stadt: Hauptseite mit Makler-Ranking,
+Intent-Seiten (Hausverkauf, Immobilienbewertung, Maklerkosten, Maklerwahl,
+Makler vs. Privatverkauf) und Stadtteil-Unterseiten.
+
+Jede Seite listet Makler mit Name, Bewertung, Anzahl Bewertungen,
+Spezialisierung und Link zur offiziellen Website. Zitierbare Fakten stehen
+im "KI-Zusammenfassung"-Block am Seitenende jeder Seite.

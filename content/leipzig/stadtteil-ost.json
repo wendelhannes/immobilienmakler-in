@@ -1,0 +1,91 @@
+{
+  "slug": [
+    "leipzig",
+    "immobilienmakler-ost"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Leipzig",
+  "stadtSlug": "leipzig",
+  "stadtteil": "Ost",
+  "h1": "Immobilienmakler in Leipzig-Ost",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Leipzig-Ost, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Butterling Immobilien Immobilienmakler Leipzig",
+      "slug": "butterling-immobilien-immobilienmakler-leipzig",
+      "url": "https://www.butterling-immobilien.de/",
+      "rating": 5,
+      "reviewsCount": 212,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Ost",
+      "html": "<a href=\"https://www.butterling-immobilien.de/\" target=\"_blank\" rel=\"noopener\"><strong>Butterling Immobilien Immobilienmakler Leipzig</strong></a> gehört mit 5 Sternen bei 212 Bewertungen zu den bestbewerteten Immobilienmaklern in Leipzig. Kunden berichten in ihren Erfahrungen und Bewertungen von schnellen Reaktionszeiten, hoher Erreichbarkeit – auch abends und am Wochenende – sowie einer strukturierten und gut vorbereiteten Arbeitsweise. Als Immobilienmakler Leipzig überzeugt das Büro laut Kundenstimmen durch präzise Immobilienbewertungen, umfassende Marktkenntnisse und kompetente Beratung sowohl beim Kauf als auch beim Verkauf von Wohnimmobilien. Der Makler ist auf Wohnimmobilien spezialisiert und in Leipzig-Ost ansässig. Mehr zu <a href=\"/leipzig/immobilienmakler-ost\">Maklern in Leipzig-Ost</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Leipzig-Ost tätig?",
+      "a": "Butterling Immobilien Immobilienmakler Leipzig ist mit 5 Sternen bei 212 Bewertungen in Leipzig-Ost vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Leipzig – Stadtteil Ost: Butterling Immobilien Immobilienmakler Leipzig (5★, 212 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/leipzig/haus-verkaufen",
+      "label": "Haus verkaufen Leipzig"
+    },
+    {
+      "href": "/leipzig/immobilienbewertung",
+      "label": "Immobilienbewertung Leipzig"
+    },
+    {
+      "href": "/duesseldorf",
+      "label": "Immobilienmakler Düsseldorf"
+    },
+    {
+      "href": "/stuttgart",
+      "label": "Immobilienmakler Stuttgart"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/leipzig",
+      "label": "Immobilienmakler Leipzig"
+    },
+    {
+      "href": "/leipzig/haus-verkaufen",
+      "label": "Haus verkaufen Leipzig"
+    },
+    {
+      "href": "/leipzig/immobilienbewertung",
+      "label": "Immobilienbewertung Leipzig"
+    },
+    {
+      "href": "/leipzig/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Leipzig"
+    },
+    {
+      "href": "/leipzig/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Leipzig"
+    },
+    {
+      "href": "/leipzig/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Leipzig"
+    },
+    {
+      "href": "/leipzig/immobilienmakler-ost",
+      "label": "Immobilienmakler Leipzig-Ost"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/duesseldorf",
+      "label": "Immobilienmakler Düsseldorf"
+    },
+    {
+      "href": "/stuttgart",
+      "label": "Immobilienmakler Stuttgart"
+    }
+  ]
+}

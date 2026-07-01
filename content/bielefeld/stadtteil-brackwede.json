@@ -1,0 +1,111 @@
+{
+  "slug": [
+    "bielefeld",
+    "immobilienmakler-brackwede"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Bielefeld",
+  "stadtSlug": "bielefeld",
+  "stadtteil": "Brackwede",
+  "h1": "Immobilienmakler in Bielefeld-Brackwede",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Bielefeld-Brackwede, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Sever Immobilien",
+      "slug": "sever-immobilien",
+      "url": "http://www.sever-immobilien.de/",
+      "rating": 5,
+      "reviewsCount": 186,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Brackwede",
+      "html": "<a href=\"http://www.sever-immobilien.de/\" target=\"_blank\" rel=\"noopener\"><strong>Sever Immobilien</strong></a> gehört mit 5 Sternen bei 186 Bewertungen zu den bestbewerteten Immobilienmaklern in Bielefeld. Mit 186 Bewertungen und 5 Sternen gehört dieser Immobilienmakler Bielefeld zu den bestbewerteten seiner Branche. Kunden berichten in ihren Erfahrungen übereinstimmend von freundlichem und professionellem Auftreten sowie kompetenter, zuverlässiger Beratung. Besonders positiv fällt in den Bewertungen die transparente Begleitung des gesamten Verkaufsprozesses auf. Der Makler ist auf Wohnimmobilien spezialisiert und in Bielefeld-Brackwede ansässig. Mehr zu <a href=\"/bielefeld/immobilienmakler-brackwede\">Maklern in Bielefeld-Brackwede</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Bielefeld-Brackwede tätig?",
+      "a": "Sever Immobilien ist mit 5 Sternen bei 186 Bewertungen in Bielefeld-Brackwede vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Bielefeld – Stadtteil Brackwede: Sever Immobilien (5★, 186 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/bielefeld/haus-verkaufen",
+      "label": "Haus verkaufen Bielefeld"
+    },
+    {
+      "href": "/bielefeld/immobilienbewertung",
+      "label": "Immobilienbewertung Bielefeld"
+    },
+    {
+      "href": "/wuppertal",
+      "label": "Immobilienmakler Wuppertal"
+    },
+    {
+      "href": "/bochum",
+      "label": "Immobilienmakler Bochum"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/bielefeld",
+      "label": "Immobilienmakler Bielefeld"
+    },
+    {
+      "href": "/bielefeld/haus-verkaufen",
+      "label": "Haus verkaufen Bielefeld"
+    },
+    {
+      "href": "/bielefeld/immobilienbewertung",
+      "label": "Immobilienbewertung Bielefeld"
+    },
+    {
+      "href": "/bielefeld/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Bielefeld"
+    },
+    {
+      "href": "/bielefeld/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Bielefeld"
+    },
+    {
+      "href": "/bielefeld/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Bielefeld"
+    },
+    {
+      "href": "/bielefeld/immobilienmakler-brackwede",
+      "label": "Immobilienmakler Bielefeld-Brackwede"
+    },
+    {
+      "href": "/bielefeld/immobilienmakler-sennestadt",
+      "label": "Immobilienmakler Bielefeld-Sennestadt"
+    },
+    {
+      "href": "/bielefeld/immobilienmakler-sieker",
+      "label": "Immobilienmakler Bielefeld-Sieker"
+    },
+    {
+      "href": "/bielefeld/immobilienmakler-schildesche",
+      "label": "Immobilienmakler Bielefeld-Schildesche"
+    },
+    {
+      "href": "/bielefeld/immobilienmakler-stieghorst",
+      "label": "Immobilienmakler Bielefeld-Stieghorst"
+    },
+    {
+      "href": "/bielefeld/immobilienmakler-buschkamp",
+      "label": "Immobilienmakler Bielefeld-Buschkamp"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/wuppertal",
+      "label": "Immobilienmakler Wuppertal"
+    },
+    {
+      "href": "/bochum",
+      "label": "Immobilienmakler Bochum"
+    }
+  ]
+}

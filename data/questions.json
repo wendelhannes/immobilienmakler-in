@@ -1,0 +1,20 @@
+{
+  "haus-verkaufen": [
+    { "q": "Wie lange dauert ein Hausverkauf in {stadt}?", "a": "Je nach Marktlage und Objektzustand dauert ein Hausverkauf in {stadt} zwischen 3 und 8 Monaten, von der Bewertung bis zum Notartermin." },
+    { "q": "Brauche ich einen Makler, um ein Haus in {stadt} zu verkaufen?", "a": "Gesetzlich nicht vorgeschrieben, aber ein Makler in {stadt} übernimmt Bewertung, Vermarktung und Verhandlung und reduziert so den Aufwand für Verkäufer." }
+  ],
+  "immobilienbewertung": [
+    { "q": "Ist eine Immobilienbewertung in {stadt} kostenlos?", "a": "Viele Makler in {stadt} bieten eine unverbindliche Erstbewertung kostenlos an, ein gerichtsfestes Gutachten ist dagegen kostenpflichtig." },
+    { "q": "Welche Faktoren beeinflussen den Immobilienwert in {stadt}?", "a": "Lage, Zustand, Baujahr, Wohnfläche und die aktuelle Marktentwicklung in {stadt} bestimmen den erzielbaren Verkaufspreis." }
+  ],
+  "was-kostet-ein-immobilienmakler": [
+    { "q": "Wer zahlt die Maklerprovision in {stadt}?", "a": "Seit der Gesetzesänderung 2020 teilen sich Käufer und Verkäufer in {stadt} die Maklerprovision in der Regel je zur Hälfte." },
+    { "q": "Wie hoch ist die übliche Maklerprovision in {stadt}?", "a": "Die Provision liegt je nach Bundesland meist zwischen 3 % und 7,14 % des Kaufpreises, aufgeteilt zwischen beiden Parteien." }
+  ],
+  "wie-finde-ich-einen-guten-immobilienmakler": [
+    { "q": "Woran erkenne ich einen guten Immobilienmakler in {stadt}?", "a": "Bewertungen, Reaktionszeit, Marktkenntnis vor Ort in {stadt} und Transparenz bei Provision und Vertragskonditionen sind zentrale Kriterien." }
+  ],
+  "immobilienmakler-oder-privat-verkaufen": [
+    { "q": "Lohnt sich ein Privatverkauf in {stadt}?", "a": "Ein Privatverkauf spart Provision, erfordert in {stadt} aber Zeit für Bewertung, Vermarktung, Besichtigungen und Vertragsabwicklung." }
+  ]
+}

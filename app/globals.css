@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+.site-header {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-weight: 700;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+main {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 2rem;
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+section {
+  margin: 2.5rem 0;
+}
+
+.makler-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.makler-table th,
+.makler-table td {
+  text-align: left;
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid #eee;
+}
+
+.makler-profile {
+  padding: 1rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.faq-item {
+  border-bottom: 1px solid #eee;
+  padding: 0.75rem 0;
+}
+
+.faq-item summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.cta-section {
+  background: #f6f8fb;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.6rem 1.4rem;
+  background: #1a56db;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.ai-copy {
+  font-size: 0.9rem;
+  color: #555;
+  background: #fafafa;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.internal-links-grid ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.4rem;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: none;
+}

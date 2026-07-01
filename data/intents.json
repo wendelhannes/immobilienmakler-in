@@ -1,0 +1,34 @@
+{
+  "haus-verkaufen": {
+    "h1": "Haus verkaufen in {stadt} – Ablauf, Kosten und die richtigen Makler",
+    "intro": "Wer in {stadt} ein Haus verkaufen möchte, steht vor Fragen zu Ablauf, Preisfindung und ob ein Makler nötig ist. Hier findest du eine Übersicht über den Verkaufsprozess und lokale Immobilienmakler in {stadt}, die beim Hausverkauf unterstützen.",
+    "isHowTo": true,
+    "howToSteps": [
+      "Immobilienbewertung durch einen Sachverständigen oder Makler einholen",
+      "Unterlagen zusammenstellen (Grundbuchauszug, Energieausweis, Baupläne)",
+      "Exposé erstellen und Vermarktungsstrategie festlegen",
+      "Besichtigungen mit Kaufinteressenten durchführen",
+      "Notartermin vereinbaren und Kaufvertrag abschließen"
+    ]
+  },
+  "immobilienbewertung": {
+    "h1": "Immobilienbewertung in {stadt} – kostenlos oder professionell?",
+    "intro": "Eine fundierte Immobilienbewertung in {stadt} ist die Grundlage für einen erfolgreichen Verkauf. Makler in {stadt} bieten häufig eine kostenlose Erstbewertung an, während Gutachter für gerichtsfeste Wertgutachten zuständig sind.",
+    "isHowTo": false
+  },
+  "was-kostet-ein-immobilienmakler": {
+    "h1": "Was kostet ein Immobilienmakler in {stadt}?",
+    "intro": "Die Maklerprovision in {stadt} richtet sich nach den gesetzlichen Vorgaben zur Teilung zwischen Käufer und Verkäufer. Wie viel ein Immobilienmakler in {stadt} konkret kostet, hängt vom Objekt und der vereinbarten Leistung ab.",
+    "isHowTo": false
+  },
+  "wie-finde-ich-einen-guten-immobilienmakler": {
+    "h1": "Wie finde ich einen guten Immobilienmakler in {stadt}?",
+    "intro": "Ein guter Immobilienmakler in {stadt} zeichnet sich durch Marktkenntnis, Erreichbarkeit und nachweisbare Erfolge aus. Bewertungen früherer Kunden geben verlässliche Hinweise darauf, welcher Makler in {stadt} zu deinem Vorhaben passt.",
+    "isHowTo": false
+  },
+  "immobilienmakler-oder-privat-verkaufen": {
+    "h1": "Immobilienmakler oder privat verkaufen in {stadt}?",
+    "intro": "Ob sich in {stadt} ein Immobilienmakler lohnt oder der Privatverkauf sinnvoller ist, hängt von Zeit, Marktkenntnis und Verhandlungssicherheit ab. Ein Vergleich der Optionen hilft bei der Entscheidung.",
+    "isHowTo": false
+  }
+}

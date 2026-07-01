@@ -1,0 +1,103 @@
+{
+  "slug": [
+    "bochum",
+    "immobilienmakler-ost"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Bochum",
+  "stadtSlug": "bochum",
+  "stadtteil": "Ost",
+  "h1": "Immobilienmakler in Bochum-Ost",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Bochum-Ost, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Elke Scharschmidt Immobilien",
+      "slug": "elke-scharschmidt-immobilien",
+      "url": "http://www.e-scharschmidt.de/",
+      "rating": 5,
+      "reviewsCount": 42,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Ost",
+      "html": "<a href=\"http://www.e-scharschmidt.de/\" target=\"_blank\" rel=\"noopener\"><strong>Elke Scharschmidt Immobilien</strong></a> gehört mit 5 Sternen bei 42 Bewertungen zu den bestbewerteten Immobilienmaklern in Bochum. Mit 42 Bewertungen und 5 Sternen zählt sie zu den gefragtesten Immobilienmaklerinnen in Bochum – die Erfahrungen der Kunden heben besonders ihre ehrliche Beratung, schnelle Erreichbarkeit und professionelle Abwicklung hervor. Mehrere Kunden berichten von wiederholter Zusammenarbeit beim Haus- oder Wohnungsverkauf. Wer Bewertungen zu einem Immobilienmakler in Bochum sucht, findet hier durchgängig Lob für Transparenz, Marktkenntnis und zuverlässige Kommunikation. Der Makler ist auf Wohnimmobilien spezialisiert und in Bochum-Ost ansässig. Mehr zu <a href=\"/bochum/immobilienmakler-ost\">Maklern in Bochum-Ost</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Bochum-Ost tätig?",
+      "a": "Elke Scharschmidt Immobilien ist mit 5 Sternen bei 42 Bewertungen in Bochum-Ost vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Bochum – Stadtteil Ost: Elke Scharschmidt Immobilien (5★, 42 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/bochum/haus-verkaufen",
+      "label": "Haus verkaufen Bochum"
+    },
+    {
+      "href": "/bochum/immobilienbewertung",
+      "label": "Immobilienbewertung Bochum"
+    },
+    {
+      "href": "/duisburg",
+      "label": "Immobilienmakler Duisburg"
+    },
+    {
+      "href": "/nuernberg",
+      "label": "Immobilienmakler Nürnberg"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/bochum",
+      "label": "Immobilienmakler Bochum"
+    },
+    {
+      "href": "/bochum/haus-verkaufen",
+      "label": "Haus verkaufen Bochum"
+    },
+    {
+      "href": "/bochum/immobilienbewertung",
+      "label": "Immobilienbewertung Bochum"
+    },
+    {
+      "href": "/bochum/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Bochum"
+    },
+    {
+      "href": "/bochum/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Bochum"
+    },
+    {
+      "href": "/bochum/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Bochum"
+    },
+    {
+      "href": "/bochum/immobilienmakler-nord",
+      "label": "Immobilienmakler Bochum-Nord"
+    },
+    {
+      "href": "/bochum/immobilienmakler-ost",
+      "label": "Immobilienmakler Bochum-Ost"
+    },
+    {
+      "href": "/bochum/immobilienmakler-sued",
+      "label": "Immobilienmakler Bochum-Süd"
+    },
+    {
+      "href": "/bochum/immobilienmakler-suedwest",
+      "label": "Immobilienmakler Bochum-Südwest"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/duisburg",
+      "label": "Immobilienmakler Duisburg"
+    },
+    {
+      "href": "/nuernberg",
+      "label": "Immobilienmakler Nürnberg"
+    }
+  ]
+}

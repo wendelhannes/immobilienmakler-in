@@ -1,0 +1,107 @@
+{
+  "slug": [
+    "muenchen",
+    "immobilienmakler-neuhausen"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "München",
+  "stadtSlug": "muenchen",
+  "stadtteil": "Neuhausen",
+  "h1": "Immobilienmakler in München-Neuhausen",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in München-Neuhausen, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "RIEDEL Immobilien GmbH",
+      "slug": "riedel-immobilien-gmbh",
+      "url": "https://www.riedel-immobilien.de/",
+      "rating": 4.9,
+      "reviewsCount": 141,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Neuhausen",
+      "html": "<a href=\"https://www.riedel-immobilien.de/\" target=\"_blank\" rel=\"noopener\"><strong>RIEDEL Immobilien GmbH</strong></a> gehört mit 4.9 Sternen bei 141 Bewertungen zu den bestbewerteten Immobilienmaklern in München. Mit 4,9 von 5 Sternen bei 141 Bewertungen zählt dieser Immobilienmakler München zu den bestbewerteten der Stadt. Kunden berichten in ihren Erfahrungen übereinstimmend von professioneller Beratungsqualität, hoher Erreichbarkeit der Makler sowie einer zügigen und transparenten Abwicklung beim Kauf und Verkauf von Wohnimmobilien. Die Bewertungen loben zudem die Betreuung internationaler Kunden auf Englisch sowie die hochwertige Vermarktung der Objekte. Der Makler ist auf Wohnimmobilien spezialisiert und in München-Neuhausen ansässig. Mehr zu <a href=\"/muenchen/immobilienmakler-neuhausen\">Maklern in München-Neuhausen</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in München-Neuhausen tätig?",
+      "a": "RIEDEL Immobilien GmbH ist mit 4.9 Sternen bei 141 Bewertungen in München-Neuhausen vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in München – Stadtteil Neuhausen: RIEDEL Immobilien GmbH (4.9★, 141 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/muenchen/haus-verkaufen",
+      "label": "Haus verkaufen München"
+    },
+    {
+      "href": "/muenchen/immobilienbewertung",
+      "label": "Immobilienbewertung München"
+    },
+    {
+      "href": "/hamburg",
+      "label": "Immobilienmakler Hamburg"
+    },
+    {
+      "href": "/berlin",
+      "label": "Immobilienmakler Berlin"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/muenchen",
+      "label": "Immobilienmakler München"
+    },
+    {
+      "href": "/muenchen/haus-verkaufen",
+      "label": "Haus verkaufen München"
+    },
+    {
+      "href": "/muenchen/immobilienbewertung",
+      "label": "Immobilienbewertung München"
+    },
+    {
+      "href": "/muenchen/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? München"
+    },
+    {
+      "href": "/muenchen/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? München"
+    },
+    {
+      "href": "/muenchen/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? München"
+    },
+    {
+      "href": "/muenchen/immobilienmakler-altstadt",
+      "label": "Immobilienmakler München-Altstadt"
+    },
+    {
+      "href": "/muenchen/immobilienmakler-schwabing",
+      "label": "Immobilienmakler München-Schwabing"
+    },
+    {
+      "href": "/muenchen/immobilienmakler-sendling",
+      "label": "Immobilienmakler München-Sendling"
+    },
+    {
+      "href": "/muenchen/immobilienmakler-neuhausen",
+      "label": "Immobilienmakler München-Neuhausen"
+    },
+    {
+      "href": "/muenchen/immobilienmakler-au",
+      "label": "Immobilienmakler München-Au"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/hamburg",
+      "label": "Immobilienmakler Hamburg"
+    },
+    {
+      "href": "/berlin",
+      "label": "Immobilienmakler Berlin"
+    }
+  ]
+}

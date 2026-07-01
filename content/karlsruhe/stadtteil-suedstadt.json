@@ -1,0 +1,115 @@
+{
+  "slug": [
+    "karlsruhe",
+    "immobilienmakler-suedstadt"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Karlsruhe",
+  "stadtSlug": "karlsruhe",
+  "stadtteil": "Südstadt",
+  "h1": "Immobilienmakler in Karlsruhe-Südstadt",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Karlsruhe-Südstadt, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "ImmobilienExpert",
+      "slug": "immobilienexpert",
+      "url": "https://www.immobilienexpert.de/",
+      "rating": 5,
+      "reviewsCount": 30,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Südstadt",
+      "html": "<a href=\"https://www.immobilienexpert.de/\" target=\"_blank\" rel=\"noopener\"><strong>ImmobilienExpert</strong></a> gehört mit 5 Sternen bei 30 Bewertungen zu den bestbewerteten Immobilienmaklern in Karlsruhe. Mit 30 Bewertungen und 5 Sternen überzeugt der Immobilienmakler Karlsruhe durch durchgehend positive Erfahrungen seiner Kunden. Die Bewertungen heben besonders die professionelle Beratungsqualität, schnelle Kommunikation und zuverlässige Erreichbarkeit des Teams hervor. Mehrere Kunden berichten zudem, dass sie den Makler nach erfolgreichen Abschlüssen erneut beauftragt haben – sowohl beim Verkauf als auch beim Kauf von Wohnimmobilien. Der Makler ist auf Wohnimmobilien spezialisiert und in Karlsruhe-Südstadt ansässig. Mehr zu <a href=\"/karlsruhe/immobilienmakler-suedstadt\">Maklern in Karlsruhe-Südstadt</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Karlsruhe-Südstadt tätig?",
+      "a": "ImmobilienExpert ist mit 5 Sternen bei 30 Bewertungen in Karlsruhe-Südstadt vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Karlsruhe – Stadtteil Südstadt: ImmobilienExpert (5★, 30 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/karlsruhe/haus-verkaufen",
+      "label": "Haus verkaufen Karlsruhe"
+    },
+    {
+      "href": "/karlsruhe/immobilienbewertung",
+      "label": "Immobilienbewertung Karlsruhe"
+    },
+    {
+      "href": "/mannheim",
+      "label": "Immobilienmakler Mannheim"
+    },
+    {
+      "href": "/muenster",
+      "label": "Immobilienmakler Münster"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/karlsruhe",
+      "label": "Immobilienmakler Karlsruhe"
+    },
+    {
+      "href": "/karlsruhe/haus-verkaufen",
+      "label": "Haus verkaufen Karlsruhe"
+    },
+    {
+      "href": "/karlsruhe/immobilienbewertung",
+      "label": "Immobilienbewertung Karlsruhe"
+    },
+    {
+      "href": "/karlsruhe/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Karlsruhe"
+    },
+    {
+      "href": "/karlsruhe/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Karlsruhe"
+    },
+    {
+      "href": "/karlsruhe/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Karlsruhe"
+    },
+    {
+      "href": "/karlsruhe/immobilienmakler-daxlanden",
+      "label": "Immobilienmakler Karlsruhe-Daxlanden"
+    },
+    {
+      "href": "/karlsruhe/immobilienmakler-suedstadt",
+      "label": "Immobilienmakler Karlsruhe-Südstadt"
+    },
+    {
+      "href": "/karlsruhe/immobilienmakler-neureut",
+      "label": "Immobilienmakler Karlsruhe-Neureut"
+    },
+    {
+      "href": "/karlsruhe/immobilienmakler-weststadt",
+      "label": "Immobilienmakler Karlsruhe-Weststadt"
+    },
+    {
+      "href": "/karlsruhe/immobilienmakler-durlach",
+      "label": "Immobilienmakler Karlsruhe-Durlach"
+    },
+    {
+      "href": "/karlsruhe/immobilienmakler-muehlburg",
+      "label": "Immobilienmakler Karlsruhe-Mühlburg"
+    },
+    {
+      "href": "/karlsruhe/immobilienmakler-innenstadt",
+      "label": "Immobilienmakler Karlsruhe-Innenstadt"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/mannheim",
+      "label": "Immobilienmakler Mannheim"
+    },
+    {
+      "href": "/muenster",
+      "label": "Immobilienmakler Münster"
+    }
+  ]
+}

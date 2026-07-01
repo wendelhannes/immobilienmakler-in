@@ -1,0 +1,107 @@
+{
+  "slug": [
+    "dresden",
+    "immobilienmakler-plauen"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Dresden",
+  "stadtSlug": "dresden",
+  "stadtteil": "Plauen",
+  "h1": "Immobilienmakler in Dresden-Plauen",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Dresden-Plauen, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "iKonzept 24",
+      "slug": "ikonzept-24",
+      "url": "https://www.ikonzept24.de/",
+      "rating": 4.9,
+      "reviewsCount": 349,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Plauen",
+      "html": "<a href=\"https://www.ikonzept24.de/\" target=\"_blank\" rel=\"noopener\"><strong>iKonzept 24</strong></a> gehört mit 4.9 Sternen bei 349 Bewertungen zu den bestbewerteten Immobilienmaklern in Dresden. Mit 4,9 Sternen bei 349 Bewertungen gehört dieser Immobilienmakler Dresden zu den bestbewerteten der Stadt. Die Erfahrungen der Kunden zeigen durchgehend: schnelle und transparente Kommunikation, zuverlässige Erreichbarkeit sowie ein freundliches und professionelles Team. Die Bewertungen loben besonders den reibungslosen Ablauf bei der Vermittlung von Wohnimmobilien. Der Makler ist auf Wohnimmobilien spezialisiert und in Dresden-Plauen ansässig. Mehr zu <a href=\"/dresden/immobilienmakler-plauen\">Maklern in Dresden-Plauen</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Dresden-Plauen tätig?",
+      "a": "iKonzept 24 ist mit 4.9 Sternen bei 349 Bewertungen in Dresden-Plauen vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Dresden – Stadtteil Plauen: iKonzept 24 (4.9★, 349 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/dresden/haus-verkaufen",
+      "label": "Haus verkaufen Dresden"
+    },
+    {
+      "href": "/dresden/immobilienbewertung",
+      "label": "Immobilienbewertung Dresden"
+    },
+    {
+      "href": "/bremen",
+      "label": "Immobilienmakler Bremen"
+    },
+    {
+      "href": "/essen",
+      "label": "Immobilienmakler Essen"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/dresden",
+      "label": "Immobilienmakler Dresden"
+    },
+    {
+      "href": "/dresden/haus-verkaufen",
+      "label": "Haus verkaufen Dresden"
+    },
+    {
+      "href": "/dresden/immobilienbewertung",
+      "label": "Immobilienbewertung Dresden"
+    },
+    {
+      "href": "/dresden/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Dresden"
+    },
+    {
+      "href": "/dresden/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Dresden"
+    },
+    {
+      "href": "/dresden/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Dresden"
+    },
+    {
+      "href": "/dresden/immobilienmakler-altstadt",
+      "label": "Immobilienmakler Dresden-Altstadt"
+    },
+    {
+      "href": "/dresden/immobilienmakler-weisser",
+      "label": "Immobilienmakler Dresden-Weißer"
+    },
+    {
+      "href": "/dresden/immobilienmakler-klotzsche",
+      "label": "Immobilienmakler Dresden-Klotzsche"
+    },
+    {
+      "href": "/dresden/immobilienmakler-plauen",
+      "label": "Immobilienmakler Dresden-Plauen"
+    },
+    {
+      "href": "/dresden/immobilienmakler-blasewitz",
+      "label": "Immobilienmakler Dresden-Blasewitz"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/bremen",
+      "label": "Immobilienmakler Bremen"
+    },
+    {
+      "href": "/essen",
+      "label": "Immobilienmakler Essen"
+    }
+  ]
+}

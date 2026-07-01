@@ -1,0 +1,115 @@
+{
+  "slug": [
+    "frankfurt",
+    "immobilienmakler-sued"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Frankfurt",
+  "stadtSlug": "frankfurt",
+  "stadtteil": "Süd",
+  "h1": "Immobilienmakler in Frankfurt-Süd",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Frankfurt-Süd, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Lang Immobilien GmbH",
+      "slug": "lang-immobilien-gmbh",
+      "url": "https://www.langimmobilien.de/",
+      "rating": 5,
+      "reviewsCount": 140,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Süd",
+      "html": "<a href=\"https://www.langimmobilien.de/\" target=\"_blank\" rel=\"noopener\"><strong>Lang Immobilien GmbH</strong></a> gehört mit 5 Sternen bei 140 Bewertungen zu den bestbewerteten Immobilienmaklern in Frankfurt. Die Erfahrungen und Bewertungen zeigen, dass dieser Immobilienmakler Frankfurt überzeugt durch professionelle, transparente Beratung und besonders freundliche Betreuung – Kunden heben dabei die Mitarbeiter Frau Makhfery und Herrn Weinandi namentlich hervor. Die Besichtigungstermine werden als sorgfältig vorbereitet und kompetent begleitet beschrieben. Besonders positiv betonen Kunden, dass individuelle Lösungen im Vordergrund stehen statt schnellem Abschluss. Der Makler ist auf Wohnimmobilien spezialisiert und in Frankfurt-Süd ansässig. Mehr zu <a href=\"/frankfurt/immobilienmakler-sued\">Maklern in Frankfurt-Süd</a>."
+    },
+    {
+      "name": "IMMOBILIENAGENTUR ROTH",
+      "slug": "immobilienagentur-roth",
+      "url": "https://www.immobilienagentur-roth.de/",
+      "rating": 4.9,
+      "reviewsCount": 102,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Süd",
+      "html": "<a href=\"https://www.immobilienagentur-roth.de/\" target=\"_blank\" rel=\"noopener\"><strong>IMMOBILIENAGENTUR ROTH</strong></a> gehört mit 4.9 Sternen bei 102 Bewertungen zu den bestbewerteten Immobilienmaklern in Frankfurt. Mit 4,9 von 5 Sternen zählt er laut Kundenbewertungen zu den empfehlenswertesten Immobilienmaklern in Frankfurt. Die Erfahrungen seiner Kunden loben besonders die transparente Kommunikation, schnelle Erreichbarkeit und realistische Markteinschätzung beim Kauf und Verkauf von Wohnimmobilien. Mehrere Bewertungen heben zudem die strukturierte Begleitung durch den gesamten Vermittlungsprozess sowie sein persönliches Engagement hervor. Der Makler ist auf Wohnimmobilien spezialisiert und in Frankfurt-Süd ansässig. Mehr zu <a href=\"/frankfurt/immobilienmakler-sued\">Maklern in Frankfurt-Süd</a>."
+    },
+    {
+      "name": "CASA REAL ESTATE - Bewertung, Vermietung und Verkauf von Immobilien",
+      "slug": "casa-real-estate-bewertung-vermietung-und-verkauf-von-immobilien",
+      "url": "http://casa-real-estate.eu/",
+      "rating": 4.5,
+      "reviewsCount": 50,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Süd",
+      "html": "<a href=\"http://casa-real-estate.eu/\" target=\"_blank\" rel=\"noopener\"><strong>CASA REAL ESTATE - Bewertung, Vermietung und Verkauf von Immobilien</strong></a> gehört mit 4.5 Sternen bei 50 Bewertungen zu den bestbewerteten Immobilienmaklern in Frankfurt. Der Immobilienmakler Frankfurt überzeugt laut Kundenbewertungen vor allem durch schnelle, unkomplizierte Kommunikation und eine durchgehend freundliche, lösungsorientierte Beratung – auch noch Jahre nach dem Abschluss. Die Erfahrungen der Kunden heben besonders die zuverlässige Erreichbarkeit und den professionellen Einsatz von Frau Dapprich hervor, die mehrfach aktiv weiterempfohlen wird. Der Makler ist auf Wohnimmobilien spezialisiert und in Frankfurt-Süd ansässig. Mehr zu <a href=\"/frankfurt/immobilienmakler-sued\">Maklern in Frankfurt-Süd</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Frankfurt-Süd tätig?",
+      "a": "Lang Immobilien GmbH ist mit 5 Sternen bei 140 Bewertungen in Frankfurt-Süd vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Frankfurt – Stadtteil Süd: Lang Immobilien GmbH (5★, 140 Bewertungen, spezialisiert auf Wohnimmobilien); IMMOBILIENAGENTUR ROTH (4.9★, 102 Bewertungen, spezialisiert auf Wohnimmobilien); CASA REAL ESTATE - Bewertung, Vermietung und Verkauf von Immobilien (4.5★, 50 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/frankfurt/haus-verkaufen",
+      "label": "Haus verkaufen Frankfurt"
+    },
+    {
+      "href": "/frankfurt/immobilienbewertung",
+      "label": "Immobilienbewertung Frankfurt"
+    },
+    {
+      "href": "/koeln",
+      "label": "Immobilienmakler Köln"
+    },
+    {
+      "href": "/muenchen",
+      "label": "Immobilienmakler München"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/frankfurt",
+      "label": "Immobilienmakler Frankfurt"
+    },
+    {
+      "href": "/frankfurt/haus-verkaufen",
+      "label": "Haus verkaufen Frankfurt"
+    },
+    {
+      "href": "/frankfurt/immobilienbewertung",
+      "label": "Immobilienbewertung Frankfurt"
+    },
+    {
+      "href": "/frankfurt/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Frankfurt"
+    },
+    {
+      "href": "/frankfurt/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Frankfurt"
+    },
+    {
+      "href": "/frankfurt/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Frankfurt"
+    },
+    {
+      "href": "/frankfurt/immobilienmakler-sued",
+      "label": "Immobilienmakler Frankfurt-Süd"
+    },
+    {
+      "href": "/frankfurt/immobilienmakler-mitte",
+      "label": "Immobilienmakler Frankfurt-Mitte"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/koeln",
+      "label": "Immobilienmakler Köln"
+    },
+    {
+      "href": "/muenchen",
+      "label": "Immobilienmakler München"
+    }
+  ]
+}

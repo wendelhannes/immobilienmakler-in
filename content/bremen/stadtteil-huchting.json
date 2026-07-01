@@ -1,0 +1,99 @@
+{
+  "slug": [
+    "bremen",
+    "immobilienmakler-huchting"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Bremen",
+  "stadtSlug": "bremen",
+  "stadtteil": "Huchting",
+  "h1": "Immobilienmakler in Bremen-Huchting",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Bremen-Huchting, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Weiland Immobilien Bremen",
+      "slug": "weiland-immobilien-bremen",
+      "url": "https://weiland-immobilien-bremen.de/",
+      "rating": 5,
+      "reviewsCount": 72,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Huchting",
+      "html": "<a href=\"https://weiland-immobilien-bremen.de/\" target=\"_blank\" rel=\"noopener\"><strong>Weiland Immobilien Bremen</strong></a> gehört mit 5 Sternen bei 72 Bewertungen zu den bestbewerteten Immobilienmaklern in Bremen. Weiland Immobilien Bremen überzeugt laut Kundenbewertungen durch zuverlässige Erreichbarkeit, ausgeprägte Marktkenntnis und eine professionelle Abwicklung von Verkauf und Vermietung. Die Erfahrungen der Kunden heben besonders die transparente Kommunikation, die vollständige Übernahme aller Aufgaben sowie den flexiblen und persönlichen Einsatz hervor. Als Immobilienmakler Bremen wird das Unternehmen von 72 Bewertern mit 5 Sternen uneingeschränkt empfohlen. Der Makler ist auf Wohnimmobilien spezialisiert und in Bremen-Huchting ansässig. Mehr zu <a href=\"/bremen/immobilienmakler-huchting\">Maklern in Bremen-Huchting</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Bremen-Huchting tätig?",
+      "a": "Weiland Immobilien Bremen ist mit 5 Sternen bei 72 Bewertungen in Bremen-Huchting vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Bremen – Stadtteil Huchting: Weiland Immobilien Bremen (5★, 72 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/bremen/haus-verkaufen",
+      "label": "Haus verkaufen Bremen"
+    },
+    {
+      "href": "/bremen/immobilienbewertung",
+      "label": "Immobilienbewertung Bremen"
+    },
+    {
+      "href": "/essen",
+      "label": "Immobilienmakler Essen"
+    },
+    {
+      "href": "/dortmund",
+      "label": "Immobilienmakler Dortmund"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/bremen",
+      "label": "Immobilienmakler Bremen"
+    },
+    {
+      "href": "/bremen/haus-verkaufen",
+      "label": "Haus verkaufen Bremen"
+    },
+    {
+      "href": "/bremen/immobilienbewertung",
+      "label": "Immobilienbewertung Bremen"
+    },
+    {
+      "href": "/bremen/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Bremen"
+    },
+    {
+      "href": "/bremen/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Bremen"
+    },
+    {
+      "href": "/bremen/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Bremen"
+    },
+    {
+      "href": "/bremen/immobilienmakler-horn",
+      "label": "Immobilienmakler Bremen-Horn"
+    },
+    {
+      "href": "/bremen/immobilienmakler-huchting",
+      "label": "Immobilienmakler Bremen-Huchting"
+    },
+    {
+      "href": "/bremen/immobilienmakler-schwachhausen",
+      "label": "Immobilienmakler Bremen-Schwachhausen"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/essen",
+      "label": "Immobilienmakler Essen"
+    },
+    {
+      "href": "/dortmund",
+      "label": "Immobilienmakler Dortmund"
+    }
+  ]
+}

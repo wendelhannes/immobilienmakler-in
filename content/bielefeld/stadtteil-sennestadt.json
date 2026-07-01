@@ -1,0 +1,111 @@
+{
+  "slug": [
+    "bielefeld",
+    "immobilienmakler-sennestadt"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Bielefeld",
+  "stadtSlug": "bielefeld",
+  "stadtteil": "Sennestadt",
+  "h1": "Immobilienmakler in Bielefeld-Sennestadt",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Bielefeld-Sennestadt, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Kramer Immobilien GmbH",
+      "slug": "kramer-immobilien-gmbh",
+      "url": "http://www.kramer-immobilien.de/",
+      "rating": 5,
+      "reviewsCount": 22,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Sennestadt",
+      "html": "<a href=\"http://www.kramer-immobilien.de/\" target=\"_blank\" rel=\"noopener\"><strong>Kramer Immobilien GmbH</strong></a> gehört mit 5 Sternen bei 22 Bewertungen zu den bestbewerteten Immobilienmaklern in Bielefeld. Mit 22 Bewertungen und 5 Sternen gehört dieser Immobilienmakler Bielefeld zu den bestbewerteten der Stadt. Die Erfahrungen der Kunden zeigen besonders die kompetente und einfühlsame Beratung durch Frau Nadine Klein, die sowohl Käufer als auch Verkäufer von Wohnimmobilien professionell betreut. Laut den Bewertungen überzeugt das Unternehmen durch transparente Kommunikation nach Besichtigungen, schnelle Vermittlung und Betreuung bis über den Vertragsabschluss hinaus. Der Makler ist auf Wohnimmobilien spezialisiert und in Bielefeld-Sennestadt ansässig. Mehr zu <a href=\"/bielefeld/immobilienmakler-sennestadt\">Maklern in Bielefeld-Sennestadt</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Bielefeld-Sennestadt tätig?",
+      "a": "Kramer Immobilien GmbH ist mit 5 Sternen bei 22 Bewertungen in Bielefeld-Sennestadt vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Bielefeld – Stadtteil Sennestadt: Kramer Immobilien GmbH (5★, 22 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/bielefeld/haus-verkaufen",
+      "label": "Haus verkaufen Bielefeld"
+    },
+    {
+      "href": "/bielefeld/immobilienbewertung",
+      "label": "Immobilienbewertung Bielefeld"
+    },
+    {
+      "href": "/wuppertal",
+      "label": "Immobilienmakler Wuppertal"
+    },
+    {
+      "href": "/bochum",
+      "label": "Immobilienmakler Bochum"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/bielefeld",
+      "label": "Immobilienmakler Bielefeld"
+    },
+    {
+      "href": "/bielefeld/haus-verkaufen",
+      "label": "Haus verkaufen Bielefeld"
+    },
+    {
+      "href": "/bielefeld/immobilienbewertung",
+      "label": "Immobilienbewertung Bielefeld"
+    },
+    {
+      "href": "/bielefeld/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Bielefeld"
+    },
+    {
+      "href": "/bielefeld/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Bielefeld"
+    },
+    {
+      "href": "/bielefeld/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Bielefeld"
+    },
+    {
+      "href": "/bielefeld/immobilienmakler-brackwede",
+      "label": "Immobilienmakler Bielefeld-Brackwede"
+    },
+    {
+      "href": "/bielefeld/immobilienmakler-sennestadt",
+      "label": "Immobilienmakler Bielefeld-Sennestadt"
+    },
+    {
+      "href": "/bielefeld/immobilienmakler-sieker",
+      "label": "Immobilienmakler Bielefeld-Sieker"
+    },
+    {
+      "href": "/bielefeld/immobilienmakler-schildesche",
+      "label": "Immobilienmakler Bielefeld-Schildesche"
+    },
+    {
+      "href": "/bielefeld/immobilienmakler-stieghorst",
+      "label": "Immobilienmakler Bielefeld-Stieghorst"
+    },
+    {
+      "href": "/bielefeld/immobilienmakler-buschkamp",
+      "label": "Immobilienmakler Bielefeld-Buschkamp"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/wuppertal",
+      "label": "Immobilienmakler Wuppertal"
+    },
+    {
+      "href": "/bochum",
+      "label": "Immobilienmakler Bochum"
+    }
+  ]
+}
