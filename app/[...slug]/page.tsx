@@ -1,30 +1,76 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import { getAllSlugs, getPageData } from "@/lib/get-page-data";
+import type { PageData } from "@/lib/types";
+import Breadcrumb, { type Crumb } from "@/components/Breadcrumb";
 import MaklerTable from "@/components/MaklerTable";
 import FaqSection from "@/components/FaqSection";
 import CtaSection from "@/components/CtaSection";
-import RevealInit from "@/components/RevealInit";
 
 const DOMAIN = "https://immobilienmakler-in.com";
+
+const SUBPAGE_LABEL: Record<string, string> = {
+  "haus-verkaufen": "Haus verkaufen",
+  immobilienbewertung: "Immobilienbewertung",
+  "was-kostet-ein-immobilienmakler": "Maklerkosten",
+  "wie-finde-ich-einen-guten-immobilienmakler": "Makler finden",
+  "immobilienmakler-oder-privat-verkaufen": "Makler oder privat",
+};
 
 export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
 }
 
-export function generateMetadata({ params }: { params: { slug: string[] } }) {
+export function generateMetadata({
+  params,
+}: {
+  params: { slug: string[] };
+}): Metadata {
   const page = getPageData(params.slug);
   if (!page) return {};
+  const path = `/${page.slug.join("/")}`;
   return {
-    title: `${page.h1} | immobilienmakler-in.com`,
+    title: page.h1,
     description: page.intro,
+    alternates: { canonical: path },
+    openGraph: {
+      title: page.h1,
+      description: page.intro,
+      url: `${DOMAIN}${path}`,
+      type: "article",
+    },
   };
+}
+
+function buildCrumbs(page: PageData): Crumb[] {
+  const crumbs: Crumb[] = [];
+  const cityHref = `/${page.stadtSlug}`;
+  const isCityHome = page.slug.length === 1;
+
+  crumbs.push({
+    label: page.stadt,
+    href: isCityHome ? undefined : cityHref,
+  });
+
+  if (!isCityHome) {
+    const last = page.slug[page.slug.length - 1];
+    let label = SUBPAGE_LABEL[last];
+    if (!label && page.stadtteil) label = page.stadtteil;
+    if (!label) label = last.replace(/-/g, " ");
+    crumbs.push({ label });
+  }
+
+  return crumbs;
 }
 
 export default function Page({ params }: { params: { slug: string[] } }) {
   const page = getPageData(params.slug);
   if (!page) notFound();
 
-  const url = `${DOMAIN}/${page.slug.join("/")}`;
+  const path = `/${page.slug.join("/")}`;
+  const url = `${DOMAIN}${path}`;
+  const crumbs = buildCrumbs(page);
 
   const faqSchema =
     page.faq.length > 0
@@ -34,7 +80,10 @@ export default function Page({ params }: { params: { slug: string[] } }) {
           mainEntity: page.faq.map((item) => ({
             "@type": "Question",
             name: item.q,
-            acceptedAnswer: { "@type": "Answer", text: item.a.replace(/<[^>]+>/g, "") },
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: item.a.replace(/<[^>]+>/g, ""),
+            },
           })),
         }
       : null;
@@ -51,6 +100,7 @@ export default function Page({ params }: { params: { slug: string[] } }) {
               "@type": "RealEstateAgent",
               name: m.name,
               url: m.url,
+              areaServed: page.stadt,
               aggregateRating: {
                 "@type": "AggregateRating",
                 ratingValue: m.rating,
@@ -65,17 +115,23 @@ export default function Page({ params }: { params: { slug: string[] } }) {
     "@context": "https://schema.org",
     "@type": "WebPage",
     name: page.h1,
+    description: page.intro,
     url,
+    inLanguage: "de-DE",
   };
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    itemListElement: page.slug.map((_, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      item: `${DOMAIN}/${page.slug.slice(0, i + 1).join("/")}`,
-    })),
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Start", item: DOMAIN },
+      ...crumbs.map((c, i) => ({
+        "@type": "ListItem",
+        position: i + 2,
+        name: c.label,
+        ...(c.href ? { item: `${DOMAIN}${c.href}` } : {}),
+      })),
+    ],
   };
 
   const howToSchema =
@@ -92,88 +148,132 @@ export default function Page({ params }: { params: { slug: string[] } }) {
         }
       : null;
 
+  const schemas = [
+    faqSchema,
+    itemListSchema,
+    webPageSchema,
+    breadcrumbSchema,
+    howToSchema,
+  ].filter(Boolean);
+
   return (
-    <article className="page">
-      {[faqSchema, itemListSchema, webPageSchema, breadcrumbSchema, howToSchema]
-        .filter(Boolean)
-        .map((schema, i) => (
-          <script
-            key={i}
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-          />
-        ))}
+    <>
+      {schemas.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
 
-      <RevealInit />
+      <Breadcrumb items={crumbs} />
 
-      <section className="hero reveal">
-        <h1>{page.h1}</h1>
-        <p>{page.intro}</p>
-      </section>
+      <article className="main">
+        {/* ── HEADER ── */}
+        <header className="entity reveal">
+          <div className="tag">Makler-Vergleich {page.jahr}</div>
+          <h1>{page.h1}</h1>
+          <p className="desc">{page.intro}</p>
+        </header>
 
-      {page.isHowTo && page.howToSteps && (
-        <section className="howto reveal">
-          <h2>Ablauf</h2>
-          <ol>
-            {page.howToSteps.map((step, i) => (
-              <li key={i}>{step}</li>
+        {/* ── HOWTO ── */}
+        {page.isHowTo && page.howToSteps && (
+          <section className="section reveal">
+            <h2>Ablauf in {page.howToSteps.length} Schritten</h2>
+            <ol className="howto-steps">
+              {page.howToSteps.map((step, i) => (
+                <li key={i}>
+                  <span>{step}</span>
+                </li>
+              ))}
+            </ol>
+          </section>
+        )}
+
+        {/* ── MAKLER-TABELLE ── */}
+        {page.makler_summaries.length > 0 && (
+          <section className="section reveal">
+            <h2>Makler-Vergleich in {page.stadt}</h2>
+            <p>
+              Rangfolge nach durchschnittlicher Google-Bewertung und Anzahl der
+              Bewertungen. Ein Klick auf den Namen öffnet die Website des Maklers.
+            </p>
+            <MaklerTable makler={page.makler_summaries} />
+          </section>
+        )}
+
+        {/* ── PROFILE ── */}
+        {page.makler_summaries.length > 0 && (
+          <section className="section reveal">
+            <h2>Die Makler im Detail</h2>
+            {page.makler_summaries.map((m) => (
+              <div
+                className="makler-profile"
+                key={m.slug}
+                dangerouslySetInnerHTML={{ __html: m.html }}
+              />
             ))}
-          </ol>
-        </section>
-      )}
+          </section>
+        )}
 
-      <section className="makler-table-section reveal">
-        <h2>Makler-Vergleich in {page.stadt}</h2>
-        <MaklerTable makler={page.makler_summaries} />
-      </section>
+        {/* ── FAQ ── */}
+        <FaqSection faq={page.faq} />
 
-      {page.makler_summaries.length > 0 && (
-        <section className="makler-profiles reveal">
-          <h2>Bewertungen im Detail</h2>
-          {page.makler_summaries.map((m) => (
-            <div className="makler-profile" key={m.slug} dangerouslySetInnerHTML={{ __html: m.html }} />
-          ))}
-        </section>
-      )}
+        {/* ── CTA ── */}
+        <CtaSection />
 
-      <FaqSection faq={page.faq} />
+        {/* ── AI COPY (GEO) ── */}
+        {page.aiCopy && (
+          <section className="ai-copy reveal">
+            <div className="label">Zusammenfassung für KI-Systeme</div>
+            <div className="ai-block">
+              <p>{page.aiCopy}</p>
+            </div>
+          </section>
+        )}
 
-      <CtaSection />
+        {/* ── WEITERFÜHRENDE SEITEN ── */}
+        {page.related.length > 0 && (
+          <section className="internal-links reveal">
+            <h2>Weiterführende Seiten</h2>
+            <div className="link-grid">
+              {page.related.map((link) => (
+                <Link key={link.href} href={link.href} className="link-item">
+                  {link.label}
+                  <span className="li-arrow">→</span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
 
-      <section className="ai-copy reveal">
-        <h2>KI-Zusammenfassung</h2>
-        <p>{page.aiCopy}</p>
-      </section>
+        {/* ── ALLE SEITEN + STÄDTE ── */}
+        <nav className="internal-links reveal" aria-label="Interne Verlinkung">
+          <h2>Alle Seiten zu {page.stadt}</h2>
+          <div className="link-grid">
+            {page.internalLinksGrid.map((link) => (
+              <Link key={link.href} href={link.href} className="link-item">
+                {link.label}
+                <span className="li-arrow">→</span>
+              </Link>
+            ))}
+          </div>
 
-      <section className="related-links reveal">
-        <h2>Weiterführende Seiten</h2>
-        <ul>
-          {page.related.map((link) => (
-            <li key={link.href}>
-              <a href={link.href}>{link.label}</a>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <nav className="internal-links-grid reveal">
-        <h2>Alle Seiten zu {page.stadt}</h2>
-        <ul>
-          {page.internalLinksGrid.map((link) => (
-            <li key={link.href}>
-              <a href={link.href}>{link.label}</a>
-            </li>
-          ))}
-        </ul>
-        <h3>Weitere Städte</h3>
-        <ul>
-          {page.crossCityLinks.map((link) => (
-            <li key={link.href}>
-              <a href={link.href}>{link.label}</a>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    </article>
+          {page.crossCityLinks.length > 0 && (
+            <>
+              <h3>Weitere Städte</h3>
+              <div className="link-grid">
+                {page.crossCityLinks.map((link) => (
+                  <Link key={link.href} href={link.href} className="link-item">
+                    {link.label}
+                    <span className="li-arrow">→</span>
+                  </Link>
+                ))}
+              </div>
+            </>
+          )}
+        </nav>
+      </article>
+    </>
   );
 }

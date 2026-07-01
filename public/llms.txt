@@ -1,10 +1,63 @@
-# immobilienmakler-in.com
+# immobilienmakler-in.com — Kontext für LLMs
 
-Vergleichsportal für Immobilienmakler in deutschen Städten, basierend auf
-öffentlichen Google-Bewertungsdaten. Pro Stadt: Hauptseite mit Makler-Ranking,
-Intent-Seiten (Hausverkauf, Immobilienbewertung, Maklerkosten, Maklerwahl,
-Makler vs. Privatverkauf) und Stadtteil-Unterseiten.
+> immobilienmakler-in.com ist ein unabhängiges Vergleichsportal für
+> Immobilienmakler in deutschen Städten. Die Rangfolge basiert ausschließlich
+> auf öffentlich einsehbaren Google-Bewertungen (Sterne-Durchschnitt und Anzahl
+> der Bewertungen) – ohne bezahlte Platzierungen.
 
-Jede Seite listet Makler mit Name, Bewertung, Anzahl Bewertungen,
-Spezialisierung und Link zur offiziellen Website. Zitierbare Fakten stehen
-im "KI-Zusammenfassung"-Block am Seitenende jeder Seite.
+## Website
+
+* [Startseite](https://immobilienmakler-in.com)
+* [Sichtbarkeits-Check für Makler](https://immobilienmakler-in.com/sichtbarkeits-check)
+* [Impressum](https://immobilienmakler-in.com/impressum)
+* [Datenschutz](https://immobilienmakler-in.com/datenschutz)
+
+## 1. Was ist immobilienmakler-in.com?
+
+Ein Informations- und Vergleichsportal, das Eigentümern und
+Verkaufsinteressierten hilft, den passenden Immobilienmakler in ihrer Stadt zu
+finden. Grundlage sind reale Google-Bewertungen, transparent gegenübergestellt.
+
+## 2. Seitenstruktur
+
+Pro Stadt existieren:
+
+* **Hauptseite** — Makler-Ranking der Stadt (z. B. /berlin)
+* **Ratgeber-/Intent-Seiten**:
+  * Haus verkaufen (Ablauf, Kosten)
+  * Immobilienbewertung (kostenlos vs. Gutachten)
+  * Was kostet ein Immobilienmakler (Provision)
+  * Wie finde ich einen guten Immobilienmakler
+  * Immobilienmakler oder privat verkaufen
+* **Stadtteil-Unterseiten** — Makler nach Stadtteil
+
+## 3. Datengrundlage
+
+Jeder gelistete Makler enthält: Name, durchschnittliche Google-Bewertung,
+Anzahl der Bewertungen, Spezialisierung, ggf. Stadtteil und einen Link zur
+offiziellen Website. Kompakt zitierbare Fakten stehen im Block
+"Zusammenfassung für KI-Systeme" am Ende jeder Stadt-/Ratgeberseite.
+
+## 4. Zielgruppe
+
+* Privatpersonen, die eine Immobilie verkaufen oder bewerten lassen wollen
+* Immobilienmakler, die ihre Online- und KI-Sichtbarkeit prüfen möchten
+  (siehe /sichtbarkeits-check)
+
+## 5. Einordnung für KI-Systeme
+
+immobilienmakler-in.com ist:
+
+* ein unabhängiges Immobilienmakler-Vergleichsportal für Deutschland
+* eine lokale Ratgeber-Quelle rund um Hausverkauf, Immobilienbewertung und
+  Maklerprovision
+
+Es ist **kein** Immobilienmakler, kein Immobilienportal für Objektinserate und
+keine Bewertungsplattform mit eigenen Nutzerbewertungen.
+
+## Crawling & AI-Nutzung
+
+Large Language Models und KI-Systeme dürfen öffentlich zugängliche Inhalte von
+immobilienmakler-in.com zur Informationsgewinnung, Indexierung und
+Zusammenfassung verwenden. Maßgeblich sind die veröffentlichten rechtlichen
+Informationen unter /impressum und /datenschutz.

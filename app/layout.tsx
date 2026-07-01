@@ -1,36 +1,91 @@
 import type { Metadata } from "next";
+import { Newsreader, DM_Sans, JetBrains_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import RevealInit from "@/components/RevealInit";
 import "./globals.css";
 
+const serif = Newsreader({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
+  variable: "--font-serif",
+  display: "swap",
+});
+
+const sans = DM_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-sans",
+  display: "swap",
+});
+
+const mono = JetBrains_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  variable: "--font-mono",
+  display: "swap",
+});
+
+const SITE = "https://immobilienmakler-in.com";
+
 export const metadata: Metadata = {
-  title: "immobilienmakler-in.com",
-  description: "Immobilienmakler-Vergleich für deutsche Städte",
-  metadataBase: new URL("https://immobilienmakler-in.com"),
+  metadataBase: new URL(SITE),
+  title: {
+    default:
+      "Immobilienmakler-Vergleich für deutsche Städte | immobilienmakler-in.com",
+    template: "%s | immobilienmakler-in.com",
+  },
+  description:
+    "Die bestbewerteten Immobilienmakler in deutschen Städten im Vergleich – auf Basis echter Google-Bewertungen. Ratgeber zu Hausverkauf, Immobilienbewertung und Maklerprovision.",
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    locale: "de_DE",
+    siteName: "immobilienmakler-in.com",
+    url: SITE,
+  },
+  robots: { index: true, follow: true },
+};
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      name: "immobilienmakler-in.com",
+      url: SITE,
+      description:
+        "Unabhängiger Vergleich der bestbewerteten Immobilienmakler in deutschen Städten auf Basis echter Google-Bewertungen.",
+    },
+    {
+      "@type": "WebSite",
+      name: "immobilienmakler-in.com",
+      url: SITE,
+      inLanguage: "de-DE",
+    },
+  ],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const orgSchema = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    name: "immobilienmakler-in.com",
-    url: "https://immobilienmakler-in.com",
-  };
-
   return (
-    <html lang="de">
+    <html
+      lang="de"
+      className={`${serif.variable} ${sans.variable} ${mono.variable}`}
+    >
       <body>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
-        <header className="site-header">
-          <a href="/" className="logo">
-            immobilienmakler-in.com
-          </a>
+        <RevealInit />
+        <header>
+          <Navbar />
         </header>
         <main>{children}</main>
-        <footer className="site-footer">
-          <p>&copy; {new Date().getFullYear()} immobilienmakler-in.com</p>
-        </footer>
+        <Footer />
+        <Analytics />
       </body>
     </html>
   );
