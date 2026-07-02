@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { rateLimit } from "@/lib/kv";
 import { sendMail, ownerEmail } from "@/lib/email";
+import { createLead } from "@/lib/notion";
 import { normalizeUrl } from "@/lib/audit/free-checks";
 
 export const runtime = "nodejs";
@@ -19,10 +19,6 @@ interface LeadBody {
   freeScore?: number;
   freeGrade?: string;
   freeDomain?: string;
-}
-
-function clientIp(req: NextRequest): string {
-  return (req.headers.get("x-forwarded-for") || "").split(",")[0].trim() || "unknown";
 }
 
 function esc(s: string): string {
@@ -64,21 +60,11 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ message: "Bitte der Datenverarbeitung zustimmen." }, { status: 400 });
   }
 
-  // Spam-Schutz: max. 5 Anfragen pro IP und Tag (falls KV konfiguriert; sonst In-Memory).
-  const ok = await rateLimit("lead", clientIp(req), 5, 60 * 60 * 24);
-  if (!ok) {
-    return NextResponse.json(
-      { message: "Zu viele Anfragen. Bitte versuchen Sie es später erneut." },
-      { status: 429 }
-    );
-  }
-
   const freeInfo =
     typeof body.freeScore === "number"
       ? `<p><b>Free-Check:</b> ${body.freeScore}/100 (${esc(body.freeGrade || "")}) für ${esc(body.freeDomain || lead.website)}</p>`
       : "";
 
-  // 1) Lead an den Betreiber (mit Free-Check-Kontext), Antworten geht an den Interessenten.
   const ownerHtml = `<h2>Neue Report-Anfrage (Sichtbarkeits-Check)</h2>
     <p><b>Name:</b> ${esc(lead.vorname)} ${esc(lead.nachname)}<br>
     <b>Firma:</b> ${esc(lead.firma)}<br>
@@ -87,43 +73,33 @@ export async function POST(req: NextRequest) {
     <b>Website:</b> ${esc(lead.website)}</p>
     ${freeInfo}`;
 
-  // 2) Bestätigung an den Interessenten.
   const userHtml = `<div style="font-family:Arial,sans-serif;color:#1A1A1A;line-height:1.6">
     <p>Hallo ${esc(lead.vorname)},</p>
     <p>vielen Dank für Ihre Anfrage zum ausführlichen Sichtbarkeits-Report für
     <b>${esc(lead.firma)}</b>. Wir prüfen Ihre Sichtbarkeit bei Google und in den
-    KI-Suchassistenten (ChatGPT, Gemini, Perplexity, Claude) und melden uns mit Ihrem
-    persönlichen Report.</p>
+    KI-Suchassistenten und melden uns mit Ihrem persönlichen Report.</p>
     <p>Beste Grüße<br>Ihr Team von immobilienmakler-in.com</p>
   </div>`;
 
-  try {
-    const tasks: Promise<unknown>[] = [];
-    if (ownerEmail) {
-      tasks.push(
-        sendMail({
+  // Lead in Notion + Mails parallel; Notion darf den Versand nicht blockieren.
+  const [notionOk] = await Promise.all([
+    createLead({ ...lead, score: body.freeScore, grade: body.freeGrade }),
+    (async () => {
+      if (ownerEmail) {
+        await sendMail({
           to: ownerEmail,
           subject: `Report-Anfrage: ${lead.firma} (${lead.vorname} ${lead.nachname})`,
           html: ownerHtml,
           replyTo: lead.email,
-        })
-      );
-    }
-    tasks.push(
-      sendMail({
-        to: lead.email,
-        subject: "Ihre Anfrage ist eingegangen – Sichtbarkeits-Report",
-        html: userHtml,
-      })
-    );
-    await Promise.all(tasks);
-  } catch (err) {
-    console.error("Lead-Versand fehlgeschlagen:", err);
-    return NextResponse.json(
-      { message: "Der Versand ist fehlgeschlagen. Bitte versuchen Sie es später erneut." },
-      { status: 502 }
-    );
-  }
+        });
+      }
+    })().catch((e) => console.error("Owner-Mail fehlgeschlagen:", e)),
+    sendMail({
+      to: lead.email,
+      subject: "Ihre Anfrage ist eingegangen – Sichtbarkeits-Report",
+      html: userHtml,
+    }).catch((e) => console.error("Bestätigungs-Mail fehlgeschlagen:", e)),
+  ]);
 
-  return NextResponse.json({ ok: true }, { status: 202 });
+  return NextResponse.json({ ok: true, notion: notionOk }, { status: 202 });
 }

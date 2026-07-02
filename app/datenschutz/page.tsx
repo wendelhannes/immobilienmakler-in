@@ -150,27 +150,21 @@ export default function DatenschutzPage() {
       <p>
         Für den <strong>ausführlichen Report</strong> erheben wir die von Ihnen im
         Formular angegebenen Daten (Vor- und Nachname, Firma, E-Mail-Adresse,
-        Telefonnummer und Website). Diese verwenden wir, um den Report zu erstellen und
-        Ihnen per E-Mail zuzusenden sowie um Sie ggf. zu Ihrem Anliegen zu kontaktieren.
-        Rechtsgrundlage ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sowie
-        Art. 6 Abs. 1 lit. b/f DSGVO (vorvertragliche Maßnahme bzw. berechtigtes
-        Interesse). Ihre Einwilligung können Sie jederzeit formlos widerrufen.
+        Telefonnummer und Website). Diese verwenden wir, um Ihre Anfrage zu bearbeiten,
+        den Report zu erstellen und Ihnen per E-Mail zuzusenden sowie um Sie ggf. zu
+        Ihrem Anliegen zu kontaktieren. Rechtsgrundlage ist Ihre Einwilligung
+        (Art. 6 Abs. 1 lit. a DSGVO) sowie Art. 6 Abs. 1 lit. b/f DSGVO
+        (vorvertragliche Maßnahme bzw. berechtigtes Interesse). Ihre Einwilligung
+        können Sie jederzeit formlos widerrufen.
       </p>
       <p>
-        Zur Erstellung des Reports fragen wir öffentlich zugängliche KI-Dienste
-        (u. a. OpenAI/ChatGPT, Google Gemini, Perplexity, Anthropic/Claude) mit
-        allgemeinen, nicht personenbezogenen Suchanfragen zu Ihrer Branche und Region ab
-        und analysieren Ihre Website technisch (u. a. über die Google
-        PageSpeed-Insights-API). Ihre personenbezogenen Kontaktdaten werden dabei
-        nicht an diese Dienste übermittelt.
-      </p>
-      <p>
-        Der E-Mail-Versand erfolgt über den Dienstleister <strong>Resend</strong>
-        (Resend, Inc.), der als Auftragsverarbeiter für uns tätig ist. Zur Vermeidung
-        von Mehrfach-Anforderungen und Missbrauch speichern wir Ihre E-Mail-Adresse
-        sowie technische Angaben (z. B. IP-Adresse in gekürzter Form) für die Dauer,
-        die zur Zweckerreichung erforderlich ist. Es ist pro E-Mail-Adresse ein
-        kostenloser Report vorgesehen.
+        Der E-Mail-Versand (Ihre Bestätigung sowie unsere interne Benachrichtigung)
+        erfolgt über den Dienstleister <strong>Resend</strong> (Resend, Inc.). Zur
+        Verwaltung und Bearbeitung Ihrer Anfrage speichern wir die genannten Daten
+        zudem in einer <strong>Notion</strong>-Datenbank (Notion Labs, Inc.). Beide
+        Anbieter sind als Auftragsverarbeiter für uns tätig; dabei kann eine
+        Übermittlung in die USA erfolgen. Wir speichern Ihre Daten nur so lange, wie es
+        zur Bearbeitung Ihrer Anfrage erforderlich ist bzw. bis zu Ihrem Widerruf.
       </p>
 
       <p>

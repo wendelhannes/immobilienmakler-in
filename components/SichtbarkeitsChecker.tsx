@@ -188,8 +188,7 @@ export default function SichtbarkeitsChecker() {
                 <div className="rs-check">✓</div>
                 <h4>Anfrage eingegangen – danke!</h4>
                 <p>
-                  Wir prüfen Ihre Sichtbarkeit bei Google und in den KI-Suchen und
-                  melden uns mit Ihrem persönlichen Report an{" "}
+                  Wir erstellen Ihren persönlichen Report und melden uns in Kürze an{" "}
                   <strong>{form.email}</strong>. Prüfen Sie ggf. den Spam-Ordner.
                 </p>
               </div>
