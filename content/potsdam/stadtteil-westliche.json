@@ -1,0 +1,107 @@
+{
+  "slug": [
+    "potsdam",
+    "immobilienmakler-westliche"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Potsdam",
+  "stadtSlug": "potsdam",
+  "stadtteil": "Westliche",
+  "h1": "Immobilienmakler in Potsdam-Westliche",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Potsdam-Westliche, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "PlanetHome Immobilien Potsdam",
+      "slug": "planethome-immobilien-potsdam",
+      "url": "http://www.planethome.de/",
+      "rating": 4.7,
+      "reviewsCount": 58,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Westliche",
+      "html": "<a href=\"http://www.planethome.de/\" target=\"_blank\" rel=\"noopener\"><strong>PlanetHome Immobilien Potsdam</strong></a> gehört mit 4.7 Sternen bei 58 Bewertungen zu den bestbewerteten Immobilienmaklern in Potsdam. Mit 4,7 von 5 Sternen gehört dieser Immobilienmakler Potsdam laut Kundenbewertungen zu den gefragten Adressen für den Verkauf und Kauf von Wohnimmobilien. Die Erfahrungen der Kunden heben besonders die kompetente Beratung, transparente Kommunikation auf Augenhöhe und das proaktive Engagement der Mitarbeiter hervor. Selbst bei unerwarteten Problemen erhielten Kunden zeitnah kompetente Unterstützung. Der Makler ist auf Wohnimmobilien spezialisiert und in Potsdam-Westliche ansässig. Mehr zu <a href=\"/potsdam/immobilienmakler-westliche\">Maklern in Potsdam-Westliche</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Potsdam-Westliche tätig?",
+      "a": "PlanetHome Immobilien Potsdam ist mit 4.7 Sternen bei 58 Bewertungen in Potsdam-Westliche vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Potsdam – Stadtteil Westliche: PlanetHome Immobilien Potsdam (4.7★, 58 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/potsdam/haus-verkaufen",
+      "label": "Haus verkaufen Potsdam"
+    },
+    {
+      "href": "/potsdam/immobilienbewertung",
+      "label": "Immobilienbewertung Potsdam"
+    },
+    {
+      "href": "/hagen",
+      "label": "Immobilienmakler Hagen"
+    },
+    {
+      "href": "/kassel",
+      "label": "Immobilienmakler Kassel"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/potsdam",
+      "label": "Immobilienmakler Potsdam"
+    },
+    {
+      "href": "/potsdam/haus-verkaufen",
+      "label": "Haus verkaufen Potsdam"
+    },
+    {
+      "href": "/potsdam/immobilienbewertung",
+      "label": "Immobilienbewertung Potsdam"
+    },
+    {
+      "href": "/potsdam/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Potsdam"
+    },
+    {
+      "href": "/potsdam/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Potsdam"
+    },
+    {
+      "href": "/potsdam/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Potsdam"
+    },
+    {
+      "href": "/potsdam/immobilienmakler-noerdliche",
+      "label": "Immobilienmakler Potsdam-Nördliche"
+    },
+    {
+      "href": "/potsdam/immobilienmakler-nord",
+      "label": "Immobilienmakler Potsdam-Nord"
+    },
+    {
+      "href": "/potsdam/immobilienmakler-babelsberg",
+      "label": "Immobilienmakler Potsdam-Babelsberg"
+    },
+    {
+      "href": "/potsdam/immobilienmakler-sued",
+      "label": "Immobilienmakler Potsdam-Süd"
+    },
+    {
+      "href": "/potsdam/immobilienmakler-westliche",
+      "label": "Immobilienmakler Potsdam-Westliche"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/hagen",
+      "label": "Immobilienmakler Hagen"
+    },
+    {
+      "href": "/kassel",
+      "label": "Immobilienmakler Kassel"
+    }
+  ]
+}

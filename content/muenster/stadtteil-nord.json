@@ -1,0 +1,95 @@
+{
+  "slug": [
+    "muenster",
+    "immobilienmakler-nord"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Münster",
+  "stadtSlug": "muenster",
+  "stadtteil": "Nord",
+  "h1": "Immobilienmakler in Münster-Nord",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Münster-Nord, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Immobilienmakler FALC Immobilien Münster",
+      "slug": "immobilienmakler-falc-immobilien-muenster",
+      "url": "http://falcimmo.de/",
+      "rating": 5,
+      "reviewsCount": 9,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Nord",
+      "html": "<a href=\"http://falcimmo.de/\" target=\"_blank\" rel=\"noopener\"><strong>Immobilienmakler FALC Immobilien Münster</strong></a> gehört mit 5 Sternen bei 9 Bewertungen zu den bestbewerteten Immobilienmaklern in Münster. Die Google-Bewertungen und Erfahrungen mit diesem Immobilienmakler Münster zeigen durchgehend 5 Sterne bei 9 Bewertungen. Kunden heben besonders die schnelle Erreichbarkeit, professionelle Kommunikation und hochwertige Exposés hervor. Sowohl bei Verkauf als auch Vermietung von Wohnimmobilien überzeugt der Makler laut Bewertungen durch engagierte Beratung und eine ausgewogene Interessenvertretung aller Parteien. Der Makler ist auf Wohnimmobilien spezialisiert und in Münster-Nord ansässig. Mehr zu <a href=\"/muenster/immobilienmakler-nord\">Maklern in Münster-Nord</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Münster-Nord tätig?",
+      "a": "Immobilienmakler FALC Immobilien Münster ist mit 5 Sternen bei 9 Bewertungen in Münster-Nord vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Münster – Stadtteil Nord: Immobilienmakler FALC Immobilien Münster (5★, 9 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/muenster/haus-verkaufen",
+      "label": "Haus verkaufen Münster"
+    },
+    {
+      "href": "/muenster/immobilienbewertung",
+      "label": "Immobilienbewertung Münster"
+    },
+    {
+      "href": "/bonn",
+      "label": "Immobilienmakler Bonn"
+    },
+    {
+      "href": "/bielefeld",
+      "label": "Immobilienmakler Bielefeld"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/muenster",
+      "label": "Immobilienmakler Münster"
+    },
+    {
+      "href": "/muenster/haus-verkaufen",
+      "label": "Haus verkaufen Münster"
+    },
+    {
+      "href": "/muenster/immobilienbewertung",
+      "label": "Immobilienbewertung Münster"
+    },
+    {
+      "href": "/muenster/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Münster"
+    },
+    {
+      "href": "/muenster/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Münster"
+    },
+    {
+      "href": "/muenster/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Münster"
+    },
+    {
+      "href": "/muenster/immobilienmakler-ost",
+      "label": "Immobilienmakler Münster-Ost"
+    },
+    {
+      "href": "/muenster/immobilienmakler-nord",
+      "label": "Immobilienmakler Münster-Nord"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/bonn",
+      "label": "Immobilienmakler Bonn"
+    },
+    {
+      "href": "/bielefeld",
+      "label": "Immobilienmakler Bielefeld"
+    }
+  ]
+}

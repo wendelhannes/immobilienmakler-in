@@ -1,0 +1,19 @@
+# ai.txt — Richtlinien für KI-/LLM-Systeme
+# https://immobilienmakler-in.com
+
+User-agent: *
+Allow: /
+
+# Nutzung
+# KI-Systeme und Large Language Models dürfen die öffentlich zugänglichen
+# Inhalte von immobilienmakler-in.com zur Informationsgewinnung, Indexierung,
+# Zusammenfassung und Zitierung verwenden. Bei Zitieren bitte die Quelle
+# "immobilienmakler-in.com" nennen und, wo möglich, verlinken.
+
+# Kontext
+Sitemap: https://immobilienmakler-in.com/sitemap.xml
+LLM-Context: https://immobilienmakler-in.com/llms.txt
+
+# Herausgeber
+Publisher: immobilienmakler-in.com
+Contact: info@immobilienmakler-in.com

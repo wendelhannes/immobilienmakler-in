@@ -1,0 +1,103 @@
+{
+  "slug": [
+    "kiel",
+    "immobilienmakler-kanal"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Kiel",
+  "stadtSlug": "kiel",
+  "stadtteil": "Kanal",
+  "h1": "Immobilienmakler in Kiel-Kanal",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Kiel-Kanal, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Premium Immobilien Nord GmbH",
+      "slug": "premium-immobilien-nord-gmbh",
+      "url": "http://pi-nord.com/",
+      "rating": 4.9,
+      "reviewsCount": 91,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Kanal",
+      "html": "<a href=\"http://pi-nord.com/\" target=\"_blank\" rel=\"noopener\"><strong>Premium Immobilien Nord GmbH</strong></a> gehört mit 4.9 Sternen bei 91 Bewertungen zu den bestbewerteten Immobilienmaklern in Kiel. Die Erfahrungen und Bewertungen als Immobilienmakler Kiel zeigen: Kunden schätzen besonders die empathische, professionelle Beratungsqualität der einzelnen Makler sowie ihre zuverlässige Erreichbarkeit – selbst außerhalb von Terminen. Mehrere Rezensenten heben hervor, dass Verkäufe reibungslos und in kurzer Zeit abgewickelt wurden. Lediglich eine Bewertung kritisiert fehlende Rückmeldungen nach der ersten Kontaktaufnahme. Der Makler ist auf Wohnimmobilien spezialisiert und in Kiel-Kanal ansässig. Mehr zu <a href=\"/kiel/immobilienmakler-kanal\">Maklern in Kiel-Kanal</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Kiel-Kanal tätig?",
+      "a": "Premium Immobilien Nord GmbH ist mit 4.9 Sternen bei 91 Bewertungen in Kiel-Kanal vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Kiel – Stadtteil Kanal: Premium Immobilien Nord GmbH (4.9★, 91 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/kiel/haus-verkaufen",
+      "label": "Haus verkaufen Kiel"
+    },
+    {
+      "href": "/kiel/immobilienbewertung",
+      "label": "Immobilienbewertung Kiel"
+    },
+    {
+      "href": "/aachen",
+      "label": "Immobilienmakler Aachen"
+    },
+    {
+      "href": "/braunschweig",
+      "label": "Immobilienmakler Braunschweig"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/kiel",
+      "label": "Immobilienmakler Kiel"
+    },
+    {
+      "href": "/kiel/haus-verkaufen",
+      "label": "Haus verkaufen Kiel"
+    },
+    {
+      "href": "/kiel/immobilienbewertung",
+      "label": "Immobilienbewertung Kiel"
+    },
+    {
+      "href": "/kiel/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Kiel"
+    },
+    {
+      "href": "/kiel/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Kiel"
+    },
+    {
+      "href": "/kiel/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Kiel"
+    },
+    {
+      "href": "/kiel/immobilienmakler-schreventeich",
+      "label": "Immobilienmakler Kiel-Schreventeich"
+    },
+    {
+      "href": "/kiel/immobilienmakler-elmschenhagen",
+      "label": "Immobilienmakler Kiel-Elmschenhagen"
+    },
+    {
+      "href": "/kiel/immobilienmakler-pries",
+      "label": "Immobilienmakler Kiel-Pries"
+    },
+    {
+      "href": "/kiel/immobilienmakler-kanal",
+      "label": "Immobilienmakler Kiel-Kanal"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/aachen",
+      "label": "Immobilienmakler Aachen"
+    },
+    {
+      "href": "/braunschweig",
+      "label": "Immobilienmakler Braunschweig"
+    }
+  ]
+}

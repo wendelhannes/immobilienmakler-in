@@ -1,0 +1,111 @@
+{
+  "slug": [
+    "kassel",
+    "immobilienmakler-unterneustadt"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Kassel",
+  "stadtSlug": "kassel",
+  "stadtteil": "Unterneustadt",
+  "h1": "Immobilienmakler in Kassel-Unterneustadt",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Kassel-Unterneustadt, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Traut Immobilien e.K.",
+      "slug": "traut-immobilien-e-k",
+      "url": "https://www.traut.immobilien/",
+      "rating": 5,
+      "reviewsCount": 80,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Unterneustadt",
+      "html": "<a href=\"https://www.traut.immobilien/\" target=\"_blank\" rel=\"noopener\"><strong>Traut Immobilien e.K.</strong></a> gehört mit 5 Sternen bei 80 Bewertungen zu den bestbewerteten Immobilienmaklern in Kassel. Traut Immobilien e.K. aus Kassel überzeugt laut Kundenbewertungen durch professionelle Beratung von der Erstbewertung bis zur Beurkundung, schnelle Abwicklung sowie zuverlässige Erreichbarkeit auch nach Vertragsabschluss. Die Erfahrungen der Kunden mit dem Immobilienmakler Kassel heben besonders die transparente Kommunikation und das persönliche Engagement des Teams hervor. Der Makler ist auf Wohnimmobilien spezialisiert und in Kassel-Unterneustadt ansässig. Mehr zu <a href=\"/kassel/immobilienmakler-unterneustadt\">Maklern in Kassel-Unterneustadt</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Kassel-Unterneustadt tätig?",
+      "a": "Traut Immobilien e.K. ist mit 5 Sternen bei 80 Bewertungen in Kassel-Unterneustadt vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Kassel – Stadtteil Unterneustadt: Traut Immobilien e.K. (5★, 80 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/kassel/haus-verkaufen",
+      "label": "Haus verkaufen Kassel"
+    },
+    {
+      "href": "/kassel/immobilienbewertung",
+      "label": "Immobilienbewertung Kassel"
+    },
+    {
+      "href": "/rostock",
+      "label": "Immobilienmakler Rostock"
+    },
+    {
+      "href": "/oberhausen",
+      "label": "Immobilienmakler Oberhausen"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/kassel",
+      "label": "Immobilienmakler Kassel"
+    },
+    {
+      "href": "/kassel/haus-verkaufen",
+      "label": "Haus verkaufen Kassel"
+    },
+    {
+      "href": "/kassel/immobilienbewertung",
+      "label": "Immobilienbewertung Kassel"
+    },
+    {
+      "href": "/kassel/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Kassel"
+    },
+    {
+      "href": "/kassel/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Kassel"
+    },
+    {
+      "href": "/kassel/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Kassel"
+    },
+    {
+      "href": "/kassel/immobilienmakler-bad",
+      "label": "Immobilienmakler Kassel-Bad"
+    },
+    {
+      "href": "/kassel/immobilienmakler-unterneustadt",
+      "label": "Immobilienmakler Kassel-Unterneustadt"
+    },
+    {
+      "href": "/kassel/immobilienmakler-brasselsberg",
+      "label": "Immobilienmakler Kassel-Brasselsberg"
+    },
+    {
+      "href": "/kassel/immobilienmakler-harleshausen",
+      "label": "Immobilienmakler Kassel-Harleshausen"
+    },
+    {
+      "href": "/kassel/immobilienmakler-kirchditmold",
+      "label": "Immobilienmakler Kassel-Kirchditmold"
+    },
+    {
+      "href": "/kassel/immobilienmakler-jungfernkopf",
+      "label": "Immobilienmakler Kassel-Jungfernkopf"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/rostock",
+      "label": "Immobilienmakler Rostock"
+    },
+    {
+      "href": "/oberhausen",
+      "label": "Immobilienmakler Oberhausen"
+    }
+  ]
+}

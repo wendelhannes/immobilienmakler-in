@@ -1,0 +1,111 @@
+{
+  "slug": [
+    "magdeburg",
+    "immobilienmakler-sudenburg"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Magdeburg",
+  "stadtSlug": "magdeburg",
+  "stadtteil": "Sudenburg",
+  "h1": "Immobilienmakler in Magdeburg-Sudenburg",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Magdeburg-Sudenburg, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Elb Estate",
+      "slug": "elb-estate",
+      "url": "http://www.elb-estate.de/",
+      "rating": 4.9,
+      "reviewsCount": 109,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Sudenburg",
+      "html": "<a href=\"http://www.elb-estate.de/\" target=\"_blank\" rel=\"noopener\"><strong>Elb Estate</strong></a> gehört mit 4.9 Sternen bei 109 Bewertungen zu den bestbewerteten Immobilienmaklern in Magdeburg. Mit 4,9 Sternen bei 109 Bewertungen zählt dieser Immobilienmakler Magdeburg zu den bestbewerteten der Region – Erfahrungen der Kunden heben besonders die professionelle Beratung, schnelle Terminvergabe und konstante Erreichbarkeit hervor. Die Bewertungen loben zudem die transparente Kommunikation sowie die moderne, strukturierte Arbeitsweise der Maklerinnen bei Kauf, Verkauf und Wohnungssuche. Der Makler ist auf Wohnimmobilien spezialisiert und in Magdeburg-Sudenburg ansässig. Mehr zu <a href=\"/magdeburg/immobilienmakler-sudenburg\">Maklern in Magdeburg-Sudenburg</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Magdeburg-Sudenburg tätig?",
+      "a": "Elb Estate ist mit 4.9 Sternen bei 109 Bewertungen in Magdeburg-Sudenburg vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Magdeburg – Stadtteil Sudenburg: Elb Estate (4.9★, 109 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/magdeburg/haus-verkaufen",
+      "label": "Haus verkaufen Magdeburg"
+    },
+    {
+      "href": "/magdeburg/immobilienbewertung",
+      "label": "Immobilienbewertung Magdeburg"
+    },
+    {
+      "href": "/halle",
+      "label": "Immobilienmakler Halle"
+    },
+    {
+      "href": "/chemnitz",
+      "label": "Immobilienmakler Chemnitz"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/magdeburg",
+      "label": "Immobilienmakler Magdeburg"
+    },
+    {
+      "href": "/magdeburg/haus-verkaufen",
+      "label": "Haus verkaufen Magdeburg"
+    },
+    {
+      "href": "/magdeburg/immobilienbewertung",
+      "label": "Immobilienbewertung Magdeburg"
+    },
+    {
+      "href": "/magdeburg/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Magdeburg"
+    },
+    {
+      "href": "/magdeburg/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Magdeburg"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Magdeburg"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-altstadt",
+      "label": "Immobilienmakler Magdeburg-Altstadt"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-ottersleben",
+      "label": "Immobilienmakler Magdeburg-Ottersleben"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-sudenburg",
+      "label": "Immobilienmakler Magdeburg-Sudenburg"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-reform",
+      "label": "Immobilienmakler Magdeburg-Reform"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-stadtfeld",
+      "label": "Immobilienmakler Magdeburg-Stadtfeld"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-cracau",
+      "label": "Immobilienmakler Magdeburg-Cracau"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/halle",
+      "label": "Immobilienmakler Halle"
+    },
+    {
+      "href": "/chemnitz",
+      "label": "Immobilienmakler Chemnitz"
+    }
+  ]
+}

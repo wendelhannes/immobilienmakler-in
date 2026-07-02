@@ -1,0 +1,105 @@
+{
+  "slug": [
+    "luebeck",
+    "immobilienmakler-luebecker"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Lübeck",
+  "stadtSlug": "luebeck",
+  "stadtteil": "Lübecker",
+  "h1": "Immobilienmakler in Lübeck-Lübecker",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Lübeck-Lübecker, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "von Wülfing Immobilien - Lübeck",
+      "slug": "von-wuelfing-immobilien-luebeck",
+      "url": "https://www.von-wuelfing-immobilien.de/luebeck/",
+      "rating": 4.9,
+      "reviewsCount": 55,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Lübecker",
+      "html": "<a href=\"https://www.von-wuelfing-immobilien.de/luebeck/\" target=\"_blank\" rel=\"noopener\"><strong>von Wülfing Immobilien - Lübeck</strong></a> gehört mit 4.9 Sternen bei 55 Bewertungen zu den bestbewerteten Immobilienmaklern in Lübeck. Von Wülfing Immobilien Lübeck überzeugt laut Kundenbewertungen durch hohe Fachkompetenz, zuverlässige Erreichbarkeit und schnelle Beantwortung aller Fragen – sowohl beim Kauf als auch beim Verkauf von Wohnimmobilien. Die Erfahrungen der Kunden mit diesem Immobilienmakler in Lübeck zeigen, dass das Team auch bei komplexen oder langwierigen Transaktionen engagiert begleitet und aktiv unterstützt. Der Makler ist auf Wohnimmobilien spezialisiert und in Lübeck-Lübecker ansässig. Mehr zu <a href=\"/luebeck/immobilienmakler-luebecker\">Maklern in Lübeck-Lübecker</a>."
+    },
+    {
+      "name": "Engel & Völkers",
+      "slug": "engel-voelkers",
+      "url": "https://www.engelvoelkers.com/de/de/shops/luebeck",
+      "rating": 4.6,
+      "reviewsCount": 40,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Lübecker",
+      "html": "<a href=\"https://www.engelvoelkers.com/de/de/shops/luebeck\" target=\"_blank\" rel=\"noopener\"><strong>Engel & Völkers</strong></a> gehört mit 4.6 Sternen bei 40 Bewertungen zu den bestbewerteten Immobilienmaklern in Lübeck. Kunden berichten in ihren Erfahrungen über den Immobilienmakler Lübeck von einer zuverlässigen Begleitung durch den gesamten Verkaufsprozess – von der ersten Besichtigung bis zum Notartermin. Die Bewertungen heben besonders die Erreichbarkeit, Kompetenz und das Engagement der Maklerinnen hervor, die auch in komplexen Situationen stets Lösungen fanden. Mit 4,6 von 5 Sternen bei 40 Bewertungen gilt das Büro als verlässlicher Ansprechpartner beim Wohnimmobilienverkauf in Lübeck. Der Makler ist auf Wohnimmobilien spezialisiert und in Lübeck-Lübecker ansässig. Mehr zu <a href=\"/luebeck/immobilienmakler-luebecker\">Maklern in Lübeck-Lübecker</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Lübeck-Lübecker tätig?",
+      "a": "von Wülfing Immobilien - Lübeck ist mit 4.9 Sternen bei 55 Bewertungen in Lübeck-Lübecker vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Lübeck – Stadtteil Lübecker: von Wülfing Immobilien - Lübeck (4.9★, 55 Bewertungen, spezialisiert auf Wohnimmobilien); Engel & Völkers (4.6★, 40 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/luebeck/haus-verkaufen",
+      "label": "Haus verkaufen Lübeck"
+    },
+    {
+      "href": "/luebeck/immobilienbewertung",
+      "label": "Immobilienbewertung Lübeck"
+    },
+    {
+      "href": "/mainz",
+      "label": "Immobilienmakler Mainz"
+    },
+    {
+      "href": "/krefeld",
+      "label": "Immobilienmakler Krefeld"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/luebeck",
+      "label": "Immobilienmakler Lübeck"
+    },
+    {
+      "href": "/luebeck/haus-verkaufen",
+      "label": "Haus verkaufen Lübeck"
+    },
+    {
+      "href": "/luebeck/immobilienbewertung",
+      "label": "Immobilienbewertung Lübeck"
+    },
+    {
+      "href": "/luebeck/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Lübeck"
+    },
+    {
+      "href": "/luebeck/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Lübeck"
+    },
+    {
+      "href": "/luebeck/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Lübeck"
+    },
+    {
+      "href": "/luebeck/immobilienmakler-st",
+      "label": "Immobilienmakler Lübeck-St"
+    },
+    {
+      "href": "/luebeck/immobilienmakler-luebecker",
+      "label": "Immobilienmakler Lübeck-Lübecker"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/mainz",
+      "label": "Immobilienmakler Mainz"
+    },
+    {
+      "href": "/krefeld",
+      "label": "Immobilienmakler Krefeld"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "slug": [
+    "potsdam",
+    "immobilienmakler-sued"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Potsdam",
+  "stadtSlug": "potsdam",
+  "stadtteil": "Süd",
+  "h1": "Immobilienmakler in Potsdam-Süd",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Potsdam-Süd, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "ACCESSUS IMMOBILIEN",
+      "slug": "accessus-immobilien",
+      "url": "https://accessus-immobilien.de/",
+      "rating": 4.9,
+      "reviewsCount": 48,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Süd",
+      "html": "<a href=\"https://accessus-immobilien.de/\" target=\"_blank\" rel=\"noopener\"><strong>ACCESSUS IMMOBILIEN</strong></a> gehört mit 4.9 Sternen bei 48 Bewertungen zu den bestbewerteten Immobilienmaklern in Potsdam. Die Erfahrungen und Bewertungen von ACCESSUS IMMOBILIEN als Immobilienmakler in Potsdam zeigen ein konsistentes Bild: Kunden heben insbesondere die Professionalität, Freundlichkeit und zuverlässige Kommunikation von Frau Nitsche hervor. Sowohl bei der Wohnungsvermietung als auch beim Immobilienverkauf berichten Klienten von einer transparenten, unkomplizierten Abwicklung und guter telefonischer Erreichbarkeit. Der Makler ist auf Wohnimmobilien spezialisiert und in Potsdam-Süd ansässig. Mehr zu <a href=\"/potsdam/immobilienmakler-sued\">Maklern in Potsdam-Süd</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Potsdam-Süd tätig?",
+      "a": "ACCESSUS IMMOBILIEN ist mit 4.9 Sternen bei 48 Bewertungen in Potsdam-Süd vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Potsdam – Stadtteil Süd: ACCESSUS IMMOBILIEN (4.9★, 48 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/potsdam/haus-verkaufen",
+      "label": "Haus verkaufen Potsdam"
+    },
+    {
+      "href": "/potsdam/immobilienbewertung",
+      "label": "Immobilienbewertung Potsdam"
+    },
+    {
+      "href": "/hagen",
+      "label": "Immobilienmakler Hagen"
+    },
+    {
+      "href": "/kassel",
+      "label": "Immobilienmakler Kassel"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/potsdam",
+      "label": "Immobilienmakler Potsdam"
+    },
+    {
+      "href": "/potsdam/haus-verkaufen",
+      "label": "Haus verkaufen Potsdam"
+    },
+    {
+      "href": "/potsdam/immobilienbewertung",
+      "label": "Immobilienbewertung Potsdam"
+    },
+    {
+      "href": "/potsdam/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Potsdam"
+    },
+    {
+      "href": "/potsdam/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Potsdam"
+    },
+    {
+      "href": "/potsdam/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Potsdam"
+    },
+    {
+      "href": "/potsdam/immobilienmakler-noerdliche",
+      "label": "Immobilienmakler Potsdam-Nördliche"
+    },
+    {
+      "href": "/potsdam/immobilienmakler-nord",
+      "label": "Immobilienmakler Potsdam-Nord"
+    },
+    {
+      "href": "/potsdam/immobilienmakler-babelsberg",
+      "label": "Immobilienmakler Potsdam-Babelsberg"
+    },
+    {
+      "href": "/potsdam/immobilienmakler-sued",
+      "label": "Immobilienmakler Potsdam-Süd"
+    },
+    {
+      "href": "/potsdam/immobilienmakler-westliche",
+      "label": "Immobilienmakler Potsdam-Westliche"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/hagen",
+      "label": "Immobilienmakler Hagen"
+    },
+    {
+      "href": "/kassel",
+      "label": "Immobilienmakler Kassel"
+    }
+  ]
+}

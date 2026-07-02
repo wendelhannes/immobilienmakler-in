@@ -248,6 +248,11 @@ section { padding: 0; }
 .entity h1 em { font-style: italic; color: var(--red); }
 .entity .desc { font-size: 17px; color: var(--tx); max-width: 640px; line-height: 1.65; }
 
+/* Autorschaft / Aktualisierungs-Stempel (E-E-A-T, AI-Attribution) */
+.byline { font-family: var(--mono); font-size: 12px; color: var(--mu); margin-top: 16px; letter-spacing: .2px; }
+.byline strong { color: var(--tx); font-weight: 600; }
+.byline .byline-sep { margin: 0 8px; opacity: .5; }
+
 .section { padding: 44px 0; border-bottom: 1px solid var(--bd); }
 .section:last-child { border-bottom: none; }
 .section h2 { font-family: var(--serif); font-size: clamp(22px, 3vw, 30px); font-weight: 700; margin-bottom: 20px; line-height: 1.25; }

@@ -1,0 +1,111 @@
+{
+  "slug": [
+    "kassel",
+    "immobilienmakler-harleshausen"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Kassel",
+  "stadtSlug": "kassel",
+  "stadtteil": "Harleshausen",
+  "h1": "Immobilienmakler in Kassel-Harleshausen",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Kassel-Harleshausen, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Eichholz Immobilien",
+      "slug": "eichholz-immobilien",
+      "url": "https://www.eichholz-immobilien.de/",
+      "rating": 5,
+      "reviewsCount": 6,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Harleshausen",
+      "html": "<a href=\"https://www.eichholz-immobilien.de/\" target=\"_blank\" rel=\"noopener\"><strong>Eichholz Immobilien</strong></a> gehört mit 5 Sternen bei 6 Bewertungen zu den bestbewerteten Immobilienmaklern in Kassel. Kunden berichten in ihren Erfahrungen und Bewertungen über Eichholz Immobilien als Immobilienmakler Kassel von hoher Fachkompetenz, ausgeprägter Marktkenntnis und einem persönlich engagierten Auftreten. Besonders hervorgehoben werden die Freundlichkeit, Ehrlichkeit und Zuverlässigkeit des Teams sowie die realistische und zutreffende Beratung – auch bei Nebenkostenfragen. Der Makler ist auf Wohnimmobilien spezialisiert und in Kassel-Harleshausen ansässig. Mehr zu <a href=\"/kassel/immobilienmakler-harleshausen\">Maklern in Kassel-Harleshausen</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Kassel-Harleshausen tätig?",
+      "a": "Eichholz Immobilien ist mit 5 Sternen bei 6 Bewertungen in Kassel-Harleshausen vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Kassel – Stadtteil Harleshausen: Eichholz Immobilien (5★, 6 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/kassel/haus-verkaufen",
+      "label": "Haus verkaufen Kassel"
+    },
+    {
+      "href": "/kassel/immobilienbewertung",
+      "label": "Immobilienbewertung Kassel"
+    },
+    {
+      "href": "/rostock",
+      "label": "Immobilienmakler Rostock"
+    },
+    {
+      "href": "/oberhausen",
+      "label": "Immobilienmakler Oberhausen"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/kassel",
+      "label": "Immobilienmakler Kassel"
+    },
+    {
+      "href": "/kassel/haus-verkaufen",
+      "label": "Haus verkaufen Kassel"
+    },
+    {
+      "href": "/kassel/immobilienbewertung",
+      "label": "Immobilienbewertung Kassel"
+    },
+    {
+      "href": "/kassel/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Kassel"
+    },
+    {
+      "href": "/kassel/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Kassel"
+    },
+    {
+      "href": "/kassel/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Kassel"
+    },
+    {
+      "href": "/kassel/immobilienmakler-bad",
+      "label": "Immobilienmakler Kassel-Bad"
+    },
+    {
+      "href": "/kassel/immobilienmakler-unterneustadt",
+      "label": "Immobilienmakler Kassel-Unterneustadt"
+    },
+    {
+      "href": "/kassel/immobilienmakler-brasselsberg",
+      "label": "Immobilienmakler Kassel-Brasselsberg"
+    },
+    {
+      "href": "/kassel/immobilienmakler-harleshausen",
+      "label": "Immobilienmakler Kassel-Harleshausen"
+    },
+    {
+      "href": "/kassel/immobilienmakler-kirchditmold",
+      "label": "Immobilienmakler Kassel-Kirchditmold"
+    },
+    {
+      "href": "/kassel/immobilienmakler-jungfernkopf",
+      "label": "Immobilienmakler Kassel-Jungfernkopf"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/rostock",
+      "label": "Immobilienmakler Rostock"
+    },
+    {
+      "href": "/oberhausen",
+      "label": "Immobilienmakler Oberhausen"
+    }
+  ]
+}

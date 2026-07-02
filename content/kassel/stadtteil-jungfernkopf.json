@@ -1,0 +1,111 @@
+{
+  "slug": [
+    "kassel",
+    "immobilienmakler-jungfernkopf"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Kassel",
+  "stadtSlug": "kassel",
+  "stadtteil": "Jungfernkopf",
+  "h1": "Immobilienmakler in Kassel-Jungfernkopf",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Kassel-Jungfernkopf, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Lars Müller Immobilien",
+      "slug": "lars-mueller-immobilien",
+      "url": "http://www.mueller-immobilien-kassel.de/",
+      "rating": 4.6,
+      "reviewsCount": 10,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Jungfernkopf",
+      "html": "<a href=\"http://www.mueller-immobilien-kassel.de/\" target=\"_blank\" rel=\"noopener\"><strong>Lars Müller Immobilien</strong></a> gehört mit 4.6 Sternen bei 10 Bewertungen zu den bestbewerteten Immobilienmaklern in Kassel. Lars Müller Immobilien überzeugt laut Bewertungen als Immobilienmakler Kassel vor allem durch schnelle Reaktionszeiten, zuverlässige Erreichbarkeit und kompetente Beratung beim Kauf und Verkauf von Wohnimmobilien. Die Erfahrungen der Kunden heben besonders die professionell aufbereiteten Exposés sowie die reibungslose Kommunikation mit Notaren und Verkäufern hervor. Bei 10 Bewertungen erreicht das Unternehmen 4,6 von 5 Sternen. Der Makler ist auf Wohnimmobilien spezialisiert und in Kassel-Jungfernkopf ansässig. Mehr zu <a href=\"/kassel/immobilienmakler-jungfernkopf\">Maklern in Kassel-Jungfernkopf</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Kassel-Jungfernkopf tätig?",
+      "a": "Lars Müller Immobilien ist mit 4.6 Sternen bei 10 Bewertungen in Kassel-Jungfernkopf vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Kassel – Stadtteil Jungfernkopf: Lars Müller Immobilien (4.6★, 10 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/kassel/haus-verkaufen",
+      "label": "Haus verkaufen Kassel"
+    },
+    {
+      "href": "/kassel/immobilienbewertung",
+      "label": "Immobilienbewertung Kassel"
+    },
+    {
+      "href": "/rostock",
+      "label": "Immobilienmakler Rostock"
+    },
+    {
+      "href": "/oberhausen",
+      "label": "Immobilienmakler Oberhausen"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/kassel",
+      "label": "Immobilienmakler Kassel"
+    },
+    {
+      "href": "/kassel/haus-verkaufen",
+      "label": "Haus verkaufen Kassel"
+    },
+    {
+      "href": "/kassel/immobilienbewertung",
+      "label": "Immobilienbewertung Kassel"
+    },
+    {
+      "href": "/kassel/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Kassel"
+    },
+    {
+      "href": "/kassel/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Kassel"
+    },
+    {
+      "href": "/kassel/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Kassel"
+    },
+    {
+      "href": "/kassel/immobilienmakler-bad",
+      "label": "Immobilienmakler Kassel-Bad"
+    },
+    {
+      "href": "/kassel/immobilienmakler-unterneustadt",
+      "label": "Immobilienmakler Kassel-Unterneustadt"
+    },
+    {
+      "href": "/kassel/immobilienmakler-brasselsberg",
+      "label": "Immobilienmakler Kassel-Brasselsberg"
+    },
+    {
+      "href": "/kassel/immobilienmakler-harleshausen",
+      "label": "Immobilienmakler Kassel-Harleshausen"
+    },
+    {
+      "href": "/kassel/immobilienmakler-kirchditmold",
+      "label": "Immobilienmakler Kassel-Kirchditmold"
+    },
+    {
+      "href": "/kassel/immobilienmakler-jungfernkopf",
+      "label": "Immobilienmakler Kassel-Jungfernkopf"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/rostock",
+      "label": "Immobilienmakler Rostock"
+    },
+    {
+      "href": "/oberhausen",
+      "label": "Immobilienmakler Oberhausen"
+    }
+  ]
+}

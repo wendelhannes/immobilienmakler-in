@@ -1,0 +1,111 @@
+{
+  "slug": [
+    "magdeburg",
+    "immobilienmakler-ottersleben"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Magdeburg",
+  "stadtSlug": "magdeburg",
+  "stadtteil": "Ottersleben",
+  "h1": "Immobilienmakler in Magdeburg-Ottersleben",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Magdeburg-Ottersleben, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "ImmoFairKauf GmbH",
+      "slug": "immofairkauf-gmbh",
+      "url": "http://immofairkauf.de/",
+      "rating": 5,
+      "reviewsCount": 67,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Ottersleben",
+      "html": "<a href=\"http://immofairkauf.de/\" target=\"_blank\" rel=\"noopener\"><strong>ImmoFairKauf GmbH</strong></a> gehört mit 5 Sternen bei 67 Bewertungen zu den bestbewerteten Immobilienmaklern in Magdeburg. Die ImmoFairKauf GmbH überzeugt laut Kundenbewertungen als Immobilienmakler Magdeburg durch professionelle Beratung, schnelle Erreichbarkeit und reibungslose Abwicklung – sowohl beim Kauf als auch beim Verkauf von Wohnimmobilien. Erfahrungen aus den Bewertungen heben besonders die zügige Terminorganisation, transparente Kommunikation und kompetente Markteinschätzung hervor. Kunden berichten außerdem von ehrlicher, lösungsorientierter Betreuung auf Augenhöhe und sprechen wiederholt eine uneingeschränkte Weiterempfehlung aus. Der Makler ist auf Wohnimmobilien spezialisiert und in Magdeburg-Ottersleben ansässig. Mehr zu <a href=\"/magdeburg/immobilienmakler-ottersleben\">Maklern in Magdeburg-Ottersleben</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Magdeburg-Ottersleben tätig?",
+      "a": "ImmoFairKauf GmbH ist mit 5 Sternen bei 67 Bewertungen in Magdeburg-Ottersleben vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Magdeburg – Stadtteil Ottersleben: ImmoFairKauf GmbH (5★, 67 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/magdeburg/haus-verkaufen",
+      "label": "Haus verkaufen Magdeburg"
+    },
+    {
+      "href": "/magdeburg/immobilienbewertung",
+      "label": "Immobilienbewertung Magdeburg"
+    },
+    {
+      "href": "/halle",
+      "label": "Immobilienmakler Halle"
+    },
+    {
+      "href": "/chemnitz",
+      "label": "Immobilienmakler Chemnitz"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/magdeburg",
+      "label": "Immobilienmakler Magdeburg"
+    },
+    {
+      "href": "/magdeburg/haus-verkaufen",
+      "label": "Haus verkaufen Magdeburg"
+    },
+    {
+      "href": "/magdeburg/immobilienbewertung",
+      "label": "Immobilienbewertung Magdeburg"
+    },
+    {
+      "href": "/magdeburg/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Magdeburg"
+    },
+    {
+      "href": "/magdeburg/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Magdeburg"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Magdeburg"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-altstadt",
+      "label": "Immobilienmakler Magdeburg-Altstadt"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-ottersleben",
+      "label": "Immobilienmakler Magdeburg-Ottersleben"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-sudenburg",
+      "label": "Immobilienmakler Magdeburg-Sudenburg"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-reform",
+      "label": "Immobilienmakler Magdeburg-Reform"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-stadtfeld",
+      "label": "Immobilienmakler Magdeburg-Stadtfeld"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-cracau",
+      "label": "Immobilienmakler Magdeburg-Cracau"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/halle",
+      "label": "Immobilienmakler Halle"
+    },
+    {
+      "href": "/chemnitz",
+      "label": "Immobilienmakler Chemnitz"
+    }
+  ]
+}

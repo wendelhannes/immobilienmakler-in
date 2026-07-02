@@ -1,0 +1,111 @@
+{
+  "slug": [
+    "leverkusen",
+    "immobilienmakler-biesenbach"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Leverkusen",
+  "stadtSlug": "leverkusen",
+  "stadtteil": "Biesenbach",
+  "h1": "Immobilienmakler in Leverkusen-Biesenbach",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Leverkusen-Biesenbach, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Foltin Immobilien",
+      "slug": "foltin-immobilien",
+      "url": "http://www.foltin-immobilien.de/",
+      "rating": 4.8,
+      "reviewsCount": 33,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Biesenbach",
+      "html": "<a href=\"http://www.foltin-immobilien.de/\" target=\"_blank\" rel=\"noopener\"><strong>Foltin Immobilien</strong></a> gehört mit 4.8 Sternen bei 33 Bewertungen zu den bestbewerteten Immobilienmaklern in Leverkusen. Mit einer Bewertung von 4,8 Sternen zählt das Unternehmen zu den gut bewerteten Immobilienmaklern in Leverkusen. Kunden berichten in ihren Erfahrungen übereinstimmend von kompetenter Beratung, freundlichem Auftreten und zuverlässiger Begleitung – sowohl bei der Vermietung als auch beim Immobilienkauf. Besonders hervorgehoben werden das schnelle Reagieren über verschiedene Kommunikationswege sowie der persönliche Einsatz, der auch über Leverkusen hinausgeht. Der Makler ist auf Wohnimmobilien spezialisiert und in Leverkusen-Biesenbach ansässig. Mehr zu <a href=\"/leverkusen/immobilienmakler-biesenbach\">Maklern in Leverkusen-Biesenbach</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Leverkusen-Biesenbach tätig?",
+      "a": "Foltin Immobilien ist mit 4.8 Sternen bei 33 Bewertungen in Leverkusen-Biesenbach vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Leverkusen – Stadtteil Biesenbach: Foltin Immobilien (4.8★, 33 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/leverkusen/haus-verkaufen",
+      "label": "Haus verkaufen Leverkusen"
+    },
+    {
+      "href": "/leverkusen/immobilienbewertung",
+      "label": "Immobilienbewertung Leverkusen"
+    },
+    {
+      "href": "/osnabrueck",
+      "label": "Immobilienmakler Osnabrück"
+    },
+    {
+      "href": "/oldenburg",
+      "label": "Immobilienmakler Oldenburg"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/leverkusen",
+      "label": "Immobilienmakler Leverkusen"
+    },
+    {
+      "href": "/leverkusen/haus-verkaufen",
+      "label": "Haus verkaufen Leverkusen"
+    },
+    {
+      "href": "/leverkusen/immobilienbewertung",
+      "label": "Immobilienbewertung Leverkusen"
+    },
+    {
+      "href": "/leverkusen/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Leverkusen"
+    },
+    {
+      "href": "/leverkusen/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Leverkusen"
+    },
+    {
+      "href": "/leverkusen/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Leverkusen"
+    },
+    {
+      "href": "/leverkusen/immobilienmakler-opladen",
+      "label": "Immobilienmakler Leverkusen-Opladen"
+    },
+    {
+      "href": "/leverkusen/immobilienmakler-schlebusch",
+      "label": "Immobilienmakler Leverkusen-Schlebusch"
+    },
+    {
+      "href": "/leverkusen/immobilienmakler-bergisch",
+      "label": "Immobilienmakler Leverkusen-Bergisch"
+    },
+    {
+      "href": "/leverkusen/immobilienmakler-biesenbach",
+      "label": "Immobilienmakler Leverkusen-Biesenbach"
+    },
+    {
+      "href": "/leverkusen/immobilienmakler-quettingen",
+      "label": "Immobilienmakler Leverkusen-Quettingen"
+    },
+    {
+      "href": "/leverkusen/immobilienmakler-luetzenkirchen",
+      "label": "Immobilienmakler Leverkusen-Lützenkirchen"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/osnabrueck",
+      "label": "Immobilienmakler Osnabrück"
+    },
+    {
+      "href": "/oldenburg",
+      "label": "Immobilienmakler Oldenburg"
+    }
+  ]
+}

@@ -24,6 +24,17 @@ function slugToFile(citySlug: string, rest: string[]): string {
   return `${intentOrStadtteil}.json`;
 }
 
+// Slugs aller Städte, die tatsächlich generierten Content haben.
+// Verhindert, dass Startseite/Footer auf noch nicht erzeugte Städte verlinken.
+export function getAvailableCitySlugs(): Set<string> {
+  if (!fs.existsSync(CONTENT_DIR)) return new Set();
+  return new Set(
+    fs
+      .readdirSync(CONTENT_DIR)
+      .filter((f) => fs.statSync(path.join(CONTENT_DIR, f)).isDirectory())
+  );
+}
+
 export function getAllSlugs(): string[][] {
   if (!fs.existsSync(CONTENT_DIR)) return [];
   const slugs: string[][] = [];

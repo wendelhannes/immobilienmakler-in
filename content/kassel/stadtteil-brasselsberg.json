@@ -1,0 +1,111 @@
+{
+  "slug": [
+    "kassel",
+    "immobilienmakler-brasselsberg"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Kassel",
+  "stadtSlug": "kassel",
+  "stadtteil": "Brasselsberg",
+  "h1": "Immobilienmakler in Kassel-Brasselsberg",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Kassel-Brasselsberg, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Kurhessen Immobilien GmbH",
+      "slug": "kurhessen-immobilien-gmbh",
+      "url": "https://kurhessen-immobilien.de/",
+      "rating": 5,
+      "reviewsCount": 20,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Brasselsberg",
+      "html": "<a href=\"https://kurhessen-immobilien.de/\" target=\"_blank\" rel=\"noopener\"><strong>Kurhessen Immobilien GmbH</strong></a> gehört mit 5 Sternen bei 20 Bewertungen zu den bestbewerteten Immobilienmaklern in Kassel. Die Erfahrungen und Bewertungen als Immobilienmakler Kassel zeigen: Frau Moog überzeugt Kunden durch ihre konstante Erreichbarkeit, fundiertes Fachwissen und kompetente Beratung – von der ersten Besichtigung bis weit über die Beurkundung hinaus. Besonders hervorgehoben werden ihre souveräne Begleitung auch in außergewöhnlichen Situationen sowie die umfassende Betreuung rund um Kauf, Verkauf und Finanzierung. Der Makler ist auf Wohnimmobilien spezialisiert und in Kassel-Brasselsberg ansässig. Mehr zu <a href=\"/kassel/immobilienmakler-brasselsberg\">Maklern in Kassel-Brasselsberg</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Kassel-Brasselsberg tätig?",
+      "a": "Kurhessen Immobilien GmbH ist mit 5 Sternen bei 20 Bewertungen in Kassel-Brasselsberg vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Kassel – Stadtteil Brasselsberg: Kurhessen Immobilien GmbH (5★, 20 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/kassel/haus-verkaufen",
+      "label": "Haus verkaufen Kassel"
+    },
+    {
+      "href": "/kassel/immobilienbewertung",
+      "label": "Immobilienbewertung Kassel"
+    },
+    {
+      "href": "/rostock",
+      "label": "Immobilienmakler Rostock"
+    },
+    {
+      "href": "/oberhausen",
+      "label": "Immobilienmakler Oberhausen"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/kassel",
+      "label": "Immobilienmakler Kassel"
+    },
+    {
+      "href": "/kassel/haus-verkaufen",
+      "label": "Haus verkaufen Kassel"
+    },
+    {
+      "href": "/kassel/immobilienbewertung",
+      "label": "Immobilienbewertung Kassel"
+    },
+    {
+      "href": "/kassel/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Kassel"
+    },
+    {
+      "href": "/kassel/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Kassel"
+    },
+    {
+      "href": "/kassel/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Kassel"
+    },
+    {
+      "href": "/kassel/immobilienmakler-bad",
+      "label": "Immobilienmakler Kassel-Bad"
+    },
+    {
+      "href": "/kassel/immobilienmakler-unterneustadt",
+      "label": "Immobilienmakler Kassel-Unterneustadt"
+    },
+    {
+      "href": "/kassel/immobilienmakler-brasselsberg",
+      "label": "Immobilienmakler Kassel-Brasselsberg"
+    },
+    {
+      "href": "/kassel/immobilienmakler-harleshausen",
+      "label": "Immobilienmakler Kassel-Harleshausen"
+    },
+    {
+      "href": "/kassel/immobilienmakler-kirchditmold",
+      "label": "Immobilienmakler Kassel-Kirchditmold"
+    },
+    {
+      "href": "/kassel/immobilienmakler-jungfernkopf",
+      "label": "Immobilienmakler Kassel-Jungfernkopf"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/rostock",
+      "label": "Immobilienmakler Rostock"
+    },
+    {
+      "href": "/oberhausen",
+      "label": "Immobilienmakler Oberhausen"
+    }
+  ]
+}

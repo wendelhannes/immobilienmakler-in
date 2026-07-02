@@ -1,0 +1,91 @@
+{
+  "slug": [
+    "aachen",
+    "immobilienmakler-brand"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Aachen",
+  "stadtSlug": "aachen",
+  "stadtteil": "Brand",
+  "h1": "Immobilienmakler in Aachen-Brand",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Aachen-Brand, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Peter Dondorf Immobilien",
+      "slug": "peter-dondorf-immobilien",
+      "url": "https://www.dondorf.de/",
+      "rating": 4.9,
+      "reviewsCount": 209,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Brand",
+      "html": "<a href=\"https://www.dondorf.de/\" target=\"_blank\" rel=\"noopener\"><strong>Peter Dondorf Immobilien</strong></a> gehört mit 4.9 Sternen bei 209 Bewertungen zu den bestbewerteten Immobilienmaklern in Aachen. Mit einer Bewertung von 4,9 Sternen bei über 200 Bewertungen zählt dieser Immobilienmakler in Aachen zu den bestbewerteten der Region. Die Erfahrungen der Kunden zeigen durchgehend eine professionelle, freundliche und unkomplizierte Betreuung – von der ersten Beratung bis zur Übergabe. Besonders hervorgehoben werden Zuverlässigkeit, schnelle Reaktionszeiten und persönliches Engagement. Der Makler ist auf Wohnimmobilien spezialisiert und in Aachen-Brand ansässig. Mehr zu <a href=\"/aachen/immobilienmakler-brand\">Maklern in Aachen-Brand</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Aachen-Brand tätig?",
+      "a": "Peter Dondorf Immobilien ist mit 4.9 Sternen bei 209 Bewertungen in Aachen-Brand vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Aachen – Stadtteil Brand: Peter Dondorf Immobilien (4.9★, 209 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/aachen/haus-verkaufen",
+      "label": "Haus verkaufen Aachen"
+    },
+    {
+      "href": "/aachen/immobilienbewertung",
+      "label": "Immobilienbewertung Aachen"
+    },
+    {
+      "href": "/gelsenkirchen",
+      "label": "Immobilienmakler Gelsenkirchen"
+    },
+    {
+      "href": "/moenchengladbach",
+      "label": "Immobilienmakler Mönchengladbach"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/aachen",
+      "label": "Immobilienmakler Aachen"
+    },
+    {
+      "href": "/aachen/haus-verkaufen",
+      "label": "Haus verkaufen Aachen"
+    },
+    {
+      "href": "/aachen/immobilienbewertung",
+      "label": "Immobilienbewertung Aachen"
+    },
+    {
+      "href": "/aachen/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Aachen"
+    },
+    {
+      "href": "/aachen/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Aachen"
+    },
+    {
+      "href": "/aachen/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Aachen"
+    },
+    {
+      "href": "/aachen/immobilienmakler-brand",
+      "label": "Immobilienmakler Aachen-Brand"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/gelsenkirchen",
+      "label": "Immobilienmakler Gelsenkirchen"
+    },
+    {
+      "href": "/moenchengladbach",
+      "label": "Immobilienmakler Mönchengladbach"
+    }
+  ]
+}

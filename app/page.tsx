@@ -1,9 +1,14 @@
 import Link from "next/link";
 import cityList from "@/data/city-list.json";
 import CtaSection from "@/components/CtaSection";
+import Byline from "@/components/Byline";
+import { getAvailableCitySlugs } from "@/lib/get-page-data";
 
 type City = { name: string; slug: string; bundesland: string; einwohner: number };
-const cities = cityList as City[];
+
+// Nur Städte mit tatsächlich generiertem Content anzeigen (keine 404-Links).
+const availableSlugs = getAvailableCitySlugs();
+const cities = (cityList as City[]).filter((c) => availableSlugs.has(c.slug));
 
 /* ── Leistungen: SEO & GEO für Immobilienmakler ── */
 const LEISTUNGEN = [
@@ -150,6 +155,7 @@ export default function HomePage() {
     areaServed: "DE",
     description:
       "SEO- und GEO-Optimierung für Immobilienmakler: mehr Sichtbarkeit bei Google und in KI-Suchassistenten wie ChatGPT, Gemini und Perplexity.",
+    provider: { "@id": "https://immobilienmakler-in.com/#organization" },
   };
 
   return (
@@ -197,6 +203,7 @@ export default function HomePage() {
                 Kostenlose Erstanalyse &middot; unverbindlich &middot; Google- &amp;
                 KI-Sichtbarkeit in einem Report
               </p>
+              <Byline />
             </div>
 
             {/* KI-Antwort-Visual */}

@@ -1,8 +1,12 @@
 import Link from "next/link";
 import cityList from "@/data/city-list.json";
+import { getAvailableCitySlugs } from "@/lib/get-page-data";
 
 export default function Footer() {
-  const topCities = (cityList as { name: string; slug: string }[]).slice(0, 8);
+  const availableSlugs = getAvailableCitySlugs();
+  const topCities = (cityList as { name: string; slug: string }[])
+    .filter((c) => availableSlugs.has(c.slug))
+    .slice(0, 8);
 
   return (
     <footer className="site-footer">

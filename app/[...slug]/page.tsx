@@ -7,8 +7,28 @@ import Breadcrumb, { type Crumb } from "@/components/Breadcrumb";
 import MaklerTable from "@/components/MaklerTable";
 import FaqSection from "@/components/FaqSection";
 import CtaSection from "@/components/CtaSection";
+import Byline from "@/components/Byline";
+import { ORGANIZATION, isoDate } from "@/lib/site";
 
 const DOMAIN = "https://immobilienmakler-in.com";
+
+// Datengetriebener, pro Stadt einzigartiger Überblick (Stat-Density + Anti-Duplicate).
+function buildMarktueberblick(page: PageData): string | null {
+  const m = page.makler_summaries;
+  if (m.length === 0) return null;
+  const totalReviews = m.reduce((sum, x) => sum + (x.reviewsCount || 0), 0);
+  const avg = m.reduce((sum, x) => sum + (x.rating || 0), 0) / m.length;
+  const avgStr = avg.toFixed(1).replace(".", ",");
+  const top = m[0];
+  const topRating = top.rating.toFixed(1).replace(".", ",");
+  return (
+    `Für ${page.stadt} haben wir ${m.length} Immobilienmakler anhand von insgesamt ` +
+    `${totalReviews.toLocaleString("de-DE")} Google-Bewertungen ausgewertet. ` +
+    `Der Bewertungsschnitt der gelisteten Büros liegt bei ${avgStr} von 5 Sternen. ` +
+    `Am besten bewertet ist aktuell ${top.name} mit ${topRating} Sternen aus ` +
+    `${top.reviewsCount.toLocaleString("de-DE")} Bewertungen.`
+  );
+}
 
 const SUBPAGE_LABEL: Record<string, string> = {
   "haus-verkaufen": "Haus verkaufen",
@@ -71,6 +91,7 @@ export default function Page({ params }: { params: { slug: string[] } }) {
   const path = `/${page.slug.join("/")}`;
   const url = `${DOMAIN}${path}`;
   const crumbs = buildCrumbs(page);
+  const marktueberblick = buildMarktueberblick(page);
 
   const faqSchema =
     page.faq.length > 0
@@ -118,6 +139,11 @@ export default function Page({ params }: { params: { slug: string[] } }) {
     description: page.intro,
     url,
     inLanguage: "de-DE",
+    dateModified: isoDate(),
+    lastReviewed: isoDate(),
+    isPartOf: { "@id": `${DOMAIN}/#website` },
+    author: ORGANIZATION,
+    publisher: { "@id": `${DOMAIN}/#organization` },
   };
 
   const breadcrumbSchema = {
@@ -174,7 +200,16 @@ export default function Page({ params }: { params: { slug: string[] } }) {
           <div className="tag">Makler-Vergleich {page.jahr}</div>
           <h1>{page.h1}</h1>
           <p className="desc">{page.intro}</p>
+          <Byline />
         </header>
+
+        {/* ── MARKTÜBERBLICK (Answer-Capsule, pro Stadt einzigartig) ── */}
+        {marktueberblick && (
+          <div className="quick-answer reveal">
+            <span className="qa-label">Überblick {page.stadt}</span>
+            <p>{marktueberblick}</p>
+          </div>
+        )}
 
         {/* ── HOWTO ── */}
         {page.isHowTo && page.howToSteps && (

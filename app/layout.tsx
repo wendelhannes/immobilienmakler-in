@@ -5,6 +5,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import RevealInit from "@/components/RevealInit";
+import { ORGANIZATION } from "@/lib/site";
 import "./globals.css";
 
 const serif = Newsreader({
@@ -53,18 +54,14 @@ export const metadata: Metadata = {
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "Organization",
-      name: "immobilienmakler-in.com",
-      url: SITE,
-      description:
-        "Unabhängiger Vergleich der bestbewerteten Immobilienmakler in deutschen Städten auf Basis echter Google-Bewertungen.",
-    },
+    ORGANIZATION,
     {
       "@type": "WebSite",
+      "@id": `${SITE}/#website`,
       name: "immobilienmakler-in.com",
       url: SITE,
       inLanguage: "de-DE",
+      publisher: { "@id": `${SITE}/#organization` },
     },
   ],
 };
@@ -87,6 +84,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main>{children}</main>
         <Footer />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

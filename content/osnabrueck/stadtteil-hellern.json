@@ -1,0 +1,99 @@
+{
+  "slug": [
+    "osnabrueck",
+    "immobilienmakler-hellern"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Osnabrück",
+  "stadtSlug": "osnabrueck",
+  "stadtteil": "Hellern",
+  "h1": "Immobilienmakler in Osnabrück-Hellern",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Osnabrück-Hellern, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Beckmann Immobilien",
+      "slug": "beckmann-immobilien",
+      "url": "https://www.beckmann-immobilien.eu/",
+      "rating": 4.8,
+      "reviewsCount": 44,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Hellern",
+      "html": "<a href=\"https://www.beckmann-immobilien.eu/\" target=\"_blank\" rel=\"noopener\"><strong>Beckmann Immobilien</strong></a> gehört mit 4.8 Sternen bei 44 Bewertungen zu den bestbewerteten Immobilienmaklern in Osnabrück. Beckmann Immobilien überzeugt als Immobilienmakler in Osnabrück laut Kundenbewertungen durch langjährige Erfahrung, schnelle Kommunikation und konstante Erreichbarkeit. Die Erfahrungen der Kunden heben besonders die professionelle Begleitung beim Kauf, Verkauf und der Vermietung sowie fundierte Marktkenntnisse hervor. Mehrere Kunden berichten von einem reibungslosen Ablauf und empfehlen das Büro ausdrücklich weiter. Der Makler ist auf Wohnimmobilien spezialisiert und in Osnabrück-Hellern ansässig. Mehr zu <a href=\"/osnabrueck/immobilienmakler-hellern\">Maklern in Osnabrück-Hellern</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Osnabrück-Hellern tätig?",
+      "a": "Beckmann Immobilien ist mit 4.8 Sternen bei 44 Bewertungen in Osnabrück-Hellern vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Osnabrück – Stadtteil Hellern: Beckmann Immobilien (4.8★, 44 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/osnabrueck/haus-verkaufen",
+      "label": "Haus verkaufen Osnabrück"
+    },
+    {
+      "href": "/osnabrueck/immobilienbewertung",
+      "label": "Immobilienbewertung Osnabrück"
+    },
+    {
+      "href": "/oldenburg",
+      "label": "Immobilienmakler Oldenburg"
+    },
+    {
+      "href": "/ludwigshafen",
+      "label": "Immobilienmakler Ludwigshafen"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/osnabrueck",
+      "label": "Immobilienmakler Osnabrück"
+    },
+    {
+      "href": "/osnabrueck/haus-verkaufen",
+      "label": "Haus verkaufen Osnabrück"
+    },
+    {
+      "href": "/osnabrueck/immobilienbewertung",
+      "label": "Immobilienbewertung Osnabrück"
+    },
+    {
+      "href": "/osnabrueck/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Osnabrück"
+    },
+    {
+      "href": "/osnabrueck/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Osnabrück"
+    },
+    {
+      "href": "/osnabrueck/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Osnabrück"
+    },
+    {
+      "href": "/osnabrueck/immobilienmakler-westerberg",
+      "label": "Immobilienmakler Osnabrück-Westerberg"
+    },
+    {
+      "href": "/osnabrueck/immobilienmakler-hellern",
+      "label": "Immobilienmakler Osnabrück-Hellern"
+    },
+    {
+      "href": "/osnabrueck/immobilienmakler-hafen",
+      "label": "Immobilienmakler Osnabrück-Hafen"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/oldenburg",
+      "label": "Immobilienmakler Oldenburg"
+    },
+    {
+      "href": "/ludwigshafen",
+      "label": "Immobilienmakler Ludwigshafen"
+    }
+  ]
+}

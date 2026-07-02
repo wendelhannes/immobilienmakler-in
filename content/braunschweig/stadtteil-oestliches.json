@@ -1,0 +1,95 @@
+{
+  "slug": [
+    "braunschweig",
+    "immobilienmakler-oestliches"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Braunschweig",
+  "stadtSlug": "braunschweig",
+  "stadtteil": "Östliches",
+  "h1": "Immobilienmakler in Braunschweig-Östliches",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Braunschweig-Östliches, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "von Wülfing Immobilien - Braunschweig",
+      "slug": "von-wuelfing-immobilien-braunschweig",
+      "url": "http://www.von-wuelfing-immobilien.de/braunschweig/",
+      "rating": 4.7,
+      "reviewsCount": 111,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Östliches",
+      "html": "<a href=\"http://www.von-wuelfing-immobilien.de/braunschweig/\" target=\"_blank\" rel=\"noopener\"><strong>von Wülfing Immobilien - Braunschweig</strong></a> gehört mit 4.7 Sternen bei 111 Bewertungen zu den bestbewerteten Immobilienmaklern in Braunschweig. Mit 4,7 von 5 Sternen bei 111 Bewertungen zählt dieser Immobilienmakler Braunschweig laut Kundenerfahrungen zu den gefragten Anlaufstellen für Wohnimmobilien. Die Bewertungen loben besonders die professionelle und freundliche Beratung – namentlich durch Frau Kalman und Frau Kowollik – sowie die reibungslose Abwicklung bei Kauf und Vermietung. Vereinzelte negative Erfahrungen rund um Terminorganisation werden in den Bewertungen ebenfalls erwähnt. Der Makler ist auf Wohnimmobilien spezialisiert und in Braunschweig-Östliches ansässig. Mehr zu <a href=\"/braunschweig/immobilienmakler-oestliches\">Maklern in Braunschweig-Östliches</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Braunschweig-Östliches tätig?",
+      "a": "von Wülfing Immobilien - Braunschweig ist mit 4.7 Sternen bei 111 Bewertungen in Braunschweig-Östliches vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Braunschweig – Stadtteil Östliches: von Wülfing Immobilien - Braunschweig (4.7★, 111 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/braunschweig/haus-verkaufen",
+      "label": "Haus verkaufen Braunschweig"
+    },
+    {
+      "href": "/braunschweig/immobilienbewertung",
+      "label": "Immobilienbewertung Braunschweig"
+    },
+    {
+      "href": "/gelsenkirchen",
+      "label": "Immobilienmakler Gelsenkirchen"
+    },
+    {
+      "href": "/moenchengladbach",
+      "label": "Immobilienmakler Mönchengladbach"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/braunschweig",
+      "label": "Immobilienmakler Braunschweig"
+    },
+    {
+      "href": "/braunschweig/haus-verkaufen",
+      "label": "Haus verkaufen Braunschweig"
+    },
+    {
+      "href": "/braunschweig/immobilienbewertung",
+      "label": "Immobilienbewertung Braunschweig"
+    },
+    {
+      "href": "/braunschweig/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Braunschweig"
+    },
+    {
+      "href": "/braunschweig/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Braunschweig"
+    },
+    {
+      "href": "/braunschweig/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Braunschweig"
+    },
+    {
+      "href": "/braunschweig/immobilienmakler-viewegs",
+      "label": "Immobilienmakler Braunschweig-Viewegs"
+    },
+    {
+      "href": "/braunschweig/immobilienmakler-oestliches",
+      "label": "Immobilienmakler Braunschweig-Östliches"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/gelsenkirchen",
+      "label": "Immobilienmakler Gelsenkirchen"
+    },
+    {
+      "href": "/moenchengladbach",
+      "label": "Immobilienmakler Mönchengladbach"
+    }
+  ]
+}

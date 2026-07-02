@@ -1,0 +1,95 @@
+{
+  "slug": [
+    "krefeld",
+    "immobilienmakler-uerdingen"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Krefeld",
+  "stadtSlug": "krefeld",
+  "stadtteil": "Uerdingen",
+  "h1": "Immobilienmakler in Krefeld-Uerdingen",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Krefeld-Uerdingen, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Leifeld Immobilien",
+      "slug": "leifeld-immobilien",
+      "url": "https://www.leifeld-immobilien.de/",
+      "rating": 5,
+      "reviewsCount": 16,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Uerdingen",
+      "html": "<a href=\"https://www.leifeld-immobilien.de/\" target=\"_blank\" rel=\"noopener\"><strong>Leifeld Immobilien</strong></a> gehört mit 5 Sternen bei 16 Bewertungen zu den bestbewerteten Immobilienmaklern in Krefeld. Kunden beschreiben in ihren Erfahrungen und Bewertungen zum Immobilienmakler Krefeld vor allem die Sachkompetenz, Zuverlässigkeit und schnelle Erreichbarkeit von Frau Leifeld – Rückfragen werden teils innerhalb von Minuten beantwortet. Sie begleitet sowohl Kauf- als auch Verkaufsprozesse vollständig und kümmert sich dabei fair um die Interessen beider Parteien. Der Makler ist auf Wohnimmobilien spezialisiert und in Krefeld-Uerdingen ansässig. Mehr zu <a href=\"/krefeld/immobilienmakler-uerdingen\">Maklern in Krefeld-Uerdingen</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Krefeld-Uerdingen tätig?",
+      "a": "Leifeld Immobilien ist mit 5 Sternen bei 16 Bewertungen in Krefeld-Uerdingen vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Krefeld – Stadtteil Uerdingen: Leifeld Immobilien (5★, 16 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/krefeld/haus-verkaufen",
+      "label": "Haus verkaufen Krefeld"
+    },
+    {
+      "href": "/krefeld/immobilienbewertung",
+      "label": "Immobilienbewertung Krefeld"
+    },
+    {
+      "href": "/freiburg",
+      "label": "Immobilienmakler Freiburg"
+    },
+    {
+      "href": "/magdeburg",
+      "label": "Immobilienmakler Magdeburg"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/krefeld",
+      "label": "Immobilienmakler Krefeld"
+    },
+    {
+      "href": "/krefeld/haus-verkaufen",
+      "label": "Haus verkaufen Krefeld"
+    },
+    {
+      "href": "/krefeld/immobilienbewertung",
+      "label": "Immobilienbewertung Krefeld"
+    },
+    {
+      "href": "/krefeld/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Krefeld"
+    },
+    {
+      "href": "/krefeld/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Krefeld"
+    },
+    {
+      "href": "/krefeld/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Krefeld"
+    },
+    {
+      "href": "/krefeld/immobilienmakler-uerdingen",
+      "label": "Immobilienmakler Krefeld-Uerdingen"
+    },
+    {
+      "href": "/krefeld/immobilienmakler-bockum",
+      "label": "Immobilienmakler Krefeld-Bockum"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/freiburg",
+      "label": "Immobilienmakler Freiburg"
+    },
+    {
+      "href": "/magdeburg",
+      "label": "Immobilienmakler Magdeburg"
+    }
+  ]
+}

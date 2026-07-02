@@ -1,0 +1,111 @@
+{
+  "slug": [
+    "magdeburg",
+    "immobilienmakler-stadtfeld"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Magdeburg",
+  "stadtSlug": "magdeburg",
+  "stadtteil": "Stadtfeld",
+  "h1": "Immobilienmakler in Magdeburg-Stadtfeld",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Magdeburg-Stadtfeld, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Sens Immobilien",
+      "slug": "sens-immobilien",
+      "url": "http://www.sensimmobilien.de/",
+      "rating": 4.9,
+      "reviewsCount": 51,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Stadtfeld",
+      "html": "<a href=\"http://www.sensimmobilien.de/\" target=\"_blank\" rel=\"noopener\"><strong>Sens Immobilien</strong></a> gehört mit 4.9 Sternen bei 51 Bewertungen zu den bestbewerteten Immobilienmaklern in Magdeburg. Mit einer Bewertung von 4,9 Sternen bei 51 Bewertungen zählt Sens Immobilien zu den bestbewerteten Immobilienmaklern in Magdeburg. Kunden berichten in ihren Erfahrungen durchgehend von schneller, unkomplizierter Kommunikation, zuverlässiger Erreichbarkeit und professioneller Begleitung – von der Besichtigung bis zur Vertragsunterzeichnung. Besonders positiv wird hervorgehoben, dass Fragen auch noch nach Vertragsabschluss kompetent beantwortet wurden. Der Makler ist auf Wohnimmobilien spezialisiert und in Magdeburg-Stadtfeld ansässig. Mehr zu <a href=\"/magdeburg/immobilienmakler-stadtfeld\">Maklern in Magdeburg-Stadtfeld</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Magdeburg-Stadtfeld tätig?",
+      "a": "Sens Immobilien ist mit 4.9 Sternen bei 51 Bewertungen in Magdeburg-Stadtfeld vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Magdeburg – Stadtteil Stadtfeld: Sens Immobilien (4.9★, 51 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/magdeburg/haus-verkaufen",
+      "label": "Haus verkaufen Magdeburg"
+    },
+    {
+      "href": "/magdeburg/immobilienbewertung",
+      "label": "Immobilienbewertung Magdeburg"
+    },
+    {
+      "href": "/halle",
+      "label": "Immobilienmakler Halle"
+    },
+    {
+      "href": "/chemnitz",
+      "label": "Immobilienmakler Chemnitz"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/magdeburg",
+      "label": "Immobilienmakler Magdeburg"
+    },
+    {
+      "href": "/magdeburg/haus-verkaufen",
+      "label": "Haus verkaufen Magdeburg"
+    },
+    {
+      "href": "/magdeburg/immobilienbewertung",
+      "label": "Immobilienbewertung Magdeburg"
+    },
+    {
+      "href": "/magdeburg/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Magdeburg"
+    },
+    {
+      "href": "/magdeburg/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Magdeburg"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Magdeburg"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-altstadt",
+      "label": "Immobilienmakler Magdeburg-Altstadt"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-ottersleben",
+      "label": "Immobilienmakler Magdeburg-Ottersleben"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-sudenburg",
+      "label": "Immobilienmakler Magdeburg-Sudenburg"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-reform",
+      "label": "Immobilienmakler Magdeburg-Reform"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-stadtfeld",
+      "label": "Immobilienmakler Magdeburg-Stadtfeld"
+    },
+    {
+      "href": "/magdeburg/immobilienmakler-cracau",
+      "label": "Immobilienmakler Magdeburg-Cracau"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/halle",
+      "label": "Immobilienmakler Halle"
+    },
+    {
+      "href": "/chemnitz",
+      "label": "Immobilienmakler Chemnitz"
+    }
+  ]
+}

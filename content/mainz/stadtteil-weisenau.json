@@ -1,0 +1,95 @@
+{
+  "slug": [
+    "mainz",
+    "immobilienmakler-weisenau"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Mainz",
+  "stadtSlug": "mainz",
+  "stadtteil": "Weisenau",
+  "h1": "Immobilienmakler in Mainz-Weisenau",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Mainz-Weisenau, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Dierk Reichelt Immobilien IVD",
+      "slug": "dierk-reichelt-immobilien-ivd",
+      "url": "http://www.reichelt-immobilien.de/",
+      "rating": 5,
+      "reviewsCount": 84,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Weisenau",
+      "html": "<a href=\"http://www.reichelt-immobilien.de/\" target=\"_blank\" rel=\"noopener\"><strong>Dierk Reichelt Immobilien IVD</strong></a> gehört mit 5 Sternen bei 84 Bewertungen zu den bestbewerteten Immobilienmaklern in Mainz. Mit 84 Bewertungen und 5 Sternen zählt er zu den bestbewerteten Immobilienmaklern in Mainz. Kunden heben in ihren Erfahrungen besonders die empathische, ruhige Art, die ausführliche Beratung bei Besichtigungen sowie die transparente Kommunikation während des gesamten Verkaufsprozesses hervor. Auch die zuverlässige Erreichbarkeit und das konsequente Berichtswesen werden in den Bewertungen wiederholt positiv erwähnt. Der Makler ist auf Wohnimmobilien spezialisiert und in Mainz-Weisenau ansässig. Mehr zu <a href=\"/mainz/immobilienmakler-weisenau\">Maklern in Mainz-Weisenau</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Mainz-Weisenau tätig?",
+      "a": "Dierk Reichelt Immobilien IVD ist mit 5 Sternen bei 84 Bewertungen in Mainz-Weisenau vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Mainz – Stadtteil Weisenau: Dierk Reichelt Immobilien IVD (5★, 84 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/mainz/haus-verkaufen",
+      "label": "Haus verkaufen Mainz"
+    },
+    {
+      "href": "/mainz/immobilienbewertung",
+      "label": "Immobilienbewertung Mainz"
+    },
+    {
+      "href": "/krefeld",
+      "label": "Immobilienmakler Krefeld"
+    },
+    {
+      "href": "/freiburg",
+      "label": "Immobilienmakler Freiburg"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/mainz",
+      "label": "Immobilienmakler Mainz"
+    },
+    {
+      "href": "/mainz/haus-verkaufen",
+      "label": "Haus verkaufen Mainz"
+    },
+    {
+      "href": "/mainz/immobilienbewertung",
+      "label": "Immobilienbewertung Mainz"
+    },
+    {
+      "href": "/mainz/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Mainz"
+    },
+    {
+      "href": "/mainz/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Mainz"
+    },
+    {
+      "href": "/mainz/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Mainz"
+    },
+    {
+      "href": "/mainz/immobilienmakler-weisenau",
+      "label": "Immobilienmakler Mainz-Weisenau"
+    },
+    {
+      "href": "/mainz/immobilienmakler-gonsenheim",
+      "label": "Immobilienmakler Mainz-Gonsenheim"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/krefeld",
+      "label": "Immobilienmakler Krefeld"
+    },
+    {
+      "href": "/freiburg",
+      "label": "Immobilienmakler Freiburg"
+    }
+  ]
+}

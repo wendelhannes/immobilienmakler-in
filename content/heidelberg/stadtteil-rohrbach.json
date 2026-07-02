@@ -1,0 +1,99 @@
+{
+  "slug": [
+    "heidelberg",
+    "immobilienmakler-rohrbach"
+  ],
+  "pageType": "stadtteil",
+  "stadt": "Heidelberg",
+  "stadtSlug": "heidelberg",
+  "stadtteil": "Rohrbach",
+  "h1": "Immobilienmakler in Heidelberg-Rohrbach",
+  "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Heidelberg-Rohrbach, im Vergleich mit Bewertungen und Spezialisierung.",
+  "jahr": 2026,
+  "makler_summaries": [
+    {
+      "name": "Emig & Partner Immobilien & Finanzberatung",
+      "slug": "emig-partner-immobilien-finanzberatung",
+      "url": "https://www.emig-immobilien.de/",
+      "rating": 4.9,
+      "reviewsCount": 43,
+      "spezialisierung": "Wohnimmobilien",
+      "stadtteil": "Rohrbach",
+      "html": "<a href=\"https://www.emig-immobilien.de/\" target=\"_blank\" rel=\"noopener\"><strong>Emig & Partner Immobilien & Finanzberatung</strong></a> gehört mit 4.9 Sternen bei 43 Bewertungen zu den bestbewerteten Immobilienmaklern in Heidelberg. Als Immobilienmakler Heidelberg überzeugt Emig & Partner laut Kundenbewertungen durch tiefes Fachwissen rund um Finanzierung und technische Objektdetails, schnelle Erreichbarkeit sowie eine persönliche und geduldige Beratung. Die Erfahrungen der Kunden zeigen, dass er sich von der ersten Besichtigung bis zum Notartermin zuverlässig engagiert und auch schwer verkäufliche Objekte zügig vermittelt. Der Makler ist auf Wohnimmobilien spezialisiert und in Heidelberg-Rohrbach ansässig. Mehr zu <a href=\"/heidelberg/immobilienmakler-rohrbach\">Maklern in Heidelberg-Rohrbach</a>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welcher Makler ist in Heidelberg-Rohrbach tätig?",
+      "a": "Emig & Partner Immobilien & Finanzberatung ist mit 4.9 Sternen bei 43 Bewertungen in Heidelberg-Rohrbach vertreten."
+    }
+  ],
+  "aiCopy": "Immobilienmakler in Heidelberg – Stadtteil Rohrbach: Emig & Partner Immobilien & Finanzberatung (4.9★, 43 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "isHowTo": false,
+  "related": [
+    {
+      "href": "/heidelberg/haus-verkaufen",
+      "label": "Haus verkaufen Heidelberg"
+    },
+    {
+      "href": "/heidelberg/immobilienbewertung",
+      "label": "Immobilienbewertung Heidelberg"
+    },
+    {
+      "href": "/leverkusen",
+      "label": "Immobilienmakler Leverkusen"
+    },
+    {
+      "href": "/osnabrueck",
+      "label": "Immobilienmakler Osnabrück"
+    }
+  ],
+  "internalLinksGrid": [
+    {
+      "href": "/heidelberg",
+      "label": "Immobilienmakler Heidelberg"
+    },
+    {
+      "href": "/heidelberg/haus-verkaufen",
+      "label": "Haus verkaufen Heidelberg"
+    },
+    {
+      "href": "/heidelberg/immobilienbewertung",
+      "label": "Immobilienbewertung Heidelberg"
+    },
+    {
+      "href": "/heidelberg/was-kostet-ein-immobilienmakler",
+      "label": "Was kostet ein Immobilienmakler? Heidelberg"
+    },
+    {
+      "href": "/heidelberg/wie-finde-ich-einen-guten-immobilienmakler",
+      "label": "Wie finde ich einen guten Immobilienmakler? Heidelberg"
+    },
+    {
+      "href": "/heidelberg/immobilienmakler-oder-privat-verkaufen",
+      "label": "Makler oder privat verkaufen? Heidelberg"
+    },
+    {
+      "href": "/heidelberg/immobilienmakler-altstadt",
+      "label": "Immobilienmakler Heidelberg-Altstadt"
+    },
+    {
+      "href": "/heidelberg/immobilienmakler-handschuhsheimer",
+      "label": "Immobilienmakler Heidelberg-Handschuhsheimer"
+    },
+    {
+      "href": "/heidelberg/immobilienmakler-rohrbach",
+      "label": "Immobilienmakler Heidelberg-Rohrbach"
+    }
+  ],
+  "crossCityLinks": [
+    {
+      "href": "/leverkusen",
+      "label": "Immobilienmakler Leverkusen"
+    },
+    {
+      "href": "/osnabrueck",
+      "label": "Immobilienmakler Osnabrück"
+    }
+  ]
+}
