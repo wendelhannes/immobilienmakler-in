@@ -35,11 +35,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE),
   title: {
     default:
-      "Immobilienmakler-Vergleich für deutsche Städte | immobilienmakler-in.com",
+      "Immobilienmakler-Vergleich & Sichtbarkeit für Makler",
     template: "%s | immobilienmakler-in.com",
   },
   description:
-    "Die bestbewerteten Immobilienmakler in deutschen Städten im Vergleich – auf Basis echter Google-Bewertungen. Ratgeber zu Hausverkauf, Immobilienbewertung und Maklerprovision.",
+    "Alle Immobilienmakler in Deutschland im Vergleich nach Städten + Ratgeber. SEO & GEO-Optimierung für Immobilienmakler und kostenloser SEO/GEO-Checker",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
