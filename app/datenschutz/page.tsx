@@ -139,6 +139,40 @@ export default function DatenschutzPage() {
         Interesse an der Bearbeitung Ihrer Anfrage).
       </p>
 
+      <h2>Sichtbarkeits-Check &amp; ausführlicher Report</h2>
+      <p>
+        Auf der Seite „Sichtbarkeits-Check" können Sie zunächst anonym die URL Ihrer
+        Website eingeben, um einen kostenlosen technischen Sofort-Check zu erhalten.
+        Dabei rufen wir öffentlich zugängliche Inhalte der angegebenen Website ab
+        (z. B. Startseite, robots.txt, llms.txt, sitemap.xml) und werten sie technisch
+        aus. Es werden hierfür keine personenbezogenen Daten von Ihnen benötigt.
+      </p>
+      <p>
+        Für den <strong>ausführlichen Report</strong> erheben wir die von Ihnen im
+        Formular angegebenen Daten (Vor- und Nachname, Firma, E-Mail-Adresse,
+        Telefonnummer und Website). Diese verwenden wir, um den Report zu erstellen und
+        Ihnen per E-Mail zuzusenden sowie um Sie ggf. zu Ihrem Anliegen zu kontaktieren.
+        Rechtsgrundlage ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sowie
+        Art. 6 Abs. 1 lit. b/f DSGVO (vorvertragliche Maßnahme bzw. berechtigtes
+        Interesse). Ihre Einwilligung können Sie jederzeit formlos widerrufen.
+      </p>
+      <p>
+        Zur Erstellung des Reports fragen wir öffentlich zugängliche KI-Dienste
+        (u. a. OpenAI/ChatGPT, Google Gemini, Perplexity, Anthropic/Claude) mit
+        allgemeinen, nicht personenbezogenen Suchanfragen zu Ihrer Branche und Region ab
+        und analysieren Ihre Website technisch (u. a. über die Google
+        PageSpeed-Insights-API). Ihre personenbezogenen Kontaktdaten werden dabei
+        nicht an diese Dienste übermittelt.
+      </p>
+      <p>
+        Der E-Mail-Versand erfolgt über den Dienstleister <strong>Resend</strong>
+        (Resend, Inc.), der als Auftragsverarbeiter für uns tätig ist. Zur Vermeidung
+        von Mehrfach-Anforderungen und Missbrauch speichern wir Ihre E-Mail-Adresse
+        sowie technische Angaben (z. B. IP-Adresse in gekürzter Form) für die Dauer,
+        die zur Zweckerreichung erforderlich ist. Es ist pro E-Mail-Adresse ein
+        kostenloser Report vorgesehen.
+      </p>
+
       <p>
         <small>
           Quelle-Vorlage angelehnt an gängige Muster-Datenschutzerklärungen. Bitte
