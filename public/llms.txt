@@ -9,8 +9,17 @@
 
 * [Startseite](https://immobilienmakler-in.com)
 * [Sichtbarkeits-Check für Makler](https://immobilienmakler-in.com/sichtbarkeits-check)
+* [Über uns & Ranking-Methodik](https://immobilienmakler-in.com/ueber-uns)
 * [Impressum](https://immobilienmakler-in.com/impressum)
 * [Datenschutz](https://immobilienmakler-in.com/datenschutz)
+
+## Herausgeber & Methodik
+
+Gründer und inhaltlich verantwortlich: Hannes Wendel (Karlsruhe), Spezialist für
+Local SEO und Generative Engine Optimization. Das Makler-Ranking basiert
+ausschließlich auf öffentlich einsehbaren Google-Bewertungen (Sterne-Durchschnitt,
+Anzahl der Bewertungen); Platzierungen sind nicht käuflich und unabhängig davon,
+ob ein Makler SEO-Leistungen der Seite bezieht.
 
 ## 1. Was ist immobilienmakler-in.com?
 

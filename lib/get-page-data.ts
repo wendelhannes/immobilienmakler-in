@@ -35,6 +35,23 @@ export function getAvailableCitySlugs(): Set<string> {
   );
 }
 
+// Slug + echtes Änderungsdatum (Datei-mtime) je Content-Seite –
+// für korrekte lastmod-Werte in der Sitemap.
+export function getAllContentEntries(): { slug: string[]; lastModified: Date }[] {
+  if (!fs.existsSync(CONTENT_DIR)) return [];
+  const entries: { slug: string[]; lastModified: Date }[] = [];
+  for (const citySlug of fs.readdirSync(CONTENT_DIR)) {
+    const cityDir = path.join(CONTENT_DIR, citySlug);
+    if (!fs.statSync(cityDir).isDirectory()) continue;
+    for (const fileName of fs.readdirSync(cityDir)) {
+      if (!fileName.endsWith(".json")) continue;
+      const stat = fs.statSync(path.join(cityDir, fileName));
+      entries.push({ slug: fileToSlug(citySlug, fileName), lastModified: stat.mtime });
+    }
+  }
+  return entries;
+}
+
 export function getAllSlugs(): string[][] {
   if (!fs.existsSync(CONTENT_DIR)) return [];
   const slugs: string[][] = [];

@@ -67,6 +67,7 @@ export interface PageData {
   makler_summaries: MaklerSummary[];
   faq: FaqItem[];
   aiCopy: string;
+  marktText?: string;
   isHowTo: boolean;
   howToSteps?: string[];
   related: InternalLink[];

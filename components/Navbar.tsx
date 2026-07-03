@@ -13,6 +13,9 @@ export default function Navbar() {
         <Link href="/#ratgeber" className="nav-hide-sm">
           Ratgeber
         </Link>
+        <Link href="/ueber-uns" className="nav-hide-sm">
+          Über uns
+        </Link>
         <Link href="/sichtbarkeits-check" className="nav-cta">
           Sichtbarkeits-Check →
         </Link>

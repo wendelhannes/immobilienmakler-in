@@ -5,8 +5,9 @@
   "scripts": {
     "fetch": "tsx scripts/fetch-cities.ts",
     "reviews": "tsx scripts/generate-reviews.ts",
+    "market": "tsx scripts/generate-market.ts",
     "generate": "tsx scripts/generate-pages.ts",
-    "pipeline": "npm run fetch && npm run reviews && npm run generate",
+    "pipeline": "npm run fetch && npm run reviews && npm run market && npm run generate",
     "prebuild": "npm run generate",
     "build": "next build",
     "dev": "next dev",

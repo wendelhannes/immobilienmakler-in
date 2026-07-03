@@ -5,7 +5,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import RevealInit from "@/components/RevealInit";
-import { ORGANIZATION } from "@/lib/site";
+import { ORGANIZATION, PERSON } from "@/lib/site";
 import "./globals.css";
 
 const serif = Newsreader({
@@ -48,6 +48,7 @@ export const metadata: Metadata = {
     siteName: "immobilienmakler-in.com",
     url: SITE,
   },
+  twitter: { card: "summary_large_image" },
   robots: { index: true, follow: true },
 };
 
@@ -55,6 +56,7 @@ const schema = {
   "@context": "https://schema.org",
   "@graph": [
     ORGANIZATION,
+    PERSON,
     {
       "@type": "WebSite",
       "@id": `${SITE}/#website`,
@@ -69,7 +71,7 @@ const schema = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html
-      lang="de"
+      lang="de-DE"
       className={`${serif.variable} ${sans.variable} ${mono.variable}`}
     >
       <body>

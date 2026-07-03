@@ -409,7 +409,9 @@ export default function HomePage() {
           <p className="desc">
             Neben der Optimierung für Makler betreiben wir einen unabhängigen
             Maklervergleich auf Basis echter Google-Bewertungen – kostenlos und
-            ohne bezahlte Platzierungen. So finden Eigentümer den passenden Makler.
+            ohne bezahlte Platzierungen. Ob ein Makler unsere Leistungen nutzt, hat
+            keinen Einfluss auf sein Ranking.{" "}
+            <Link href="/ueber-uns">So entsteht unser Ranking →</Link>
           </p>
         </section>
 

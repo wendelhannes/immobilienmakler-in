@@ -6,6 +6,7 @@ import type { City, Makler, MaklerSummary, FaqItem, PageData, InternalLink } fro
 const CITY_LIST_PATH = path.join(process.cwd(), "data", "city-list.json");
 const CITIES_DIR = path.join(process.cwd(), "data", "cities");
 const CACHE_DIR = path.join(process.cwd(), "cache");
+const MARKET_DIR = path.join(process.cwd(), "cache-market");
 const CONTENT_DIR = path.join(process.cwd(), "content");
 const INTENTS_PATH = path.join(process.cwd(), "data", "intents.json");
 const QUESTIONS_PATH = path.join(process.cwd(), "data", "questions.json");
@@ -37,6 +38,19 @@ function loadReviewCache(citySlug: string, maklerSlug: string): string | undefin
   if (!fs.existsSync(p)) return undefined;
   const data = JSON.parse(fs.readFileSync(p, "utf-8"));
   return stripMarkdown(data.text as string);
+}
+
+// Einzigartiger, LLM-generierter Marktkommentar je Stadt/Seitentyp.
+function loadMarketText(citySlug: string, key: string): string | undefined {
+  const p = path.join(MARKET_DIR, citySlug, `${key}.json`);
+  if (!fs.existsSync(p)) return undefined;
+  try {
+    const data = JSON.parse(fs.readFileSync(p, "utf-8"));
+    const t = (data.text as string)?.trim();
+    return t || undefined;
+  } catch {
+    return undefined;
+  }
 }
 
 function templateFallback(m: Makler): string {
@@ -215,6 +229,7 @@ function main() {
         makler_summaries: summaries,
         faq: buildHauptseiteFaq(maklerList, city, stadtteile),
         aiCopy: buildAiCopy(maklerList, city, "Übersicht"),
+        marktText: loadMarketText(city.slug, "hauptseite"),
         isHowTo: false,
         related: buildRelated(city, [city.slug], allIntentLinks, crossCity),
         internalLinksGrid,
@@ -242,6 +257,7 @@ function main() {
         makler_summaries: top5,
         faq: buildIntentFaq(intentSlug, city),
         aiCopy: buildAiCopy(maklerList, city, INTENT_LABELS[intentSlug]),
+        marktText: loadMarketText(city.slug, intentSlug),
         isHowTo: !!intentDef.isHowTo,
         howToSteps: intentDef.howToSteps,
         related: buildRelated(city, [city.slug, intentSlug], allIntentLinks, crossCity),

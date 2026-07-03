@@ -41,7 +41,8 @@ export default function Footer() {
           </div>
 
           <div className="footer-col">
-            <h4>Rechtliches</h4>
+            <h4>Unternehmen</h4>
+            <Link href="/ueber-uns">Über uns &amp; Methodik</Link>
             <Link href="/sichtbarkeits-check">Sichtbarkeits-Check</Link>
             <Link href="/impressum">Impressum</Link>
             <Link href="/datenschutz">Datenschutz</Link>
