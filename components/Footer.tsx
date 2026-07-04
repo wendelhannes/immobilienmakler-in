@@ -29,21 +29,23 @@ export default function Footer() {
                 Immobilienmakler {c.name}
               </Link>
             ))}
-            <Link href="/#staedte">Alle Städte →</Link>
+            <Link href="/staedte">Alle Städte →</Link>
           </div>
 
           <div className="footer-col">
             <h4>Ratgeber</h4>
-            <Link href="/#ratgeber">Haus verkaufen</Link>
-            <Link href="/#ratgeber">Immobilienbewertung</Link>
-            <Link href="/#ratgeber">Maklerprovision</Link>
-            <Link href="/#ratgeber">Guten Makler finden</Link>
+            <Link href="/haus-verkaufen">Haus verkaufen</Link>
+            <Link href="/immobilienbewertung">Immobilienbewertung</Link>
+            <Link href="/was-kostet-ein-immobilienmakler">Maklerprovision</Link>
+            <Link href="/wie-finde-ich-einen-guten-immobilienmakler">Guten Makler finden</Link>
+            <Link href="/ratgeber">Alle Ratgeber →</Link>
           </div>
 
           <div className="footer-col">
             <h4>Unternehmen</h4>
-            <Link href="/ueber-uns">Über uns &amp; Methodik</Link>
+            <Link href="/seo-fuer-immobilienmakler">SEO &amp; GEO für Makler</Link>
             <Link href="/sichtbarkeits-check">Sichtbarkeits-Check</Link>
+            <Link href="/ueber-uns">Über uns &amp; Methodik</Link>
             <Link href="/impressum">Impressum</Link>
             <Link href="/datenschutz">Datenschutz</Link>
           </div>

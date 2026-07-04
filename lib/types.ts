@@ -68,6 +68,7 @@ export interface PageData {
   faq: FaqItem[];
   aiCopy: string;
   marktText?: string;
+  generatedAt?: string; // ISO-Datum der Content-Generierung (datePublished)
   isHowTo: boolean;
   howToSteps?: string[];
   related: InternalLink[];

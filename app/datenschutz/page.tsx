@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Datenschutzerklärung",
   description: "Datenschutzerklärung von immobilienmakler-in.com.",
   alternates: { canonical: "/datenschutz" },
-  robots: { index: false, follow: true },
+  robots: { index: true, follow: true },
 };
 
 export default function DatenschutzPage() {
@@ -168,11 +168,7 @@ export default function DatenschutzPage() {
       </p>
 
       <p>
-        <small>
-          Quelle-Vorlage angelehnt an gängige Muster-Datenschutzerklärungen. Bitte
-          vor Veröffentlichung durch die verantwortliche Stelle prüfen und an die
-          tatsächlich eingesetzten Dienste anpassen.
-        </small>
+        <small>Stand: Juli 2026</small>
       </p>
     </div>
   );

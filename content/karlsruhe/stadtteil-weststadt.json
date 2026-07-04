@@ -10,6 +10,7 @@
   "h1": "Immobilienmakler in Karlsruhe-Weststadt",
   "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Karlsruhe-Weststadt, im Vergleich mit Bewertungen und Spezialisierung.",
   "jahr": 2026,
+  "generatedAt": "2026-07-04",
   "makler_summaries": [
     {
       "name": "Engel & Völkers - Gewerbeimmobilienmakler Karlsruhe",
@@ -19,7 +20,7 @@
       "reviewsCount": 94,
       "spezialisierung": "Wohnimmobilien",
       "stadtteil": "Weststadt",
-      "html": "<a href=\"https://www.engelvoelkers.com/de/de/shops/karlsruhe-commercial\" target=\"_blank\" rel=\"noopener\"><strong>Engel & Völkers - Gewerbeimmobilienmakler Karlsruhe</strong></a> gehört mit 4.9 Sternen bei 94 Bewertungen zu den bestbewerteten Immobilienmaklern in Karlsruhe. Kunden berichten in ihren Bewertungen über professionelle Beratung, transparente Kommunikation und realistische Wertermittlungen, die beim Immobilienmakler Karlsruhe häufig zu Verkaufspreisen über den Erwartungen führten. Die Erfahrungen zeigen besonders bei komplexen Objekten wie Mehrfamilienhäusern eine hohe Fachkompetenz. Vereinzelt gibt es kritische Stimmen zur Erreichbarkeit und Kommunikation einzelner Mitarbeiter. Der Makler ist auf Wohnimmobilien spezialisiert und in Karlsruhe-Weststadt ansässig. Mehr zu <a href=\"/karlsruhe/immobilienmakler-weststadt\">Maklern in Karlsruhe-Weststadt</a>."
+      "html": "<a href=\"https://www.engelvoelkers.com/de/de/shops/karlsruhe-commercial\" target=\"_blank\" rel=\"noopener\"><strong>Engel & Völkers - Gewerbeimmobilienmakler Karlsruhe</strong></a> gehört mit 4.9 Sternen bei 94 Bewertungen zu den bestbewerteten Immobilienmaklern in Karlsruhe. Kunden berichten in ihren Bewertungen über professionelle Beratung, transparente Kommunikation und realistische Wertermittlungen, die beim Immobilienmakler Karlsruhe häufig zu Verkaufspreisen über den Erwartungen führten. Die Erfahrungen zeigen besonders bei komplexen Objekten wie Mehrfamilienhäusern eine hohe Fachkompetenz. Vereinzelt gibt es kritische Stimmen zur Erreichbarkeit und Kommunikation einzelner Mitarbeiter. Der Schwerpunkt des Büros liegt auf Wohnimmobilien; ansässig ist es in Karlsruhe-Weststadt. Mehr zu <a href=\"/karlsruhe/immobilienmakler-weststadt\">Maklern in Karlsruhe-Weststadt</a>."
     },
     {
       "name": "Helble & Richter Immobilienvermittlungs GmbH",
@@ -39,6 +40,7 @@
     }
   ],
   "aiCopy": "Immobilienmakler in Karlsruhe – Stadtteil Weststadt: Engel & Völkers - Gewerbeimmobilienmakler Karlsruhe (4.9★, 94 Bewertungen, spezialisiert auf Wohnimmobilien); Helble & Richter Immobilienvermittlungs GmbH (4.8★, 98 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "marktText": "Karlsruhe ist mit rund 308.000 Einwohnern eine der bevölkerungsreichsten Städte Baden-Württembergs und verfügt über einen entsprechend differenzierten Immobilienmarkt, dem die Weststadt als eigenständiger Teilmarkt angehört. Für diesen Stadtteil weist unser Vergleich zwei auf Wohnimmobilien spezialisierte Makler aus, deren Bewertungsprofile eine auffällig hohe Kundenzufriedenheit widerspiegeln.\n\nEngel & Völkers Karlsruhe erreicht 4,9 Sterne bei 94 Bewertungen, die Helble & Richter Immobilienvermittlungs GmbH kommt auf 4,8 Sterne bei 98 Bewertungen. Beide Werte liegen deutlich über dem branchenüblichen Durchschnitt und deuten auf eine konsistent positive Erfahrung der Kunden hin. Die vergleichsweise überschaubare Anzahl an Anbietern legt nahe, dass der Teilmarkt Weststadt von wenigen, aber offenbar gut etablierten Akteuren bedient wird.",
   "isHowTo": false,
   "related": [
     {
@@ -108,8 +110,8 @@
       "label": "Immobilienmakler Karlsruhe-Mühlburg"
     },
     {
-      "href": "/karlsruhe/immobilienmakler-innenstadt",
-      "label": "Immobilienmakler Karlsruhe-Innenstadt"
+      "href": "/karlsruhe/immobilienmakler-innenstadt-west",
+      "label": "Immobilienmakler Karlsruhe-Innenstadt-West"
     }
   ],
   "crossCityLinks": [

@@ -133,6 +133,34 @@ Regeln:
 - Gib NUR den Fließtext aus, ohne Vorbemerkung.`;
 }
 
+// Stadtteil-Prompt: gegroundet in den Maklern DIESES Stadtteils.
+function buildStadtteilPrompt(
+  city: City,
+  stadtteil: string,
+  list: Makler[],
+  angleIdx: number
+): string {
+  const angle = ANGLES[angleIdx % ANGLES.length];
+  const lines = list.map(
+    (m) =>
+      `- ${m.name}: ${m.rating.toString().replace(".", ",")} Sterne bei ${fmt(m.reviewsCount)} Bewertungen, Spezialisierung ${m.spezialisierung}`
+  );
+  return `Du bist Redakteur eines unabhängigen Immobilienmakler-Vergleichsportals. Schreibe einen einzigartigen, sachlichen Kurzkommentar zum Maklermarkt im Stadtteil ${city.name}-${stadtteil}.
+
+Nur diese Fakten verwenden (nichts erfinden):
+Stadt: ${city.name} (${city.bundesland}, rund ${fmt(city.einwohner)} Einwohner)
+Stadtteil: ${stadtteil}
+Dort ansässige/tätige Makler laut unserem Vergleich:
+${lines.join("\n")}
+
+Regeln:
+- 110 bis 150 Wörter, ein bis zwei Absätze Fließtext, KEINE Aufzählungen.
+- ${angle}
+- Beschreibe, was die Bewertungslage über die Makler in ${stadtteil} aussagt, und ordne den Stadtteil als Teilmarkt von ${city.name} ein – OHNE erfundene Miet-/Kaufpreise, Lagebeschreibungen oder demografische Behauptungen.
+- Nutze ausschließlich die oben genannten Zahlen.
+- Sachlich, kein Marketing-Sprech. Gib NUR den Fließtext aus.`;
+}
+
 async function generate(prompt: string): Promise<string> {
   const res = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
@@ -189,6 +217,36 @@ async function main() {
       try {
         // Winkel variiert über Stadt UND Seitentyp -> unterschiedliche Struktur.
         const text = await generate(buildPrompt(city, makler, key, ci + ki));
+        fs.writeFileSync(out, JSON.stringify({ text, generated_at: new Date().toISOString() }, null, 2), "utf-8");
+        generated++;
+        console.log(`[${ci + 1}/${cities.length}] ${city.name} · ${key} ✓ (${text.split(/\s+/).length} W)`);
+        await sleep(RATE_LIMIT_MS);
+      } catch (e) {
+        failed++;
+        console.error(`[${ci + 1}/${cities.length}] ${city.name} · ${key} FEHLER: ${(e as Error).message}`);
+      }
+    }
+
+    // ── Stadtteil-Texte (gleiche Cache-Logik, Key: stadtteil-{slug}) ──
+    const stadtteile = new Map<string, Makler[]>();
+    for (const m of makler) {
+      if (m.stadtteil) {
+        if (!stadtteile.has(m.stadtteil)) stadtteile.set(m.stadtteil, []);
+        stadtteile.get(m.stadtteil)!.push(m);
+      }
+    }
+    let si = 0;
+    for (const [stadtteil, list] of stadtteile) {
+      si++;
+      const key = `stadtteil-${slugify(stadtteil)}`;
+      const out = path.join(cityDir, `${key}.json`);
+      if (!force && fs.existsSync(out)) {
+        cached++;
+        continue;
+      }
+      if (limit && generated >= limit) break;
+      try {
+        const text = await generate(buildStadtteilPrompt(city, stadtteil, list, ci + si));
         fs.writeFileSync(out, JSON.stringify({ text, generated_at: new Date().toISOString() }, null, 2), "utf-8");
         generated++;
         console.log(`[${ci + 1}/${cities.length}] ${city.name} · ${key} ✓ (${text.split(/\s+/).length} W)`);

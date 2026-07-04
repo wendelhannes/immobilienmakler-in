@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { slugify } from "../lib/slug";
+import { parseStadtteil } from "../lib/stadtteil";
 import type { City, Makler, Review } from "../lib/types";
 
 const envLocalPath = path.join(process.cwd(), ".env.local");
@@ -26,18 +27,6 @@ function parseArgs() {
   const stadtIdx = args.indexOf("--stadt");
   const stadt = stadtIdx !== -1 ? args[stadtIdx + 1] : undefined;
   return { stadt };
-}
-
-// Matches the district segment in a German address, e.g.
-// "Musterstraße 12, 76133 Karlsruhe-Innenstadt" -> "Innenstadt"
-// "Hauptstr. 5, 76131 Karlsruhe" -> undefined (no district)
-function parseStadtteil(address: string | undefined, stadtName: string): string | undefined {
-  if (!address) return undefined;
-  const cityDashMatch = address.match(new RegExp(`${stadtName}[-\\s]?([A-ZÄÖÜ][a-zäöüß]+)`, "u"));
-  if (cityDashMatch && cityDashMatch[1] && cityDashMatch[1].toLowerCase() !== stadtName.toLowerCase()) {
-    return cityDashMatch[1];
-  }
-  return undefined;
 }
 
 function isRelevantCategory(categoryName: string | undefined): boolean {

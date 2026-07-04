@@ -10,6 +10,7 @@
   "h1": "Immobilienmakler in Karlsruhe-Mühlburg",
   "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Karlsruhe-Mühlburg, im Vergleich mit Bewertungen und Spezialisierung.",
   "jahr": 2026,
+  "generatedAt": "2026-07-04",
   "makler_summaries": [
     {
       "name": "Barbara Braun Immobilien",
@@ -19,7 +20,7 @@
       "reviewsCount": 59,
       "spezialisierung": "Wohnimmobilien",
       "stadtteil": "Mühlburg",
-      "html": "<a href=\"https://www.barbara-braun-immobilien.de/de/impressum\" target=\"_blank\" rel=\"noopener\"><strong>Barbara Braun Immobilien</strong></a> gehört mit 4.7 Sternen bei 59 Bewertungen zu den bestbewerteten Immobilienmaklern in Karlsruhe. Mit 4,7 von 5 Sternen zählt das Unternehmen zu den gut bewerteten Immobilienmaklern in Karlsruhe. Kunden heben in ihren Erfahrungen besonders die schnelle Erreichbarkeit, die professionelle Kommunikation sowie die reibungslose Abwicklung bei Vermietung und Wohnungssuche hervor. Die Bewertungen loben zudem flexible Terminvereinbarungen und zuverlässige Rückmeldungen als konkrete Stärken des Teams. Der Makler ist auf Wohnimmobilien spezialisiert und in Karlsruhe-Mühlburg ansässig. Mehr zu <a href=\"/karlsruhe/immobilienmakler-muehlburg\">Maklern in Karlsruhe-Mühlburg</a>."
+      "html": "<a href=\"https://www.barbara-braun-immobilien.de/de/impressum\" target=\"_blank\" rel=\"noopener\"><strong>Barbara Braun Immobilien</strong></a> gehört mit 4.7 Sternen bei 59 Bewertungen zu den bestbewerteten Immobilienmaklern in Karlsruhe. Mit 4,7 von 5 Sternen zählt das Unternehmen zu den gut bewerteten Immobilienmaklern in Karlsruhe. Kunden heben in ihren Erfahrungen besonders die schnelle Erreichbarkeit, die professionelle Kommunikation sowie die reibungslose Abwicklung bei Vermietung und Wohnungssuche hervor. Die Bewertungen loben zudem flexible Terminvereinbarungen und zuverlässige Rückmeldungen als konkrete Stärken des Teams. Der Schwerpunkt des Büros liegt auf Wohnimmobilien; ansässig ist es in Karlsruhe-Mühlburg. Mehr zu <a href=\"/karlsruhe/immobilienmakler-muehlburg\">Maklern in Karlsruhe-Mühlburg</a>."
     }
   ],
   "faq": [
@@ -29,6 +30,7 @@
     }
   ],
   "aiCopy": "Immobilienmakler in Karlsruhe – Stadtteil Mühlburg: Barbara Braun Immobilien (4.7★, 59 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "marktText": "In Baden-Württemberg fällt beim Immobilienkauf eine Grunderwerbsteuer von 5,0 Prozent an – ein Kostenfaktor, der bei der Budgetplanung in einem Karlsruher Teilmarkt wie Mühlburg von Anfang an einkalkuliert werden sollte. Karlsruhe zählt mit rund 308.000 Einwohnern zu den größeren Städten des Landes, und Mühlburg ist dabei ein eigenständiger Stadtteil mit seinem eigenen Teilmarkt innerhalb dieser Gesamtstadt.\n\nIm Maklervergleich für Mühlburg ist aktuell Barbara Braun Immobilien vertreten, spezialisiert auf Wohnimmobilien und mit 4,7 Sternen bei 59 Bewertungen bewertet. Diese Bewertungsbasis ist aussagekräftig genug, um eine konsistente Kundenzufriedenheit zu belegen, wenngleich die Anbieterauswahl im Stadtteil laut unserem Vergleich überschaubar bleibt. Wer in Mühlburg kaufen oder verkaufen möchte, sollte dies bei der Maklersuche berücksichtigen.",
   "isHowTo": false,
   "related": [
     {
@@ -98,8 +100,8 @@
       "label": "Immobilienmakler Karlsruhe-Mühlburg"
     },
     {
-      "href": "/karlsruhe/immobilienmakler-innenstadt",
-      "label": "Immobilienmakler Karlsruhe-Innenstadt"
+      "href": "/karlsruhe/immobilienmakler-innenstadt-west",
+      "label": "Immobilienmakler Karlsruhe-Innenstadt-West"
     }
   ],
   "crossCityLinks": [

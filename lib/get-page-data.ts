@@ -14,9 +14,23 @@ function fileToSlug(citySlug: string, fileName: string): string[] {
   return [citySlug, base];
 }
 
+// Bekannte Intent-Slugs MÜSSEN vor dem "immobilienmakler-*"-Stadtteil-Mapping
+// geprüft werden: "immobilienmakler-oder-privat-verkaufen" ist ein Intent,
+// kein Stadtteil (war die Ursache für sitewide 404s auf dieser Route).
+const INTENT_SLUGS = new Set([
+  "haus-verkaufen",
+  "immobilienbewertung",
+  "was-kostet-ein-immobilienmakler",
+  "wie-finde-ich-einen-guten-immobilienmakler",
+  "immobilienmakler-oder-privat-verkaufen",
+]);
+
 function slugToFile(citySlug: string, rest: string[]): string {
   if (rest.length === 0) return "hauptseite.json";
   const [intentOrStadtteil] = rest;
+  if (INTENT_SLUGS.has(intentOrStadtteil)) {
+    return `${intentOrStadtteil}.json`;
+  }
   if (intentOrStadtteil.startsWith("immobilienmakler-")) {
     const stadtteilSlug = intentOrStadtteil.replace("immobilienmakler-", "");
     return `stadtteil-${stadtteilSlug}.json`;

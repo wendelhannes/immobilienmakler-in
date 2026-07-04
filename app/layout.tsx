@@ -8,9 +8,11 @@ import RevealInit from "@/components/RevealInit";
 import { ORGANIZATION, PERSON } from "@/lib/site";
 import "./globals.css";
 
+// Font-Payload getrimmt (Audit: Fonts > 50 % des Seitengewichts):
+// Serif nur 400+700 (genutzt: 700 Headlines, 400/italic em), Mono nur 400.
 const serif = Newsreader({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "700"],
   style: ["normal", "italic"],
   variable: "--font-serif",
   display: "swap",
@@ -25,7 +27,7 @@ const sans = DM_Sans({
 
 const mono = JetBrains_Mono({
   subsets: ["latin"],
-  weight: ["400", "500"],
+  weight: ["400"],
   variable: "--font-mono",
   display: "swap",
 });
@@ -35,12 +37,11 @@ const SITE = "https://immobilienmakler-in.com";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
   title: {
-    default:
-      "Immobilienmakler-Vergleich & Sichtbarkeit für Makler",
+    default: "Immobilienmakler-Vergleich: Die besten Makler in 50 Städten",
     template: "%s | immobilienmakler-in.com",
   },
   description:
-    "Alle Immobilienmakler in Deutschland im Vergleich nach Städten + Ratgeber. SEO & GEO-Optimierung für Immobilienmakler und kostenloser SEO/GEO-Checker",
+    "Die bestbewerteten Immobilienmakler in 50 deutschen Städten im Vergleich – auf Basis echter Google-Bewertungen, ohne bezahlte Platzierungen.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",

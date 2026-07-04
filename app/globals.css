@@ -75,10 +75,42 @@ a { color: inherit; }
   transition: background .2s;
 }
 .nav-cta:hover { background: var(--red-d); }
-@media (max-width: 640px) {
-  .nav-links { gap: 16px; }
-  .nav-links a.nav-hide-sm { display: none; }
+
+/* Mobile-Navigation: Burger + aufklappbares Menü (Audit: Nav war mobil unerreichbar) */
+.nav-burger { display: none; background: none; border: none; cursor: pointer; padding: 10px 6px; flex-direction: column; gap: 5px; }
+.nav-burger .nb-bar { display: block; width: 24px; height: 2.5px; background: var(--ink); border-radius: 2px; transition: transform .25s, opacity .2s; }
+.nav-burger .nb-x1 { transform: translateY(7.5px) rotate(45deg); }
+.nav-burger .nb-x2 { transform: translateY(-7.5px) rotate(-45deg); }
+.nav-burger .nb-hide { opacity: 0; }
+.nav-mobile { display: none; }
+@media (max-width: 760px) {
+  .nav-desktop { display: none; }
+  .nav-burger { display: flex; }
+  .nav-mobile {
+    display: flex; flex-direction: column; gap: 4px;
+    position: absolute; top: 100%; left: 0; right: 0; z-index: 50;
+    background: var(--cream); border-bottom: 1px solid var(--bd);
+    padding: 12px 24px 20px; box-shadow: 0 12px 24px rgba(0,0,0,.08);
+  }
+  .nav-mobile a { padding: 12px 4px; font-size: 16px; font-weight: 500; color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--bd); }
+  .nav-mobile a:last-child { border-bottom: none; }
+  .nav-mobile .nav-cta { margin-top: 10px; text-align: center; border-bottom: none; }
+  .topnav { position: relative; }
+  .topnav .logo { font-size: 19px; }
 }
+
+/* Kompakter Makler-Banner (Consumer-Seiten, statt großer B2B-Box) */
+.makler-banner {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  flex-wrap: wrap; background: var(--warm); border: 1px solid var(--bd);
+  border-radius: 10px; padding: 16px 20px; margin: 36px 0; font-size: 14px; color: var(--tx);
+}
+.makler-banner strong { color: var(--ink); }
+.makler-banner .mb-link { color: var(--red); font-weight: 600; text-decoration: none; white-space: nowrap; }
+.makler-banner .mb-link:hover { text-decoration: underline; }
+
+/* FAQ-Fragen als semantische h3 (Optik unverändert) */
+.faq-q h3 { font-family: var(--sans); font-size: 15px; font-weight: 600; margin: 0; display: inline; line-height: inherit; }
 
 /* ── BREADCRUMB ── */
 .breadcrumb {

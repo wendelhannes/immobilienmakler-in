@@ -70,7 +70,7 @@
     "categoryName": "Immobilienmakler",
     "placeId": "ChIJqUglMI7XuEcR08rjWkOR7Yk",
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Thomas%20Kramer%20IMMOBILIEN&query_place_id=ChIJqUglMI7XuEcR08rjWkOR7Yk",
-    "stadtteil": "Uellendahl",
+    "stadtteil": "Uellendahl-Katernberg",
     "spezialisierung": "Wohnimmobilien",
     "reviews": [
       {
@@ -136,7 +136,7 @@
     "categoryName": "Immobilienmakler",
     "placeId": "ChIJQbJZav7WuEcR2HopMOy4LBg",
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Daniel%20von%20Baum%20Immobilien%20%7C%20Immobilienmakler%20Wuppertal&query_place_id=ChIJQbJZav7WuEcR2HopMOy4LBg",
-    "stadtteil": "Elberfeld",
+    "stadtteil": "Elberfeld-West",
     "spezialisierung": "Wohnimmobilien",
     "reviews": [
       {
@@ -891,7 +891,7 @@
     "categoryName": "Immobilienberater",
     "placeId": "ChIJi7iFYNEpuUcRCSL9LW4Ftvg",
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sascha%20Hohmann%20Immobilien%20%26%20Versicherungen&query_place_id=ChIJi7iFYNEpuUcRCSL9LW4Ftvg",
-    "stadtteil": "Elberfeld",
+    "stadtteil": "Elberfeld-West",
     "spezialisierung": "Wohnimmobilien",
     "reviews": [
       {

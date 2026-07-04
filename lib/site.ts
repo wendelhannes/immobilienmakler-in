@@ -30,7 +30,12 @@ export const ORGANIZATION = {
   name: BRAND_NAME,
   alternateName: HOST,
   url: SITE,
-  logo: `${SITE}/icon`,
+  logo: {
+    "@type": "ImageObject",
+    url: `${SITE}/icon`,
+    width: 512,
+    height: 512,
+  },
   email: CONTACT_EMAIL,
   description:
     "Unabhängiger Vergleich der bestbewerteten Immobilienmakler in deutschen Städten auf Basis echter Google-Bewertungen – plus SEO- & GEO-Optimierung für Maklerbüros.",

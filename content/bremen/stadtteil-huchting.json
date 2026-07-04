@@ -10,6 +10,7 @@
   "h1": "Immobilienmakler in Bremen-Huchting",
   "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Bremen-Huchting, im Vergleich mit Bewertungen und Spezialisierung.",
   "jahr": 2026,
+  "generatedAt": "2026-07-04",
   "makler_summaries": [
     {
       "name": "Weiland Immobilien Bremen",
@@ -19,7 +20,7 @@
       "reviewsCount": 72,
       "spezialisierung": "Wohnimmobilien",
       "stadtteil": "Huchting",
-      "html": "<a href=\"https://weiland-immobilien-bremen.de/\" target=\"_blank\" rel=\"noopener\"><strong>Weiland Immobilien Bremen</strong></a> gehört mit 5 Sternen bei 72 Bewertungen zu den bestbewerteten Immobilienmaklern in Bremen. Weiland Immobilien Bremen überzeugt laut Kundenbewertungen durch zuverlässige Erreichbarkeit, ausgeprägte Marktkenntnis und eine professionelle Abwicklung von Verkauf und Vermietung. Die Erfahrungen der Kunden heben besonders die transparente Kommunikation, die vollständige Übernahme aller Aufgaben sowie den flexiblen und persönlichen Einsatz hervor. Als Immobilienmakler Bremen wird das Unternehmen von 72 Bewertern mit 5 Sternen uneingeschränkt empfohlen. Der Makler ist auf Wohnimmobilien spezialisiert und in Bremen-Huchting ansässig. Mehr zu <a href=\"/bremen/immobilienmakler-huchting\">Maklern in Bremen-Huchting</a>."
+      "html": "<a href=\"https://weiland-immobilien-bremen.de/\" target=\"_blank\" rel=\"noopener\"><strong>Weiland Immobilien Bremen</strong></a> gehört mit 5 Sternen bei 72 Bewertungen zu den bestbewerteten Immobilienmaklern in Bremen. Weiland Immobilien Bremen überzeugt laut Kundenbewertungen durch zuverlässige Erreichbarkeit, ausgeprägte Marktkenntnis und eine professionelle Abwicklung von Verkauf und Vermietung. Die Erfahrungen der Kunden heben besonders die transparente Kommunikation, die vollständige Übernahme aller Aufgaben sowie den flexiblen und persönlichen Einsatz hervor. Als Immobilienmakler Bremen wird das Unternehmen von 72 Bewertern mit 5 Sternen uneingeschränkt empfohlen. Fachlicher Fokus: Wohnimmobilien – das Büro sitzt in Bremen-Huchting. Mehr zu <a href=\"/bremen/immobilienmakler-huchting\">Maklern in Bremen-Huchting</a>."
     }
   ],
   "faq": [
@@ -29,6 +30,7 @@
     }
   ],
   "aiCopy": "Immobilienmakler in Bremen – Stadtteil Huchting: Weiland Immobilien Bremen (5★, 72 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "marktText": "In Bremen gilt eine Grunderwerbsteuer von 5 Prozent, die Käufer beim Immobilienerwerb in Huchting einkalkulieren müssen – hinzu kommen die üblichen Nebenkosten wie Notar- und Maklergebühren. Wer in diesem Bremer Stadtteil eine Immobilie sucht oder verkaufen möchte, findet laut unserem Vergleich mit Weiland Immobilien Bremen genau einen dort ansässigen beziehungsweise tätigen Makler, der sich auf Wohnimmobilien spezialisiert hat. Mit 72 Bewertungen und einer Durchschnittsnote von 5 Sternen weist dieser Anbieter eine solide Bewertungsbasis auf, die eine gewisse Verlässlichkeit der Einschätzungen nahelegt. Huchting stellt als Stadtteil der rund 569.000 Einwohner zählenden Hansestadt Bremen einen eigenständigen Teilmarkt dar, in dem die Maklerauswahl im Vergleich zu zentraleren Stadtteilen erkennbar überschaubar ist.",
   "isHowTo": false,
   "related": [
     {
@@ -74,8 +76,8 @@
       "label": "Makler oder privat verkaufen? Bremen"
     },
     {
-      "href": "/bremen/immobilienmakler-horn",
-      "label": "Immobilienmakler Bremen-Horn"
+      "href": "/bremen/immobilienmakler-horn-lehe",
+      "label": "Immobilienmakler Bremen-Horn-Lehe"
     },
     {
       "href": "/bremen/immobilienmakler-huchting",

@@ -10,6 +10,7 @@
   "h1": "Immobilienmakler in Leverkusen-Biesenbach",
   "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Leverkusen-Biesenbach, im Vergleich mit Bewertungen und Spezialisierung.",
   "jahr": 2026,
+  "generatedAt": "2026-07-04",
   "makler_summaries": [
     {
       "name": "Foltin Immobilien",
@@ -29,6 +30,7 @@
     }
   ],
   "aiCopy": "Immobilienmakler in Leverkusen – Stadtteil Biesenbach: Foltin Immobilien (4.8★, 33 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "marktText": "In Leverkusen-Biesenbach zeigt sich die Maklerdichte im Vergleich zur Gesamtstadt mit rund 164.000 Einwohnern sehr überschaubar: Laut unserem Vergleichsportal ist dort aktuell lediglich ein Anbieter erfasst. Foltin Immobilien kommt auf 33 Google-Bewertungen und erreicht dabei einen Schnitt von 4,8 Sternen – eine solide Datenbasis, die auf eine konsistent positive Kundenerfahrung hindeutet.\n\nDie geringe Anbieterzahl lässt darauf schließen, dass Biesenbach als Teilmarkt innerhalb Leverkusens eine eher kleinräumige Rolle spielt und Suchende gegebenenfalls auch Makler aus angrenzenden Stadtteilen in Betracht ziehen sollten. Wer speziell in Biesenbach eine Wohnimmobilie kaufen oder verkaufen möchte, hat mit Foltin Immobilien zumindest einen lokal tätigen Spezialisten mit nachvollziehbar positiver Bewertungslage zur Auswahl.",
   "isHowTo": false,
   "related": [
     {
@@ -82,8 +84,8 @@
       "label": "Immobilienmakler Leverkusen-Schlebusch"
     },
     {
-      "href": "/leverkusen/immobilienmakler-bergisch",
-      "label": "Immobilienmakler Leverkusen-Bergisch"
+      "href": "/leverkusen/immobilienmakler-bergisch-neukirchen",
+      "label": "Immobilienmakler Leverkusen-Bergisch-Neukirchen"
     },
     {
       "href": "/leverkusen/immobilienmakler-biesenbach",

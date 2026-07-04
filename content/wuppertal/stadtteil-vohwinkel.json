@@ -10,6 +10,7 @@
   "h1": "Immobilienmakler in Wuppertal-Vohwinkel",
   "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Wuppertal-Vohwinkel, im Vergleich mit Bewertungen und Spezialisierung.",
   "jahr": 2026,
+  "generatedAt": "2026-07-04",
   "makler_summaries": [
     {
       "name": "GoTo Immo",
@@ -29,6 +30,7 @@
     }
   ],
   "aiCopy": "Immobilienmakler in Wuppertal – Stadtteil Vohwinkel: GoTo Immo (5★, 25 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "marktText": "In Wuppertal-Vohwinkel ist im Rahmen unseres Vergleichs aktuell ein Makler erfasst: GoTo Immo, der auf Wohnimmobilien spezialisiert ist und auf Basis von 25 Google-Bewertungen eine Bewertung von 5,0 Sternen erreicht. Die Gesamtzahl der vorliegenden Bewertungen ist damit überschaubar, was eine belastbare statistische Einordnung erschwert – einzelne Erfahrungen fallen bei dieser Datenmenge stärker ins Gewicht.\n\nVohwinkel stellt als Stadtteil der rund 355.000 Einwohner zählenden Stadt Wuppertal einen klar abgrenzbaren Teilmarkt dar. Die dünne Maklerdecke im Vergleich legt nahe, dass der lokale Wohnimmobilienmarkt hier von wenigen Anbietern bedient wird. Interessenten sollten neben den vorliegenden Bewertungen weitere Auswahlkriterien wie Marktkenntnis, Leistungsumfang und Erreichbarkeit in ihre Entscheidung einbeziehen.",
   "isHowTo": false,
   "related": [
     {
@@ -74,8 +76,12 @@
       "label": "Makler oder privat verkaufen? Wuppertal"
     },
     {
-      "href": "/wuppertal/immobilienmakler-uellendahl",
-      "label": "Immobilienmakler Wuppertal-Uellendahl"
+      "href": "/wuppertal/immobilienmakler-uellendahl-katernberg",
+      "label": "Immobilienmakler Wuppertal-Uellendahl-Katernberg"
+    },
+    {
+      "href": "/wuppertal/immobilienmakler-elberfeld-west",
+      "label": "Immobilienmakler Wuppertal-Elberfeld-West"
     },
     {
       "href": "/wuppertal/immobilienmakler-elberfeld",

@@ -10,6 +10,7 @@
   "h1": "Immobilienmakler in Stuttgart-Ost",
   "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Stuttgart-Ost, im Vergleich mit Bewertungen und Spezialisierung.",
   "jahr": 2026,
+  "generatedAt": "2026-07-04",
   "makler_summaries": [
     {
       "name": "Lechler Immobilien",
@@ -19,7 +20,7 @@
       "reviewsCount": 177,
       "spezialisierung": "Wohnimmobilien",
       "stadtteil": "Ost",
-      "html": "<a href=\"http://www.lechler-immobilien.de/\" target=\"_blank\" rel=\"noopener\"><strong>Lechler Immobilien</strong></a> gehört mit 4.9 Sternen bei 177 Bewertungen zu den bestbewerteten Immobilienmaklern in Stuttgart. Mit 4,9 von 5 Sternen bei 177 Bewertungen zählt dieser Immobilienmakler Stuttgart zu den bestbewerteten der Region. Kunden berichten in ihren Erfahrungen durchweg von professioneller Beratung, schneller Erreichbarkeit und transparenter Kommunikation während des gesamten Kauf- oder Verkaufsprozesses. Besonders das Verhandlungsgeschick und der persönliche Einsatz der Maklerinnen werden in den Bewertungen mehrfach hervorgehoben. Der Makler ist auf Wohnimmobilien spezialisiert und in Stuttgart-Ost ansässig. Mehr zu <a href=\"/stuttgart/immobilienmakler-ost\">Maklern in Stuttgart-Ost</a>."
+      "html": "<a href=\"http://www.lechler-immobilien.de/\" target=\"_blank\" rel=\"noopener\"><strong>Lechler Immobilien</strong></a> gehört mit 4.9 Sternen bei 177 Bewertungen zu den bestbewerteten Immobilienmaklern in Stuttgart. Mit 4,9 von 5 Sternen bei 177 Bewertungen zählt dieser Immobilienmakler Stuttgart zu den bestbewerteten der Region. Kunden berichten in ihren Erfahrungen durchweg von professioneller Beratung, schneller Erreichbarkeit und transparenter Kommunikation während des gesamten Kauf- oder Verkaufsprozesses. Besonders das Verhandlungsgeschick und der persönliche Einsatz der Maklerinnen werden in den Bewertungen mehrfach hervorgehoben. Das Büro ist in Stuttgart-Ost ansässig und auf Wohnimmobilien ausgerichtet. Mehr zu <a href=\"/stuttgart/immobilienmakler-ost\">Maklern in Stuttgart-Ost</a>."
     },
     {
       "name": "SCHMID IMMOBILIEN STUTTGART®",
@@ -29,7 +30,7 @@
       "reviewsCount": 324,
       "spezialisierung": "Wohnimmobilien",
       "stadtteil": "Ost",
-      "html": "<a href=\"https://www.s-0711.de/\" target=\"_blank\" rel=\"noopener\"><strong>SCHMID IMMOBILIEN STUTTGART®</strong></a> gehört mit 4.8 Sternen bei 324 Bewertungen zu den bestbewerteten Immobilienmaklern in Stuttgart. Mit 4,8 von 5 Sternen bei 324 Bewertungen zählt dieser Immobilienmakler Stuttgart zu den bestbewerteten der Stadt. Kunden berichten in ihren Erfahrungen durchgehend von professioneller Beratung, schneller Erreichbarkeit und transparenter Kommunikation. Besonders hervorzuheben sind laut den Bewertungen die persönliche, zuverlässige Betreuung sowie das lösungsorientierte Engagement vom ersten Kontakt bis zum erfolgreichen Abschluss. Der Makler ist auf Wohnimmobilien spezialisiert und in Stuttgart-Ost ansässig. Mehr zu <a href=\"/stuttgart/immobilienmakler-ost\">Maklern in Stuttgart-Ost</a>."
+      "html": "<a href=\"https://www.s-0711.de/\" target=\"_blank\" rel=\"noopener\"><strong>SCHMID IMMOBILIEN STUTTGART®</strong></a> gehört mit 4.8 Sternen bei 324 Bewertungen zu den bestbewerteten Immobilienmaklern in Stuttgart. Mit 4,8 von 5 Sternen bei 324 Bewertungen zählt dieser Immobilienmakler Stuttgart zu den bestbewerteten der Stadt. Kunden berichten in ihren Erfahrungen durchgehend von professioneller Beratung, schneller Erreichbarkeit und transparenter Kommunikation. Besonders hervorzuheben sind laut den Bewertungen die persönliche, zuverlässige Betreuung sowie das lösungsorientierte Engagement vom ersten Kontakt bis zum erfolgreichen Abschluss. Der Schwerpunkt des Büros liegt auf Wohnimmobilien; ansässig ist es in Stuttgart-Ost. Mehr zu <a href=\"/stuttgart/immobilienmakler-ost\">Maklern in Stuttgart-Ost</a>."
     }
   ],
   "faq": [
@@ -39,6 +40,7 @@
     }
   ],
   "aiCopy": "Immobilienmakler in Stuttgart – Stadtteil Ost: Lechler Immobilien (4.9★, 177 Bewertungen, spezialisiert auf Wohnimmobilien); SCHMID IMMOBILIEN STUTTGART® (4.8★, 324 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "marktText": "In Baden-Württemberg beträgt die Grunderwerbsteuer 5,0 Prozent des Kaufpreises – ein Kostenfaktor, der beim Immobilienkauf in Stuttgart-Ost wie im gesamten Stadtgebiet der rund 626.000-Einwohner-Stadt unmittelbar ins Gewicht fällt. Wer dabei einen Makler hinzuzieht, findet im Stadtteil Ost laut unserem Vergleich zwei tätige Anbieter mit Spezialisierung auf Wohnimmobilien.\n\nDie Bewertungslage beider Makler ist auffällig konsistent: Lechler Immobilien erreicht 4,9 Sterne bei 177 Bewertungen, SCHMID IMMOBILIEN STUTTGART® kommt auf 4,8 Sterne bei 324 Bewertungen. Die deutlich höhere Bewertungsanzahl bei SCHMID deutet auf eine breitere Marktpräsenz hin, während Lechler trotz geringerer Bewertungsanzahl den minimal höheren Schnitt hält. Gemessen an diesen Kennzahlen stellt Stuttgart-Ost einen Teilmarkt dar, in dem Kundenzufriedenheit offenbar strukturell verankert ist.",
   "isHowTo": false,
   "related": [
     {
@@ -92,8 +94,8 @@
       "label": "Immobilienmakler Stuttgart-Ost"
     },
     {
-      "href": "/stuttgart/immobilienmakler-bad",
-      "label": "Immobilienmakler Stuttgart-Bad"
+      "href": "/stuttgart/immobilienmakler-bad-cannstatt",
+      "label": "Immobilienmakler Stuttgart-Bad Cannstatt"
     }
   ],
   "crossCityLinks": [

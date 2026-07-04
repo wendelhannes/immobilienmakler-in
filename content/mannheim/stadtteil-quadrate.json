@@ -10,6 +10,7 @@
   "h1": "Immobilienmakler in Mannheim-Quadrate",
   "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Mannheim-Quadrate, im Vergleich mit Bewertungen und Spezialisierung.",
   "jahr": 2026,
+  "generatedAt": "2026-07-04",
   "makler_summaries": [
     {
       "name": "Immobilien - Management Kayhan",
@@ -19,7 +20,7 @@
       "reviewsCount": 36,
       "spezialisierung": "Wohnimmobilien",
       "stadtteil": "Quadrate",
-      "html": "<a href=\"http://www.immobilien-kayhan.de/\" target=\"_blank\" rel=\"noopener\"><strong>Immobilien - Management Kayhan</strong></a> gehört mit 5 Sternen bei 36 Bewertungen zu den bestbewerteten Immobilienmaklern in Mannheim. Die Google-Bewertungen zeigen, dass Kunden den Immobilienmakler Mannheim vor allem wegen seiner schnellen Kommunikation, zuverlässigen Erreichbarkeit und unkomplizierten Abwicklung schätzen. Die Erfahrungen heben besonders die freundliche und professionelle Beratung durch das gesamte Team hervor, wobei Miet- und Verkaufsprozesse laut Bewertungen oft innerhalb weniger Tage erfolgreich abgeschlossen wurden. Der Makler ist auf Wohnimmobilien spezialisiert und in Mannheim-Quadrate ansässig. Mehr zu <a href=\"/mannheim/immobilienmakler-quadrate\">Maklern in Mannheim-Quadrate</a>."
+      "html": "<a href=\"http://www.immobilien-kayhan.de/\" target=\"_blank\" rel=\"noopener\"><strong>Immobilien - Management Kayhan</strong></a> gehört mit 5 Sternen bei 36 Bewertungen zu den bestbewerteten Immobilienmaklern in Mannheim. Die Google-Bewertungen zeigen, dass Kunden den Immobilienmakler Mannheim vor allem wegen seiner schnellen Kommunikation, zuverlässigen Erreichbarkeit und unkomplizierten Abwicklung schätzen. Die Erfahrungen heben besonders die freundliche und professionelle Beratung durch das gesamte Team hervor, wobei Miet- und Verkaufsprozesse laut Bewertungen oft innerhalb weniger Tage erfolgreich abgeschlossen wurden. Fachlicher Fokus: Wohnimmobilien – das Büro sitzt in Mannheim-Quadrate. Mehr zu <a href=\"/mannheim/immobilienmakler-quadrate\">Maklern in Mannheim-Quadrate</a>."
     },
     {
       "name": "Immobilien Vogel Mannheim",
@@ -39,6 +40,7 @@
     }
   ],
   "aiCopy": "Immobilienmakler in Mannheim – Stadtteil Quadrate: Immobilien - Management Kayhan (5★, 36 Bewertungen, spezialisiert auf Wohnimmobilien); Immobilien Vogel Mannheim (4.4★, 155 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "marktText": "In Baden-Württemberg gilt ein Grunderwerbsteuersatz von 5,0 Prozent, der beim Immobilienkauf in Mannheim-Quadrate unmittelbar auf den Kaufpreis anfällt und die Gesamtkosten einer Transaktion spürbar erhöht. Wer in diesem Stadtteil kauft oder verkauft, sollte diesen Kostenfaktor frühzeitig einkalkulieren.\n\nIm Teilmarkt Quadrate sind laut unserem Vergleich zwei auf Wohnimmobilien spezialisierte Makler tätig. Immobilien Vogel Mannheim stützt sich auf eine breite Bewertungsbasis von 155 Einträgen mit einem Schnitt von 4,4 Sternen, was auf langjährige Marktpräsenz hindeutet. Immobilien - Management Kayhan kommt bei 36 Bewertungen auf 5,0 Sterne, was zwar eine schmalere Datenbasis bedeutet, jedoch auf eine durchgehend hohe Kundenzufriedenheit schließen lässt. Beide Anbieter decken ausschließlich den Wohnimmobilienbereich ab, sodass gewerbliche Suchende in Quadrate auf andere Marktteilnehmer ausweichen müssen.",
   "isHowTo": false,
   "related": [
     {
@@ -96,8 +98,8 @@
       "label": "Immobilienmakler Mannheim-Oststadt"
     },
     {
-      "href": "/mannheim/immobilienmakler-neckarstadt",
-      "label": "Immobilienmakler Mannheim-Neckarstadt"
+      "href": "/mannheim/immobilienmakler-neckarstadt-ost",
+      "label": "Immobilienmakler Mannheim-Neckarstadt-Ost"
     },
     {
       "href": "/mannheim/immobilienmakler-gartenstadt",

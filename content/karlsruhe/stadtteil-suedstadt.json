@@ -10,6 +10,7 @@
   "h1": "Immobilienmakler in Karlsruhe-Südstadt",
   "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Karlsruhe-Südstadt, im Vergleich mit Bewertungen und Spezialisierung.",
   "jahr": 2026,
+  "generatedAt": "2026-07-04",
   "makler_summaries": [
     {
       "name": "ImmobilienExpert",
@@ -19,7 +20,7 @@
       "reviewsCount": 30,
       "spezialisierung": "Wohnimmobilien",
       "stadtteil": "Südstadt",
-      "html": "<a href=\"https://www.immobilienexpert.de/\" target=\"_blank\" rel=\"noopener\"><strong>ImmobilienExpert</strong></a> gehört mit 5 Sternen bei 30 Bewertungen zu den bestbewerteten Immobilienmaklern in Karlsruhe. Mit 30 Bewertungen und 5 Sternen überzeugt der Immobilienmakler Karlsruhe durch durchgehend positive Erfahrungen seiner Kunden. Die Bewertungen heben besonders die professionelle Beratungsqualität, schnelle Kommunikation und zuverlässige Erreichbarkeit des Teams hervor. Mehrere Kunden berichten zudem, dass sie den Makler nach erfolgreichen Abschlüssen erneut beauftragt haben – sowohl beim Verkauf als auch beim Kauf von Wohnimmobilien. Der Makler ist auf Wohnimmobilien spezialisiert und in Karlsruhe-Südstadt ansässig. Mehr zu <a href=\"/karlsruhe/immobilienmakler-suedstadt\">Maklern in Karlsruhe-Südstadt</a>."
+      "html": "<a href=\"https://www.immobilienexpert.de/\" target=\"_blank\" rel=\"noopener\"><strong>ImmobilienExpert</strong></a> gehört mit 5 Sternen bei 30 Bewertungen zu den bestbewerteten Immobilienmaklern in Karlsruhe. Mit 30 Bewertungen und 5 Sternen überzeugt der Immobilienmakler Karlsruhe durch durchgehend positive Erfahrungen seiner Kunden. Die Bewertungen heben besonders die professionelle Beratungsqualität, schnelle Kommunikation und zuverlässige Erreichbarkeit des Teams hervor. Mehrere Kunden berichten zudem, dass sie den Makler nach erfolgreichen Abschlüssen erneut beauftragt haben – sowohl beim Verkauf als auch beim Kauf von Wohnimmobilien. Spezialisiert ist das Büro auf Wohnimmobilien, mit Standort in Karlsruhe-Südstadt. Mehr zu <a href=\"/karlsruhe/immobilienmakler-suedstadt\">Maklern in Karlsruhe-Südstadt</a>."
     }
   ],
   "faq": [
@@ -29,6 +30,7 @@
     }
   ],
   "aiCopy": "Immobilienmakler in Karlsruhe – Stadtteil Südstadt: ImmobilienExpert (5★, 30 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "marktText": "ImmobilienExpert führt den Maklervergleich für die Karlsruher Südstadt mit einer Bewertung von 5,0 Sternen bei 30 abgegebenen Rezensionen an und ist auf Wohnimmobilien spezialisiert. Diese Kombination aus vollständiger Bewertungspunktezahl und einer für lokale Anbieter soliden Anzahl an Bewertungen deutet auf eine konsistent positive Kundenerfahrung hin.\n\nDa aktuell nur ein Anbieter im Vergleich für die Südstadt gelistet ist, lässt sich kein direkter Wettbewerbsvergleich innerhalb des Stadtteils ziehen. Als Teilmarkt der rund 308.000 Einwohner zählenden Großstadt Karlsruhe in Baden-Württemberg ist die Südstadt jedoch in ein breiteres Maklerangebot eingebettet, sodass Interessenten bei Bedarf auch stadtweite Anbieter in ihre Auswahl einbeziehen sollten, um eine fundierte Entscheidung treffen zu können.",
   "isHowTo": false,
   "related": [
     {
@@ -98,8 +100,8 @@
       "label": "Immobilienmakler Karlsruhe-Mühlburg"
     },
     {
-      "href": "/karlsruhe/immobilienmakler-innenstadt",
-      "label": "Immobilienmakler Karlsruhe-Innenstadt"
+      "href": "/karlsruhe/immobilienmakler-innenstadt-west",
+      "label": "Immobilienmakler Karlsruhe-Innenstadt-West"
     }
   ],
   "crossCityLinks": [

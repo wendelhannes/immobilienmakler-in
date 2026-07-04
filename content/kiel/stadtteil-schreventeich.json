@@ -10,6 +10,7 @@
   "h1": "Immobilienmakler in Kiel-Schreventeich",
   "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Kiel-Schreventeich, im Vergleich mit Bewertungen und Spezialisierung.",
   "jahr": 2026,
+  "generatedAt": "2026-07-04",
   "makler_summaries": [
     {
       "name": "Broß Immobilien",
@@ -19,7 +20,7 @@
       "reviewsCount": 20,
       "spezialisierung": "Wohnimmobilien",
       "stadtteil": "Schreventeich",
-      "html": "<a href=\"https://www.bross-immobilien.com/\" target=\"_blank\" rel=\"noopener\"><strong>Broß Immobilien</strong></a> gehört mit 5 Sternen bei 20 Bewertungen zu den bestbewerteten Immobilienmaklern in Kiel. Broß Immobilien überzeugt laut Kundenbewertungen als Immobilienmakler Kiel durch eine sorgfältige, diskrete und stets erreichbare Arbeitsweise. Die Erfahrungen der Kunden heben besonders die schnelle Exposé-Erstellung, regelmäßige Verkaufsberichte und erfolgreiche Abschlüsse – teils innerhalb weniger Monate – hervor. Mit 5,0 von 5 Sternen bei 20 Bewertungen spiegeln diese Ergebnisse ein konstant hohes Maß an Fachkompetenz und persönlichem Engagement wider. Der Makler ist auf Wohnimmobilien spezialisiert und in Kiel-Schreventeich ansässig. Mehr zu <a href=\"/kiel/immobilienmakler-schreventeich\">Maklern in Kiel-Schreventeich</a>."
+      "html": "<a href=\"https://www.bross-immobilien.com/\" target=\"_blank\" rel=\"noopener\"><strong>Broß Immobilien</strong></a> gehört mit 5 Sternen bei 20 Bewertungen zu den bestbewerteten Immobilienmaklern in Kiel. Broß Immobilien überzeugt laut Kundenbewertungen als Immobilienmakler Kiel durch eine sorgfältige, diskrete und stets erreichbare Arbeitsweise. Die Erfahrungen der Kunden heben besonders die schnelle Exposé-Erstellung, regelmäßige Verkaufsberichte und erfolgreiche Abschlüsse – teils innerhalb weniger Monate – hervor. Mit 5,0 von 5 Sternen bei 20 Bewertungen spiegeln diese Ergebnisse ein konstant hohes Maß an Fachkompetenz und persönlichem Engagement wider. Spezialisiert ist das Büro auf Wohnimmobilien, mit Standort in Kiel-Schreventeich. Mehr zu <a href=\"/kiel/immobilienmakler-schreventeich\">Maklern in Kiel-Schreventeich</a>."
     }
   ],
   "faq": [
@@ -29,6 +30,7 @@
     }
   ],
   "aiCopy": "Immobilienmakler in Kiel – Stadtteil Schreventeich: Broß Immobilien (5★, 20 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "marktText": "Broß Immobilien ist im Kieler Stadtteil Schreventeich mit einer Spezialisierung auf Wohnimmobilien vertreten und damit der einzige im Vergleichsportal gelistete Makler für diesen Teilmarkt der rund 246.000 Einwohner zählenden Landeshauptstadt Schleswig-Holsteins. Mit 20 Bewertungen und einer Durchschnittsnote von 5 Sternen fällt die Datenbasis überschaubar, aber eindeutig positiv aus. Die geringe Anzahl an erfassten Anbietern lässt keine breite Marktübersicht zu, deutet jedoch darauf hin, dass Schreventeich bislang von vergleichsweise wenigen spezialisierten Maklern aktiv bearbeitet wird. Wer in diesem Stadtteil eine Immobilientransaktion plant, sollte die begrenzte Anbieterauswahl berücksichtigen und gegebenenfalls auch Makler aus angrenzenden Kieler Stadtteilen in die Suche einbeziehen.",
   "isHowTo": false,
   "related": [
     {
@@ -82,8 +84,8 @@
       "label": "Immobilienmakler Kiel-Elmschenhagen"
     },
     {
-      "href": "/kiel/immobilienmakler-pries",
-      "label": "Immobilienmakler Kiel-Pries"
+      "href": "/kiel/immobilienmakler-pries-friedrichsort",
+      "label": "Immobilienmakler Kiel-Pries-Friedrichsort"
     },
     {
       "href": "/kiel/immobilienmakler-kanal",

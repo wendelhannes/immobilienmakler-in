@@ -7,7 +7,13 @@
 
 ## Website
 
-* [Startseite](https://immobilienmakler-in.com)
+* [Startseite (Maklervergleich)](https://immobilienmakler-in.com)
+* [Alle Städte](https://immobilienmakler-in.com/staedte)
+* [Ratgeber-Übersicht](https://immobilienmakler-in.com/ratgeber)
+* [Haus verkaufen (Ratgeber)](https://immobilienmakler-in.com/haus-verkaufen)
+* [Immobilienbewertung (Ratgeber)](https://immobilienmakler-in.com/immobilienbewertung)
+* [Maklerkosten (Ratgeber)](https://immobilienmakler-in.com/was-kostet-ein-immobilienmakler)
+* [SEO & GEO für Immobilienmakler (B2B)](https://immobilienmakler-in.com/seo-fuer-immobilienmakler)
 * [Sichtbarkeits-Check für Makler](https://immobilienmakler-in.com/sichtbarkeits-check)
 * [Über uns & Ranking-Methodik](https://immobilienmakler-in.com/ueber-uns)
 * [Impressum](https://immobilienmakler-in.com/impressum)

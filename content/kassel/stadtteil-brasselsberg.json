@@ -10,6 +10,7 @@
   "h1": "Immobilienmakler in Kassel-Brasselsberg",
   "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Kassel-Brasselsberg, im Vergleich mit Bewertungen und Spezialisierung.",
   "jahr": 2026,
+  "generatedAt": "2026-07-04",
   "makler_summaries": [
     {
       "name": "Kurhessen Immobilien GmbH",
@@ -19,7 +20,7 @@
       "reviewsCount": 20,
       "spezialisierung": "Wohnimmobilien",
       "stadtteil": "Brasselsberg",
-      "html": "<a href=\"https://kurhessen-immobilien.de/\" target=\"_blank\" rel=\"noopener\"><strong>Kurhessen Immobilien GmbH</strong></a> gehört mit 5 Sternen bei 20 Bewertungen zu den bestbewerteten Immobilienmaklern in Kassel. Die Erfahrungen und Bewertungen als Immobilienmakler Kassel zeigen: Frau Moog überzeugt Kunden durch ihre konstante Erreichbarkeit, fundiertes Fachwissen und kompetente Beratung – von der ersten Besichtigung bis weit über die Beurkundung hinaus. Besonders hervorgehoben werden ihre souveräne Begleitung auch in außergewöhnlichen Situationen sowie die umfassende Betreuung rund um Kauf, Verkauf und Finanzierung. Der Makler ist auf Wohnimmobilien spezialisiert und in Kassel-Brasselsberg ansässig. Mehr zu <a href=\"/kassel/immobilienmakler-brasselsberg\">Maklern in Kassel-Brasselsberg</a>."
+      "html": "<a href=\"https://kurhessen-immobilien.de/\" target=\"_blank\" rel=\"noopener\"><strong>Kurhessen Immobilien GmbH</strong></a> gehört mit 5 Sternen bei 20 Bewertungen zu den bestbewerteten Immobilienmaklern in Kassel. Die Erfahrungen und Bewertungen als Immobilienmakler Kassel zeigen: Frau Moog überzeugt Kunden durch ihre konstante Erreichbarkeit, fundiertes Fachwissen und kompetente Beratung – von der ersten Besichtigung bis weit über die Beurkundung hinaus. Besonders hervorgehoben werden ihre souveräne Begleitung auch in außergewöhnlichen Situationen sowie die umfassende Betreuung rund um Kauf, Verkauf und Finanzierung. Spezialisiert ist das Büro auf Wohnimmobilien, mit Standort in Kassel-Brasselsberg. Mehr zu <a href=\"/kassel/immobilienmakler-brasselsberg\">Maklern in Kassel-Brasselsberg</a>."
     }
   ],
   "faq": [
@@ -29,6 +30,7 @@
     }
   ],
   "aiCopy": "Immobilienmakler in Kassel – Stadtteil Brasselsberg: Kurhessen Immobilien GmbH (5★, 20 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "marktText": "In Hessen liegt die Grunderwerbsteuer bei 6,0 Prozent des Kaufpreises – ein Kostenfaktor, den Käufer in Brasselsberg wie in ganz Kassel von Anfang an einkalkulieren sollten. Hinzu kommen gegebenenfalls Maklerprovision sowie Notar- und Grundbuchkosten, sodass die Nebenkosten beim Immobilienerwerb erheblich ins Gewicht fallen können.\n\nFür den Teilmarkt Brasselsberg innerhalb der rund 201.000 Einwohner zählenden Stadt Kassel ist die Maklerabdeckung laut unserem Vergleich überschaubar: Mit der Kurhessen Immobilien GmbH ist dort ein auf Wohnimmobilien spezialisierter Anbieter vertreten, der bei 20 Bewertungen eine Gesamtwertung von 5 Sternen erreicht. Diese Bewertungsbasis ist zwar noch vergleichsweise schmal, deutet aber auf eine bislang durchweg positive Kundenerfahrung hin. Interessenten sollten die begrenzte Anbieterauswahl im Stadtteil bewusst berücksichtigen und gegebenenfalls auch kassenweit tätige Makler in ihre Suche einbeziehen.",
   "isHowTo": false,
   "related": [
     {
@@ -74,8 +76,8 @@
       "label": "Makler oder privat verkaufen? Kassel"
     },
     {
-      "href": "/kassel/immobilienmakler-bad",
-      "label": "Immobilienmakler Kassel-Bad"
+      "href": "/kassel/immobilienmakler-bad-wilhelmshoehe",
+      "label": "Immobilienmakler Kassel-Bad Wilhelmshöhe"
     },
     {
       "href": "/kassel/immobilienmakler-unterneustadt",

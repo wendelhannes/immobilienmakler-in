@@ -9,7 +9,8 @@ export default function FaqSection({ faq }: { faq: FaqItem[] }) {
       {faq.map((item, i) => (
         <details key={i} className="faq-item" open={i === 0}>
           <summary className="faq-q">
-            {item.q}
+            {/* h3 = sichtbare Heading-Struktur für AI-Extraktion (Audit-GEO) */}
+            <h3>{item.q}</h3>
             <span className="arr">▾</span>
           </summary>
           <div className="faq-a" dangerouslySetInnerHTML={{ __html: item.a }} />

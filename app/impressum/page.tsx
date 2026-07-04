@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Impressum",
   description: "Impressum und Anbieterkennzeichnung von immobilienmakler-in.com.",
   alternates: { canonical: "/impressum" },
-  robots: { index: false, follow: true },
+  robots: { index: true, follow: true },
 };
 
 export default function ImpressumPage() {

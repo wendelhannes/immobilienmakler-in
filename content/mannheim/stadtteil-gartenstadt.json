@@ -10,6 +10,7 @@
   "h1": "Immobilienmakler in Mannheim-Gartenstadt",
   "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Mannheim-Gartenstadt, im Vergleich mit Bewertungen und Spezialisierung.",
   "jahr": 2026,
+  "generatedAt": "2026-07-04",
   "makler_summaries": [
     {
       "name": "Kliff Immobilien",
@@ -19,7 +20,7 @@
       "reviewsCount": 39,
       "spezialisierung": "Wohnimmobilien",
       "stadtteil": "Gartenstadt",
-      "html": "<a href=\"http://www.kliff-immobilien.de/\" target=\"_blank\" rel=\"noopener\"><strong>Kliff Immobilien</strong></a> gehört mit 4.9 Sternen bei 39 Bewertungen zu den bestbewerteten Immobilienmaklern in Mannheim. Kunden berichten in ihren Erfahrungen und Bewertungen über Kliff Immobilien als Immobilienmakler Mannheim vor allem von schneller Erreichbarkeit, zügiger Terminvereinbarung und professioneller Betreuung von der ersten Kontaktaufnahme bis nach der Vertragsunterzeichnung. Besonders häufig hervorgehoben werden die wertschätzende Kommunikation auf Augenhöhe sowie die zuverlässige und lösungsorientierte Begleitung bei Wohnungsvermittlung, Hauskauf und -verkauf. Der Makler ist auf Wohnimmobilien spezialisiert und in Mannheim-Gartenstadt ansässig. Mehr zu <a href=\"/mannheim/immobilienmakler-gartenstadt\">Maklern in Mannheim-Gartenstadt</a>."
+      "html": "<a href=\"http://www.kliff-immobilien.de/\" target=\"_blank\" rel=\"noopener\"><strong>Kliff Immobilien</strong></a> gehört mit 4.9 Sternen bei 39 Bewertungen zu den bestbewerteten Immobilienmaklern in Mannheim. Kunden berichten in ihren Erfahrungen und Bewertungen über Kliff Immobilien als Immobilienmakler Mannheim vor allem von schneller Erreichbarkeit, zügiger Terminvereinbarung und professioneller Betreuung von der ersten Kontaktaufnahme bis nach der Vertragsunterzeichnung. Besonders häufig hervorgehoben werden die wertschätzende Kommunikation auf Augenhöhe sowie die zuverlässige und lösungsorientierte Begleitung bei Wohnungsvermittlung, Hauskauf und -verkauf. Der Schwerpunkt des Büros liegt auf Wohnimmobilien; ansässig ist es in Mannheim-Gartenstadt. Mehr zu <a href=\"/mannheim/immobilienmakler-gartenstadt\">Maklern in Mannheim-Gartenstadt</a>."
     }
   ],
   "faq": [
@@ -29,6 +30,7 @@
     }
   ],
   "aiCopy": "Immobilienmakler in Mannheim – Stadtteil Gartenstadt: Kliff Immobilien (4.9★, 39 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "marktText": "Mannheim ist mit rund 309.000 Einwohnern eine der bevölkerungsreichsten Städte Baden-Württembergs und verfügt über einen entsprechend differenzierten Immobilienmarkt, der sich in zahlreiche Stadtteile aufgliedert. Gartenstadt bildet dabei einen dieser Teilmärkte, für den unser Vergleich derzeit einen ansässigen beziehungsweise tätigen Makler ausweist.\n\nMit Kliff Immobilien ist in Gartenstadt ein auf Wohnimmobilien spezialisierter Anbieter vertreten, der auf Basis von 39 Bewertungen eine Durchschnittsbewertung von 4,9 Sternen erreicht. Diese Bewertungslage deutet auf eine konsistent hohe Kundenzufriedenheit hin, wenngleich die vergleichsweise geringe Anzahl an erfassten Maklern zeigt, dass der Teilmarkt Gartenstadt im Rahmen unseres Portals bislang weniger breit abgedeckt ist als andere Stadtteile Mannheims. Interessenten sollten dies bei ihrer Anbietersuche berücksichtigen.",
   "isHowTo": false,
   "related": [
     {
@@ -86,8 +88,8 @@
       "label": "Immobilienmakler Mannheim-Oststadt"
     },
     {
-      "href": "/mannheim/immobilienmakler-neckarstadt",
-      "label": "Immobilienmakler Mannheim-Neckarstadt"
+      "href": "/mannheim/immobilienmakler-neckarstadt-ost",
+      "label": "Immobilienmakler Mannheim-Neckarstadt-Ost"
     },
     {
       "href": "/mannheim/immobilienmakler-gartenstadt",

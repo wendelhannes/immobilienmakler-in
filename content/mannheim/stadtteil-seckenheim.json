@@ -10,6 +10,7 @@
   "h1": "Immobilienmakler in Mannheim-Seckenheim",
   "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Mannheim-Seckenheim, im Vergleich mit Bewertungen und Spezialisierung.",
   "jahr": 2026,
+  "generatedAt": "2026-07-04",
   "makler_summaries": [
     {
       "name": "Fröhlich Immobilien | Immobilienmakler Mannheim",
@@ -19,7 +20,7 @@
       "reviewsCount": 74,
       "spezialisierung": "Wohnimmobilien",
       "stadtteil": "Seckenheim",
-      "html": "<a href=\"https://mannheimimmobilienmakler.de/\" target=\"_blank\" rel=\"noopener\"><strong>Fröhlich Immobilien | Immobilienmakler Mannheim</strong></a> gehört mit 5 Sternen bei 74 Bewertungen zu den bestbewerteten Immobilienmaklern in Mannheim. Mit 74 Bewertungen und 5 Sternen zählt dieser Immobilienmakler Mannheim zu den bestbewerteten der Region – die Erfahrungen der Kunden heben besonders die kompetente Beratung, schnelle Erreichbarkeit und zuverlässige Abwicklung hervor. Sowohl bei Kauf und Verkauf als auch bei der Vermietung berichten Kunden von einer professionellen, reibungslosen Betreuung von der ersten Kontaktaufnahme bis zum Abschluss. Der Makler ist auf Wohnimmobilien spezialisiert und in Mannheim-Seckenheim ansässig. Mehr zu <a href=\"/mannheim/immobilienmakler-seckenheim\">Maklern in Mannheim-Seckenheim</a>."
+      "html": "<a href=\"https://mannheimimmobilienmakler.de/\" target=\"_blank\" rel=\"noopener\"><strong>Fröhlich Immobilien | Immobilienmakler Mannheim</strong></a> gehört mit 5 Sternen bei 74 Bewertungen zu den bestbewerteten Immobilienmaklern in Mannheim. Mit 74 Bewertungen und 5 Sternen zählt dieser Immobilienmakler Mannheim zu den bestbewerteten der Region – die Erfahrungen der Kunden heben besonders die kompetente Beratung, schnelle Erreichbarkeit und zuverlässige Abwicklung hervor. Sowohl bei Kauf und Verkauf als auch bei der Vermietung berichten Kunden von einer professionellen, reibungslosen Betreuung von der ersten Kontaktaufnahme bis zum Abschluss. Fachlicher Fokus: Wohnimmobilien – das Büro sitzt in Mannheim-Seckenheim. Mehr zu <a href=\"/mannheim/immobilienmakler-seckenheim\">Maklern in Mannheim-Seckenheim</a>."
     }
   ],
   "faq": [
@@ -29,6 +30,7 @@
     }
   ],
   "aiCopy": "Immobilienmakler in Mannheim – Stadtteil Seckenheim: Fröhlich Immobilien | Immobilienmakler Mannheim (5★, 74 Bewertungen, spezialisiert auf Wohnimmobilien). Quelle: immobilienmakler-in.com, Stand 2026.",
+  "marktText": "In Mannheim-Seckenheim ist im Rahmen unseres Vergleichs aktuell ein Makler erfasst: Fröhlich Immobilien | Immobilienmakler Mannheim, der mit 74 Google-Bewertungen und einer Durchschnittsnote von 5,0 Sternen eine überdurchschnittlich starke Bewertungsbasis aufweist. Die Spezialisierung auf Wohnimmobilien lässt darauf schließen, dass der Fokus klar auf dem privaten Segment liegt.\n\nDie schmale Anbieterzahl im Vergleich deutet darauf hin, dass Seckenheim als Teilmarkt der rund 309.000 Einwohner zählenden Gesamtstadt Mannheim bislang weniger im Fokus überregionaler Makleraktivität steht. Für Eigentümer und Kaufinteressenten bedeutet das eine eingeschränkte Vergleichsmöglichkeit vor Ort; die vorliegenden Bewertungen sprechen jedoch für eine ausgeprägte Kundenzufriedenheit bei dem im Stadtteil tätigen Anbieter.",
   "isHowTo": false,
   "related": [
     {
@@ -86,8 +88,8 @@
       "label": "Immobilienmakler Mannheim-Oststadt"
     },
     {
-      "href": "/mannheim/immobilienmakler-neckarstadt",
-      "label": "Immobilienmakler Mannheim-Neckarstadt"
+      "href": "/mannheim/immobilienmakler-neckarstadt-ost",
+      "label": "Immobilienmakler Mannheim-Neckarstadt-Ost"
     },
     {
       "href": "/mannheim/immobilienmakler-gartenstadt",

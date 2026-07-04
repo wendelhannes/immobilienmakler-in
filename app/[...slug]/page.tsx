@@ -8,7 +8,7 @@ import MaklerTable from "@/components/MaklerTable";
 import FaqSection from "@/components/FaqSection";
 import CtaSection from "@/components/CtaSection";
 import Byline from "@/components/Byline";
-import { ORGANIZATION, PERSON, isoDate } from "@/lib/site";
+import { ORGANIZATION, PERSON, isoDate, formatUpdated } from "@/lib/site";
 import {
   getCityFacts,
   buildMarktStats,
@@ -182,6 +182,8 @@ export default function Page({ params }: { params: { slug: string[] } }) {
         headline: page.h1,
         description: page.intro,
         inLanguage: "de-DE",
+        image: `${DOMAIN}/opengraph-image`,
+        datePublished: page.generatedAt || isoDate(),
         dateModified: isoDate(),
         author: PERSON,
         publisher: ORGANIZATION,
@@ -268,10 +270,14 @@ export default function Page({ params }: { params: { slug: string[] } }) {
           </section>
         )}
 
-        {/* ── LOKALER MARKTKONTEXT (Intent-Seiten, einzigartig) ── */}
+        {/* ── LOKALER MARKTKONTEXT (Intent- & Stadtteil-Seiten, einzigartig) ── */}
         {!isHauptseite && page.marktText && (
           <section className="section reveal">
-            <h2>Der Immobilienmarkt in {page.stadt}</h2>
+            <h2>
+              {page.pageType === "stadtteil" && page.stadtteil
+                ? `Der Markt in ${page.stadt}-${page.stadtteil}`
+                : `Der Immobilienmarkt in ${page.stadt}`}
+            </h2>
             {page.marktText.split(/\n\n+/).map((para, i) => (
               <p key={i}>{para}</p>
             ))}
@@ -302,33 +308,47 @@ export default function Page({ params }: { params: { slug: string[] } }) {
             </p>
             <MaklerTable makler={page.makler_summaries} />
             <p style={{ fontSize: 13, color: "var(--mu)", marginTop: 12 }}>
-              Unabhängigkeit: Die Rangfolge basiert ausschließlich auf öffentlich
-              einsehbaren Google-Bewertungen. Platzierungen sind nicht käuflich und
-              unabhängig davon, ob ein Makler Leistungen von uns bezieht.{" "}
+              Bewertungen laut Google, Stand: {formatUpdated()}. Unabhängigkeit:
+              Die Rangfolge basiert ausschließlich auf öffentlich einsehbaren
+              Google-Bewertungen. Platzierungen sind nicht käuflich und unabhängig
+              davon, ob ein Makler Leistungen von uns bezieht.{" "}
               <Link href="/ueber-uns">Mehr zur Methodik →</Link>
             </p>
           </section>
         )}
 
-        {/* ── PROFILE ── */}
-        {page.makler_summaries.length > 0 && (
-          <section className="section reveal">
-            <h2>Die Makler im Detail</h2>
-            {page.makler_summaries.map((m) => (
-              <div
-                className="makler-profile"
-                key={m.slug}
-                dangerouslySetInnerHTML={{ __html: m.html }}
-              />
-            ))}
-          </section>
-        )}
+        {/* ── PROFILE (nur Hauptseite + Stadtteil; Intent-Seiten verlinken
+               stattdessen — Guide soll kein verkürzter Directory-Rerun sein) ── */}
+        {page.makler_summaries.length > 0 &&
+          (isHauptseite || page.pageType === "stadtteil" ? (
+            <section className="section reveal">
+              <h2>Die Makler im Detail</h2>
+              {page.makler_summaries.map((m) => (
+                <div
+                  className="makler-profile"
+                  key={m.slug}
+                  dangerouslySetInnerHTML={{ __html: m.html }}
+                />
+              ))}
+            </section>
+          ) : (
+            <section className="section reveal">
+              <p>
+                Ausführliche Profile aller bewerteten Maklerbüros mit
+                Kunden-Feedback finden Sie im{" "}
+                <Link href={`/${page.stadtSlug}`}>
+                  vollständigen Makler-Vergleich {page.stadt}
+                </Link>
+                .
+              </p>
+            </section>
+          ))}
 
         {/* ── FAQ (Content + lokale Daten-FAQ) ── */}
         <FaqSection faq={allFaq} />
 
-        {/* ── CTA ── */}
-        <CtaSection />
+        {/* ── B2B-Touchpoint (kompakt, bricht Consumer-Persona nicht) ── */}
+        <CtaSection variant="banner" />
 
         {/* ── AI COPY (GEO) ── */}
         {page.aiCopy && (

@@ -12,6 +12,7 @@ const INTENTS_PATH = path.join(process.cwd(), "data", "intents.json");
 const QUESTIONS_PATH = path.join(process.cwd(), "data", "questions.json");
 
 const JAHR = new Date().getFullYear();
+const GENERATED_AT = new Date().toISOString().slice(0, 10);
 
 const INTENT_SLUGS = [
   "haus-verkaufen",
@@ -57,16 +58,40 @@ function templateFallback(m: Makler): string {
   return `Kunden bewerten den Makler mit ${m.rating} von 5 Sternen. Insgesamt liegen ${m.reviewsCount} Bewertungen vor.`;
 }
 
+// Deterministischer Mini-Hash für die Formulierungs-Rotation.
+function hashOf(s: string): number {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+  return h;
+}
+
+// Audit-Fix: der Satz "Der Makler ist auf X spezialisiert" stand ~1.000× wörtlich
+// identisch auf der Seite. Jetzt: 6 rotierende Formulierungen; bei Standard-
+// Spezialisierung (Wohnimmobilien) ohne Stadtteil entfällt der Satz teilweise ganz.
+function buildSpezSentence(m: Makler, city: City): string {
+  const spez = m.spezialisierung;
+  const ort = m.stadtteil ? `${city.name}-${m.stadtteil}` : undefined;
+  const h = hashOf(m.slug + city.slug);
+
+  // Standardfall ohne Ortsbezug: in der Hälfte der Fälle weglassen.
+  if (spez === "Wohnimmobilien" && !ort && h % 2 === 0) return "";
+
+  const variants = [
+    ` Der Makler ist auf ${spez} spezialisiert${ort ? ` und in ${ort} ansässig` : ""}.`,
+    ` Der Schwerpunkt des Büros liegt auf ${spez}${ort ? `; ansässig ist es in ${ort}` : ""}.`,
+    ` Spezialisiert ist das Büro auf ${spez}${ort ? `, mit Standort in ${ort}` : ""}.`,
+    ` Fachlicher Fokus: ${spez}${ort ? ` – das Büro sitzt in ${ort}` : ""}.`,
+    ` Das Team arbeitet schwerpunktmäßig im Bereich ${spez}${ort ? ` und ist in ${ort} zu Hause` : ""}.`,
+    `${ort ? ` Das Büro ist in ${ort} ansässig und` : " Das Büro ist"} auf ${spez} ausgerichtet.`,
+  ];
+  return variants[h % variants.length];
+}
+
 function buildMaklerHtml(m: Makler, city: City): string {
   const reviewText = loadReviewCache(city.slug, m.slug) || templateFallback(m);
   const stadtteilSlug = m.stadtteil ? slugify(m.stadtteil) : undefined;
 
-  let html = `<a href="${m.website}" target="_blank" rel="noopener"><strong>${m.name}</strong></a> gehört mit ${m.rating} Sternen bei ${m.reviewsCount} Bewertungen zu den bestbewerteten Immobilienmaklern in ${city.name}. ${reviewText} Der Makler ist auf ${m.spezialisierung} spezialisiert`;
-
-  if (m.stadtteil) {
-    html += ` und in ${city.name}-${m.stadtteil} ansässig`;
-  }
-  html += `.`;
+  let html = `<a href="${m.website}" target="_blank" rel="noopener"><strong>${m.name}</strong></a> gehört mit ${m.rating} Sternen bei ${m.reviewsCount} Bewertungen zu den bestbewerteten Immobilienmaklern in ${city.name}. ${reviewText}${buildSpezSentence(m, city)}`;
 
   if (m.stadtteil && stadtteilSlug) {
     html += ` Mehr zu <a href="/${city.slug}/immobilienmakler-${stadtteilSlug}">Maklern in ${city.name}-${m.stadtteil}</a>.`;
@@ -191,6 +216,14 @@ function main() {
     const cityContentDir = path.join(CONTENT_DIR, city.slug);
     fs.mkdirSync(cityContentDir, { recursive: true });
 
+    // Alte Stadtteil-Dateien entfernen, bevor neu geschrieben wird -
+    // verhindert Zombie-Seiten nach Stadtteil-Korrekturen (Audit-Fix).
+    for (const f of fs.readdirSync(cityContentDir)) {
+      if (f.startsWith("stadtteil-") && f.endsWith(".json")) {
+        fs.unlinkSync(path.join(cityContentDir, f));
+      }
+    }
+
     const stadtteile = new Map<string, Makler[]>();
     for (const m of maklerList) {
       if (m.stadtteil) {
@@ -226,6 +259,7 @@ function main() {
         h1: `Die besten Immobilienmakler in ${city.name} (${JAHR})`,
         intro: `Ein Vergleich der bestbewerteten Immobilienmakler in ${city.name} auf Basis echter Google-Bewertungen.`,
         jahr: JAHR,
+        generatedAt: GENERATED_AT,
         makler_summaries: summaries,
         faq: buildHauptseiteFaq(maklerList, city, stadtteile),
         aiCopy: buildAiCopy(maklerList, city, "Übersicht"),
@@ -254,6 +288,7 @@ function main() {
         h1: intentDef.h1.replace(/\{stadt\}/g, city.name),
         intro: intentDef.intro.replace(/\{stadt\}/g, city.name),
         jahr: JAHR,
+        generatedAt: GENERATED_AT,
         makler_summaries: top5,
         faq: buildIntentFaq(intentSlug, city),
         aiCopy: buildAiCopy(maklerList, city, INTENT_LABELS[intentSlug]),
@@ -284,6 +319,7 @@ function main() {
         h1: `Immobilienmakler in ${city.name}-${stadtteil}`,
         intro: `Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in ${city.name}-${stadtteil}, im Vergleich mit Bewertungen und Spezialisierung.`,
         jahr: JAHR,
+        generatedAt: GENERATED_AT,
         makler_summaries: stSummaries,
         faq: [
           {
@@ -292,6 +328,7 @@ function main() {
           },
         ],
         aiCopy: buildAiCopy(list, city, `Stadtteil ${stadtteil}`),
+        marktText: loadMarketText(city.slug, `stadtteil-${stadtteilSlug}`),
         isHowTo: false,
         related: buildRelated(city, [city.slug, `immobilienmakler-${stadtteilSlug}`], allIntentLinks, crossCity),
         internalLinksGrid,
