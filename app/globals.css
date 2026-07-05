@@ -149,7 +149,7 @@ section { padding: 0; }
 }
 .hero h1 em { font-style: italic; color: var(--red); }
 .hero .sub { font-size: 17px; color: var(--tx); line-height: 1.65; margin-bottom: 32px; max-width: 480px; }
-.hero-actions { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+.hero-actions { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; min-height: 52px; }
 .hero-note { font-size: 13px; color: var(--mu); margin-top: 18px; }
 
 .btn-primary {

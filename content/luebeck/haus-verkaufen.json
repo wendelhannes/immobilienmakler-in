@@ -9,7 +9,7 @@
   "h1": "Haus verkaufen in Lübeck – Ablauf, Kosten und die richtigen Makler",
   "intro": "Wer in Lübeck ein Haus verkaufen möchte, steht vor Fragen zu Ablauf, Preisfindung und ob ein Makler nötig ist. Hier findest du eine Übersicht über den Verkaufsprozess und lokale Immobilienmakler in Lübeck, die beim Hausverkauf unterstützen.",
   "jahr": 2026,
-  "generatedAt": "2026-07-04",
+  "generatedAt": "2026-07-05",
   "makler_summaries": [
     {
       "name": "Marks Immobilien GmbH",
@@ -121,8 +121,12 @@
       "label": "Makler oder privat verkaufen? Lübeck"
     },
     {
-      "href": "/luebeck/immobilienmakler-luebecker",
-      "label": "Immobilienmakler Lübeck-Lübecker"
+      "href": "/luebeck/immobilienmakler-st-lorenz",
+      "label": "Immobilienmakler Lübeck-St. Lorenz"
+    },
+    {
+      "href": "/luebeck/immobilienmakler-altstadt",
+      "label": "Immobilienmakler Lübeck-Altstadt"
     }
   ],
   "crossCityLinks": [

@@ -9,7 +9,7 @@
   "h1": "Immobilienbewertung in Lübeck – kostenlos oder professionell?",
   "intro": "Eine fundierte Immobilienbewertung in Lübeck ist die Grundlage für einen erfolgreichen Verkauf. Makler in Lübeck bieten häufig eine kostenlose Erstbewertung an, während Gutachter für gerichtsfeste Wertgutachten zuständig sind.",
   "jahr": 2026,
-  "generatedAt": "2026-07-04",
+  "generatedAt": "2026-07-05",
   "makler_summaries": [
     {
       "name": "Marks Immobilien GmbH",
@@ -114,8 +114,12 @@
       "label": "Makler oder privat verkaufen? Lübeck"
     },
     {
-      "href": "/luebeck/immobilienmakler-luebecker",
-      "label": "Immobilienmakler Lübeck-Lübecker"
+      "href": "/luebeck/immobilienmakler-st-lorenz",
+      "label": "Immobilienmakler Lübeck-St. Lorenz"
+    },
+    {
+      "href": "/luebeck/immobilienmakler-altstadt",
+      "label": "Immobilienmakler Lübeck-Altstadt"
     }
   ],
   "crossCityLinks": [

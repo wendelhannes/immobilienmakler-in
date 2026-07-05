@@ -9,7 +9,7 @@
   "h1": "Immobilienbewertung in Heidelberg – kostenlos oder professionell?",
   "intro": "Eine fundierte Immobilienbewertung in Heidelberg ist die Grundlage für einen erfolgreichen Verkauf. Makler in Heidelberg bieten häufig eine kostenlose Erstbewertung an, während Gutachter für gerichtsfeste Wertgutachten zuständig sind.",
   "jahr": 2026,
-  "generatedAt": "2026-07-04",
+  "generatedAt": "2026-07-05",
   "makler_summaries": [
     {
       "name": "Heidelberger Wohnen GmbH",
@@ -117,10 +117,6 @@
     {
       "href": "/heidelberg/immobilienmakler-altstadt",
       "label": "Immobilienmakler Heidelberg-Altstadt"
-    },
-    {
-      "href": "/heidelberg/immobilienmakler-handschuhsheimer",
-      "label": "Immobilienmakler Heidelberg-Handschuhsheimer"
     },
     {
       "href": "/heidelberg/immobilienmakler-rohrbach",

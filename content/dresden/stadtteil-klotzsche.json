@@ -10,7 +10,7 @@
   "h1": "Immobilienmakler in Dresden-Klotzsche",
   "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Dresden-Klotzsche, im Vergleich mit Bewertungen und Spezialisierung.",
   "jahr": 2026,
-  "generatedAt": "2026-07-04",
+  "generatedAt": "2026-07-05",
   "makler_summaries": [
     {
       "name": "Kochbeck Immobilien Dresden",
@@ -80,8 +80,8 @@
       "label": "Immobilienmakler Dresden-Altstadt"
     },
     {
-      "href": "/dresden/immobilienmakler-weisser",
-      "label": "Immobilienmakler Dresden-Weißer"
+      "href": "/dresden/immobilienmakler-weisser-hirsch",
+      "label": "Immobilienmakler Dresden-Weißer Hirsch"
     },
     {
       "href": "/dresden/immobilienmakler-klotzsche",

@@ -10,7 +10,7 @@
   "h1": "Immobilienmakler in Heidelberg-Rohrbach",
   "intro": "Lokale Immobilienmakler mit Sitz oder Tätigkeitsschwerpunkt in Heidelberg-Rohrbach, im Vergleich mit Bewertungen und Spezialisierung.",
   "jahr": 2026,
-  "generatedAt": "2026-07-04",
+  "generatedAt": "2026-07-05",
   "makler_summaries": [
     {
       "name": "Emig & Partner Immobilien & Finanzberatung",
@@ -78,10 +78,6 @@
     {
       "href": "/heidelberg/immobilienmakler-altstadt",
       "label": "Immobilienmakler Heidelberg-Altstadt"
-    },
-    {
-      "href": "/heidelberg/immobilienmakler-handschuhsheimer",
-      "label": "Immobilienmakler Heidelberg-Handschuhsheimer"
     },
     {
       "href": "/heidelberg/immobilienmakler-rohrbach",

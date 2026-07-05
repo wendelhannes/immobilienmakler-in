@@ -9,7 +9,7 @@
   "h1": "Was kostet ein Immobilienmakler in Heidelberg?",
   "intro": "Die Maklerprovision in Heidelberg richtet sich nach den gesetzlichen Vorgaben zur Teilung zwischen Käufer und Verkäufer. Wie viel ein Immobilienmakler in Heidelberg konkret kostet, hängt vom Objekt und der vereinbarten Leistung ab.",
   "jahr": 2026,
-  "generatedAt": "2026-07-04",
+  "generatedAt": "2026-07-05",
   "makler_summaries": [
     {
       "name": "Heidelberger Wohnen GmbH",
@@ -117,10 +117,6 @@
     {
       "href": "/heidelberg/immobilienmakler-altstadt",
       "label": "Immobilienmakler Heidelberg-Altstadt"
-    },
-    {
-      "href": "/heidelberg/immobilienmakler-handschuhsheimer",
-      "label": "Immobilienmakler Heidelberg-Handschuhsheimer"
     },
     {
       "href": "/heidelberg/immobilienmakler-rohrbach",

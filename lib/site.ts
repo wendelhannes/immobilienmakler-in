@@ -12,7 +12,7 @@ export const PERSON = {
   "@type": "Person",
   "@id": `${SITE}/#hannes-wendel`,
   name: AUTHOR_NAME,
-  jobTitle: "Gründer & SEO/GEO-Spezialist",
+  jobTitle: "Gründer",
   url: `${SITE}/ueber-uns`,
   worksFor: { "@id": `${SITE}/#organization` },
   knowsAbout: [

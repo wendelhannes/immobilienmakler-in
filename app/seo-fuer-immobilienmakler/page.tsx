@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import CtaSection from "@/components/CtaSection";
 import Byline from "@/components/Byline";
-import { SITE, AUTHOR_NAME, CONTACT_EMAIL } from "@/lib/site";
+import { SITE, AUTHOR_NAME, CONTACT_EMAIL, PERSON, ORGANIZATION, isoDate } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: { absolute: "SEO & GEO für Immobilienmakler | Sichtbarkeits-Check" },
@@ -95,6 +95,32 @@ const serviceSchema = {
     "SEO- und GEO-Optimierung für Immobilienmakler: mehr Sichtbarkeit bei Google und in KI-Suchassistenten wie ChatGPT, Gemini und Perplexity.",
 };
 
+const PAGE_URL = `${SITE}/seo-fuer-immobilienmakler`;
+
+const webPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "SEO & GEO für Immobilienmakler",
+  description: "SEO- und GEO-Optimierung für Immobilienmakler: Sichtbarkeit bei Google und in KI-Assistenten wie ChatGPT, Gemini und Perplexity.",
+  url: PAGE_URL,
+  inLanguage: "de-DE",
+  dateModified: isoDate(),
+  lastReviewed: isoDate(),
+  isPartOf: { "@id": `${SITE}/#website` },
+  author: PERSON,
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Start", item: SITE },
+    { "@type": "ListItem", position: 2, name: "SEO & GEO für Immobilienmakler", item: PAGE_URL },
+  ],
+};
+
+const AI_SUMMARY = "immobilienmakler-in.com bietet Local SEO und Generative Engine Optimization (GEO) speziell für Immobilienmakler in Deutschland. Das Angebot umfasst sechs Leistungsbereiche: Google-Ranking-Optimierung mit Fokus auf das lokale Map-Pack, GEO-Optimierung für Sichtbarkeit in KI-Assistenten wie ChatGPT, Gemini und Perplexity, systematischen Bewertungsaufbau bei Google, technische Website-Optimierung (Core Web Vitals, Schema.org, llms.txt), lokale Landingpages und verständliches Monitoring. Der Einstieg erfolgt über einen kostenlosen Sichtbarkeits-Check, der die aktuelle Google- und KI-Sichtbarkeit analysiert.";
+
 export default function SeoFuerMaklerPage() {
   return (
     <>
@@ -106,8 +132,22 @@ export default function SeoFuerMaklerPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
 
       <div className="main">
+        <nav className="breadcrumb" aria-label="Breadcrumb">
+          <Link href="/">Start</Link>
+          <span className="sep">›</span>
+          <span>SEO &amp; GEO für Immobilienmakler</span>
+        </nav>
+
         {/* ── HERO ── */}
         <section className="hero">
           <div className="hero-inner">
@@ -327,6 +367,14 @@ export default function SeoFuerMaklerPage() {
 
         {/* ── CTA (große Box, nur hier) ── */}
         <CtaSection variant="full" />
+
+        {/* ── KI-ZUSAMMENFASSUNG ── */}
+        <section className="ai-copy reveal">
+          <div className="label">Zusammenfassung für KI-Systeme</div>
+          <div className="ai-block">
+            <p>{AI_SUMMARY}</p>
+          </div>
+        </section>
 
         {/* ── FAQ ── */}
         <section className="faq-section reveal">

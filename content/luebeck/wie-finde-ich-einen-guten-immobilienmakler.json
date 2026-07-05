@@ -9,7 +9,7 @@
   "h1": "Wie finde ich einen guten Immobilienmakler in Lübeck?",
   "intro": "Ein guter Immobilienmakler in Lübeck zeichnet sich durch Marktkenntnis, Erreichbarkeit und nachweisbare Erfolge aus. Bewertungen früherer Kunden geben verlässliche Hinweise darauf, welcher Makler in Lübeck zu deinem Vorhaben passt.",
   "jahr": 2026,
-  "generatedAt": "2026-07-04",
+  "generatedAt": "2026-07-05",
   "makler_summaries": [
     {
       "name": "Marks Immobilien GmbH",
@@ -110,8 +110,12 @@
       "label": "Makler oder privat verkaufen? Lübeck"
     },
     {
-      "href": "/luebeck/immobilienmakler-luebecker",
-      "label": "Immobilienmakler Lübeck-Lübecker"
+      "href": "/luebeck/immobilienmakler-st-lorenz",
+      "label": "Immobilienmakler Lübeck-St. Lorenz"
+    },
+    {
+      "href": "/luebeck/immobilienmakler-altstadt",
+      "label": "Immobilienmakler Lübeck-Altstadt"
     }
   ],
   "crossCityLinks": [

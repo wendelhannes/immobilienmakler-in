@@ -15,21 +15,21 @@ const serif = Newsreader({
   weight: ["400", "700"],
   style: ["normal", "italic"],
   variable: "--font-serif",
-  display: "swap",
+  display: "optional",
 });
 
 const sans = DM_Sans({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-sans",
-  display: "swap",
+  display: "optional",
 });
 
 const mono = JetBrains_Mono({
   subsets: ["latin"],
   weight: ["400"],
   variable: "--font-mono",
-  display: "swap",
+  display: "optional",
 });
 
 const SITE = "https://immobilienmakler-in.com";

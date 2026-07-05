@@ -472,7 +472,8 @@
         "stars": 5,
         "publishedAtDate": "2025-06-24T08:34:31.983Z"
       }
-    ]
+    ],
+    "stadtteil": "St. Lorenz"
   },
   {
     "name": "Möllerherm Immobilien - Büro Lübeck",
@@ -517,7 +518,8 @@
         "stars": 5,
         "publishedAtDate": "2025-05-14T07:11:34.658Z"
       }
-    ]
+    ],
+    "stadtteil": "St. Lorenz"
   },
   {
     "name": "von Wülfing Immobilien - Lübeck",
@@ -530,7 +532,7 @@
     "categoryName": "Immobilienmakler",
     "placeId": "ChIJCQO0aVcJskcRUmnPgdgDtVA",
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=von%20W%C3%BClfing%20Immobilien%20-%20L%C3%BCbeck&query_place_id=ChIJCQO0aVcJskcRUmnPgdgDtVA",
-    "stadtteil": "Lübecker",
+    "stadtteil": "Altstadt",
     "spezialisierung": "Wohnimmobilien",
     "reviews": [
       {
@@ -818,7 +820,8 @@
         "stars": 5,
         "publishedAtDate": "2022-05-02T10:46:54.165Z"
       }
-    ]
+    ],
+    "stadtteil": "St. Lorenz"
   },
   {
     "name": "Nowatzki Immobilien GmbH Co. KG",
@@ -981,7 +984,7 @@
     "categoryName": "Immobilienmakler",
     "placeId": "ChIJf4GiU1kJskcR9HWPJfd4PC8",
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Engel%20%26%20V%C3%B6lkers&query_place_id=ChIJf4GiU1kJskcR9HWPJfd4PC8",
-    "stadtteil": "Lübecker",
+    "stadtteil": "Altstadt",
     "spezialisierung": "Wohnimmobilien",
     "reviews": [
       {
