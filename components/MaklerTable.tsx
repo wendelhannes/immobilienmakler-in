@@ -16,7 +16,6 @@ export default function MaklerTable({ makler }: { makler: MaklerSummary[] }) {
             <th>Immobilienmakler</th>
             <th>Bewertung</th>
             <th>Anzahl</th>
-            <th>Spezialisierung</th>
             <th>Stadtteil</th>
           </tr>
         </thead>
@@ -31,7 +30,6 @@ export default function MaklerTable({ makler }: { makler: MaklerSummary[] }) {
               </td>
               <td className="mt-rating">★ {formatRating(m.rating)}</td>
               <td className="mt-count">{m.reviewsCount}</td>
-              <td>{m.spezialisierung}</td>
               <td>{m.stadtteil || "–"}</td>
             </tr>
           ))}

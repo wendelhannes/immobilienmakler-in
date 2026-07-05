@@ -26,11 +26,22 @@ export default function RevealInit() {
           }
         }
       },
-      { threshold: 0.12 }
+      { threshold: 0.05, rootMargin: "200px 0px" }
     );
 
     els.forEach((el) => observer.observe(el));
-    return () => observer.disconnect();
+
+    // Fallback: reveal everything after 2s so content is never permanently hidden
+    const fallback = setTimeout(() => {
+      document.querySelectorAll(".reveal:not(.visible)").forEach((el) => {
+        el.classList.add("visible");
+      });
+    }, 2000);
+
+    return () => {
+      observer.disconnect();
+      clearTimeout(fallback);
+    };
   }, [pathname]);
 
   return null;

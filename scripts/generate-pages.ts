@@ -105,6 +105,8 @@ function buildMaklerSummary(m: Makler, city: City): MaklerSummary {
     name: m.name,
     slug: m.slug,
     url: m.website,
+    phone: m.phone,
+    address: m.address,
     rating: m.rating,
     reviewsCount: m.reviewsCount,
     spezialisierung: m.spezialisierung,

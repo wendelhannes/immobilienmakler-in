@@ -131,9 +131,31 @@ export const PILLARS: Pillar[] = [
         ],
       },
       {
+        h2: "Regionale Unterschiede bei der Provision",
+        paragraphs: [
+          "In Deutschland gibt es keinen einheitlichen Provisionssatz. Historisch gewachsen sind in Süddeutschland tendenziell niedrigere Gesamtsätze (oft 5,95 % inkl. MwSt.) als in manchen norddeutschen Bundesländern, wo bis zu 7,14 % üblich waren. Seit der Provisionsteilung hat sich der Markt verändert: In Ballungsräumen mit hoher Nachfrage konkurrieren Makler stärker über den Provisionssatz, während in ländlichen Regionen mit geringerer Umschlagshäufigkeit weniger Spielraum besteht.",
+          "Konkret: Bei einer Immobilie mit 400.000 Euro Kaufpreis liegt die Provision je nach Region zwischen 23.800 Euro (5,95 %) und 28.560 Euro (7,14 %). Der Verkäuferanteil beträgt dann mindestens 11.900 bis 14.280 Euro. Rechnet man die Grunderwerbsteuer hinzu, die ebenfalls je nach Bundesland stark schwankt, erreichen die Gesamtnebenkosten schnell 10 bis 15 % des Kaufpreises.",
+        ],
+      },
+      {
+        h2: "Welche Leistungen stecken hinter der Provision",
+        paragraphs: [
+          "Die Maklerprovision deckt ein Leistungsbündel ab, das bei seriösen Büros weit über das reine Inserieren hinausgeht. Im Einzelnen gehören dazu: eine fundierte Marktpreisanalyse auf Basis realer Abschlusspreise (nicht nur Angebotspreise), professionelle Immobilienfotografie, Erstellung eines vollständigen Exposés inklusive Grundrissen, Schaltung auf allen relevanten Portalen, aktive Ansprache vorgemerkter Suchkunden, Durchführung und Koordination aller Besichtigungen, Bonitätsprüfung der Kaufinteressenten, Preisverhandlung im Auftrag des Verkäufers und Begleitung bis zum Notartermin.",
+          "Die entscheidende Frage ist nicht, ob die Provision zu hoch ist, sondern ob der Makler diese Leistungen tatsächlich erbringt. Ein Makler, der nur ein Inserat schaltet und auf Anfragen wartet, leistet deutlich weniger als einer, der aktiv vermarktet und vorqualifizierte Interessenten mitbringt. Deshalb lohnt der Blick auf echte Bewertungen vor der Beauftragung: Kunden, die den vollen Leistungsumfang erlebt haben, berichten darüber.",
+        ],
+      },
+      {
+        h2: "Provision verhandeln: So geht es richtig",
+        paragraphs: [
+          "Verhandeln ist erlaubt, aber Timing und Argumentation entscheiden. Der beste Moment ist vor Vertragsabschluss, nicht danach. Argumentationsgrundlagen, die in der Praxis funktionieren: ein Vergleichsangebot eines anderen Maklers mit niedrigerem Satz, ein besonders hoher Objektwert (bei dem selbst ein reduzierter Prozentsatz einen attraktiven Absolutbetrag ergibt), oder die Bereitschaft zu einem Alleinauftrag, der dem Makler Planungssicherheit gibt.",
+          "Vorsicht vor reinen Rabattmaklern: Ein Makler, der die Provision stark unterbietet, muss dieses Defizit durch höheres Volumen ausgleichen, was häufig zu Lasten der individuellen Betreuung geht. Achten Sie darauf, was im Vertrag steht: Welche Leistungen sind konkret zugesagt? Gibt es eine klare Laufzeit mit Ausstiegsklausel? Sind Nebenkosten (Fotograf, Home-Staging) im Provisionssatz enthalten oder fallen separat an?",
+        ],
+      },
+      {
         h2: "Wann sich die Provision lohnt",
         paragraphs: [
-          "Die Provision ist nur dann gut angelegt, wenn der Makler nachweislich Leistung bringt: realistische Preisfindung, professionelle Vermarktung, vorqualifizierte Interessenten und sichere Abwicklung bis zum Notartermin. Genau deshalb lohnt der Blick auf echte Kundenbewertungen vor der Beauftragung – unser Städtevergleich unten zeigt die bestbewerteten Makler jeder Stadt.",
+          "Die Provision ist dann gut angelegt, wenn der Makler nachweislich Leistung bringt: realistische Preisfindung, professionelle Vermarktung, vorqualifizierte Interessenten und sichere Abwicklung bis zum Notartermin. Studien und Marktbeobachtungen zeigen, dass professionell vermarktete Immobilien im Schnitt näher am realistischen Marktpreis verkauft werden als privat inserierte Objekte, bei denen der Angebotspreis häufig nach oben verzerrt ist und später sichtbar reduziert werden muss.",
+          "Genau deshalb lohnt der Blick auf echte Kundenbewertungen vor der Beauftragung. Unser Städtevergleich unten zeigt die bestbewerteten Makler jeder Stadt, gerankt ausschließlich nach Google-Bewertungen und ohne bezahlte Platzierungen.",
         ],
       },
     ],
@@ -149,6 +171,10 @@ export const PILLARS: Pillar[] = [
       {
         q: "Wann muss die Provision bezahlt werden?",
         a: "Der Provisionsanspruch entsteht mit dem wirksamen notariellen Kaufvertrag. Die Rechnung wird üblicherweise kurz nach der Beurkundung gestellt – nicht schon bei Besichtigung oder Reservierung.",
+      },
+      {
+        q: "Gibt es versteckte Kosten neben der Provision?",
+        a: "Bei manchen Maklern fallen zusätzlich Kosten für Home-Staging, Drohnenfotos oder Premium-Inserate an. Diese sollten im Maklervertrag klar geregelt sein. Fragen Sie vor Vertragsabschluss, welche Leistungen im Provisionssatz enthalten sind und was separat berechnet wird.",
       },
     ],
     cityLinkLabel: "Maklerkosten {stadt}",
@@ -172,6 +198,28 @@ export const PILLARS: Pillar[] = [
         ],
       },
       {
+        h2: "Bewertungen richtig lesen",
+        paragraphs: [
+          "Nicht jede 5-Sterne-Bewertung ist gleich viel wert. Aussagekräftig sind Reviews, die den konkreten Ablauf beschreiben: Wie wurde der Angebotspreis hergeleitet? Wie schnell kamen qualifizierte Besichtigungsanfragen? Wie lief die Kommunikation in der Verhandlungsphase? Achten Sie auch auf die zeitliche Verteilung: Ein Büro, das seit Jahren konstant gute Bewertungen erhält, arbeitet systematisch besser als eines mit einem plötzlichen Schwung positiver Rezensionen.",
+          "Negative Bewertungen sind ebenfalls aufschlussreich – allerdings anders, als man denkt. Eine einzelne schlechte Bewertung unter hundert guten kann ein Ausreißer sein. Aussagekräftig wird es, wenn sich Muster zeigen: mehrere Beschwerden über schlechte Erreichbarkeit, unrealistische Preisversprechen oder mangelnde Rückmeldung deuten auf strukturelle Probleme hin, nicht auf Einzelfälle.",
+        ],
+      },
+      {
+        h2: "Das Erstgespräch: Die richtigen Fragen stellen",
+        paragraphs: [
+          "Das Erstgespräch ist Ihre beste Gelegenheit, Kompetenz und Arbeitsweise eines Maklers vor der Beauftragung einzuschätzen. Stellen Sie konkrete Fragen: Wie viele Objekte in Ihrer Straße oder Ihrem Stadtteil hat der Makler in den letzten zwölf Monaten verkauft? Wie leitet er den vorgeschlagenen Angebotspreis her – nutzt er tatsächliche Abschlusspreise oder nur Portalangebote? Welche Vermarktungskanäle setzt er neben den großen Portalen ein?",
+          "Achten Sie darauf, wie der Makler auf kritische Fragen reagiert. Ein guter Makler erklärt offen, was das Objekt am Markt bringt – auch wenn das unter Ihren Erwartungen liegt. Ein Makler, der Ihnen nach einer kurzen Besichtigung einen deutlich höheren Preis verspricht als zwei andere, gewinnt damit vielleicht den Auftrag, aber selten den Verkauf: Das Objekt steht dann wochen- oder monatelang, der Preis wird reduziert, und am Ende wird unter dem realistischen Marktwert verkauft.",
+          "Holen Sie immer mindestens zwei, besser drei Einschätzungen ein. Der Vergleich der Preisherleitungen und Vermarktungskonzepte zeigt schnell, wer substanziell arbeitet und wer nur verkauft, um den Auftrag zu bekommen.",
+        ],
+      },
+      {
+        h2: "Maklervertrag: Worauf Sie achten sollten",
+        paragraphs: [
+          "Der Maklervertrag regelt Laufzeit, Provision, Leistungsumfang und Kündigungsrecht. Prüfen Sie jeden Punkt vor der Unterschrift. Übliche Laufzeiten liegen bei drei bis sechs Monaten – deutlich längere Bindungen ohne Kündigungsoption sind ein Warnsignal. Die vereinbarte Provision sollte den regionalen Gepflogenheiten entsprechen; weicht sie stark nach oben ab, brauchen Sie eine gute Begründung.",
+          "Lassen Sie sich die zugesagten Leistungen schriftlich bestätigen: Wird ein professioneller Fotograf beauftragt? Gibt es 3D-Rundgänge oder Drohnenaufnahmen? Auf welchen Portalen und in welchen weiteren Kanälen wird inseriert? Wie oft erhalten Sie Statusberichte? Ein seriöser Makler scheut sich nicht, seine Leistungszusagen vertraglich festzuhalten.",
+        ],
+      },
+      {
         h2: "So nutzen Sie unseren Vergleich",
         paragraphs: [
           "Wir ranken die Makler jeder Stadt ausschließlich nach echten Google-Bewertungen – Sterne-Durchschnitt und Bewertungsanzahl, ohne bezahlte Platzierungen. Wählen Sie unten Ihre Stadt, sehen Sie sich die zwei bis drei bestbewerteten Büros an und führen Sie mit diesen jeweils ein Erstgespräch. Der Vergleich mehrerer Einschätzungen schützt zuverlässig vor Ausreißern bei Preis und Leistung.",
@@ -190,6 +238,10 @@ export const PILLARS: Pillar[] = [
       {
         q: "Was bedeutet ein Alleinauftrag?",
         a: "Beim Alleinauftrag vermarktet nur dieser eine Makler die Immobilie für die vereinbarte Laufzeit. Das erhöht seinen Einsatz, bindet Sie aber. Üblich und fair sind Laufzeiten von drei bis sechs Monaten mit klar definierten Leistungen.",
+      },
+      {
+        q: "Brauche ich einen Makler mit IHK-Zulassung?",
+        a: "Die Gewerbeerlaubnis nach § 34c GewO ist Pflicht für jeden Makler. Darüber hinaus signalisiert eine IHK-Mitgliedschaft oder Zertifizierung Weiterbildungsbereitschaft – aber die Bewertungen zufriedener Kunden sind ein stärkerer Qualitätsindikator als Siegel.",
       },
     ],
     cityLinkLabel: "Makler finden {stadt}",
@@ -213,9 +265,26 @@ export const PILLARS: Pillar[] = [
         ],
       },
       {
+        h2: "Die wahren Kosten des Privatverkaufs",
+        paragraphs: [
+          "Die Rechnung Provision gespart gleich Geld gespart geht nur auf, wenn der Privatverkäufer denselben Preis erzielt wie ein Makler. In der Praxis zeigt sich häufig ein anderes Bild: Der Angebotspreis wird zu hoch angesetzt, das Objekt steht wochenlang auf den Portalen, Preisreduktionen werden für alle sichtbar protokolliert, und der tatsächliche Verkaufspreis liegt am Ende unter dem, was ein realistisch positioniertes Angebot von Beginn an erzielt hätte.",
+          "Hinzu kommen direkte Kosten, die Privatverkäufer oft unterschätzen: professionelle Fotos (300 bis 800 Euro), Premium-Inserate auf den großen Portalen (100 bis 400 Euro pro Monat), ein aktueller Energieausweis (50 bis 500 Euro je nach Ausweistyp), gegebenenfalls ein Wertgutachten (1.500 bis 3.000 Euro) und im Idealfall Home-Staging (500 bis 3.000 Euro). Zusammen ergibt das schnell 2.000 bis 5.000 Euro an Vorabkosten – ohne Garantie auf einen erfolgreichen Verkauf.",
+          "Den größten Kostenfaktor sehen viele Privatverkäufer erst im Rückblick: die eigene Arbeitszeit. 50 bis 100 Stunden über mehrere Monate bedeuten abends und am Wochenende Besichtigungen koordinieren, auf Anfragen reagieren, Unterlagen zusammenstellen und Verhandlungen führen. Wer beruflich eingespannt ist, unterschätzt diesen Aufwand regelmäßig.",
+        ],
+      },
+      {
+        h2: "Rechtliche Pflichten beim Privatverkauf",
+        paragraphs: [
+          "Als Privatverkäufer tragen Sie dieselben rechtlichen Pflichten wie ein gewerblicher Verkäufer. Die Aufklärungspflicht verlangt, dass Sie alle Ihnen bekannten Mängel offenlegen – verdeckte Schäden, Altlasten, laufende Rechtsstreitigkeiten oder Baulasten. Verschweigen Sie einen bekannten Mangel, kann der Käufer auch Jahre nach dem Notartermin Schadensersatz fordern oder den Kaufvertrag anfechten.",
+          "Der Energieausweis muss bereits bei der ersten Besichtigung vorgelegt werden, nicht erst beim Notartermin. Fehlt er, droht ein Bußgeld bis zu 15.000 Euro. Auch die Angaben im Exposé müssen korrekt sein: falsche Wohnflächenangaben sind einer der häufigsten Streitpunkte nach dem Verkauf. Messen Sie die Wohnfläche nach der Wohnflächenverordnung (WoFlV) oder lassen Sie sie von einem Sachverständigen bestätigen.",
+        ],
+      },
+      {
         h2: "Wann welcher Weg passt",
         paragraphs: [
-          "Für den Privatverkauf sprechen: ein gefragtes Standardobjekt, ausreichend Zeit, Verhandlungserfahrung und die Bereitschaft, sich in die rechtlichen Pflichten einzuarbeiten. Für den Makler sprechen: Zeitmangel, Entfernung zum Objekt, besondere Immobilien, emotionale Nähe (etwa beim Elternhaus) – und der Wunsch, den Verhandlungsprozess einem Profi zu überlassen. Wenn Sie sich für einen Makler entscheiden, vergleichen Sie vorher die Bewertungen: unten finden Sie die bestbewerteten Makler Ihrer Stadt.",
+          "Für den Privatverkauf sprechen: ein gefragtes Standardobjekt in einem nachfragestarken Markt, ausreichend Zeit für Besichtigungen und Verhandlungen, Verhandlungserfahrung und die Bereitschaft, sich in die rechtlichen Pflichten einzuarbeiten. Typische Kandidaten sind Eigentumswohnungen in Großstädten mit klarer Vergleichbarkeit und hoher Nachfrage – hier ist die Preisfindung einfacher und der Vermarktungsaufwand überschaubar.",
+          "Für den Makler sprechen: Zeitmangel, räumliche Entfernung zum Objekt, besondere oder erklärungsbedürftige Immobilien (Denkmalschutz, Erbpacht, Gewerbeanteile), emotionale Nähe (etwa beim Elternhaus) und der Wunsch, den Verhandlungsprozess einem Profi zu überlassen. Auch bei Erbgemeinschaften oder Scheidungsfällen, in denen mehrere Parteien beteiligt sind, bringt ein neutraler Makler Struktur in einen potenziell konfliktreichen Prozess.",
+          "Wenn Sie sich für einen Makler entscheiden, vergleichen Sie vorher die Bewertungen: unten finden Sie die bestbewerteten Makler Ihrer Stadt, gerankt nach echten Google-Bewertungen ohne bezahlte Platzierungen.",
         ],
       },
     ],
@@ -226,11 +295,15 @@ export const PILLARS: Pillar[] = [
       },
       {
         q: "Kann ich erst privat versuchen und dann einen Makler nehmen?",
-        a: "Ja, das ist möglich. Beachten Sie aber: Ein Objekt, das monatelang sichtbar erfolglos inseriert war, gilt bei Interessenten als 'verbrannt' und lässt sich auch für den Makler schwerer zum ursprünglichen Preis verkaufen. Wer diesen Weg wählt, sollte den Privatversuch zeitlich eng begrenzen.",
+        a: "Ja, das ist möglich. Beachten Sie aber: Ein Objekt, das monatelang sichtbar erfolglos inseriert war, gilt bei Interessenten als verbrannt und lässt sich auch für den Makler schwerer zum ursprünglichen Preis verkaufen. Wer diesen Weg wählt, sollte den Privatversuch zeitlich eng begrenzen.",
       },
       {
         q: "Übernimmt der Notar nicht die rechtliche Absicherung?",
         a: "Der Notar beurkundet neutral und prüft den Vertrag, berät aber nicht einseitig und prüft weder Preis noch Bonität des Käufers. Aufklärungspflichten und Verhandlungsführung bleiben beim Verkäufer bzw. dessen Makler.",
+      },
+      {
+        q: "Was passiert, wenn ich einen Mangel nicht offenlege?",
+        a: "Verschweigen Sie einen Ihnen bekannten Mangel arglistig, kann der Käufer auch nach Jahren Schadensersatz fordern, Minderung verlangen oder im Extremfall den Kaufvertrag rückabwickeln lassen. Die Verjährungsfrist für arglistig verschwiegene Mängel beträgt bis zu zehn Jahre.",
       },
     ],
     cityLinkLabel: "Makler oder privat {stadt}",

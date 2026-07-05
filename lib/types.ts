@@ -31,6 +31,8 @@ export interface MaklerSummary {
   name: string;
   slug: string;
   url: string;
+  phone?: string;
+  address?: string;
   rating: number;
   reviewsCount: number;
   spezialisierung: string;

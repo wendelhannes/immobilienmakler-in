@@ -5,6 +5,7 @@ import { getAllSlugs, getPageData } from "@/lib/get-page-data";
 import type { PageData } from "@/lib/types";
 import Breadcrumb, { type Crumb } from "@/components/Breadcrumb";
 import MaklerTable from "@/components/MaklerTable";
+import MaklerProfiles from "@/components/MaklerProfiles";
 import FaqSection from "@/components/FaqSection";
 import CtaSection from "@/components/CtaSection";
 import Byline from "@/components/Byline";
@@ -135,11 +136,16 @@ export default function Page({ params }: { params: { slug: string[] } }) {
               name: m.name,
               url: m.url,
               areaServed: page.stadt,
-              aggregateRating: {
-                "@type": "AggregateRating",
-                ratingValue: m.rating,
-                reviewCount: m.reviewsCount,
-              },
+              ...(m.phone ? { telephone: m.phone } : {}),
+              ...(m.address
+                ? {
+                    address: {
+                      "@type": "PostalAddress",
+                      streetAddress: m.address,
+                      addressCountry: "DE",
+                    },
+                  }
+                : {}),
             },
           })),
         }
@@ -148,6 +154,7 @@ export default function Page({ params }: { params: { slug: string[] } }) {
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
+    "@id": url,
     name: page.h1,
     description: page.intro,
     url,
@@ -321,16 +328,7 @@ export default function Page({ params }: { params: { slug: string[] } }) {
                stattdessen — Guide soll kein verkürzter Directory-Rerun sein) ── */}
         {page.makler_summaries.length > 0 &&
           (isHauptseite || page.pageType === "stadtteil" ? (
-            <section className="section reveal">
-              <h2>Die Makler im Detail</h2>
-              {page.makler_summaries.map((m) => (
-                <div
-                  className="makler-profile"
-                  key={m.slug}
-                  dangerouslySetInnerHTML={{ __html: m.html }}
-                />
-              ))}
-            </section>
+            <MaklerProfiles makler={page.makler_summaries} />
           ) : (
             <section className="section reveal">
               <p>

@@ -3,6 +3,7 @@ import cityList from "@/data/city-list.json";
 import CtaSection from "@/components/CtaSection";
 import Byline from "@/components/Byline";
 import { getAvailableCitySlugs } from "@/lib/get-page-data";
+import { PERSON, ORGANIZATION, SITE, isoDate } from "@/lib/site";
 
 type City = { name: string; slug: string; bundesland: string; einwohner: number };
 
@@ -88,11 +89,30 @@ export default function HomePage() {
     })),
   };
 
+  const webPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Immobilienmakler-Vergleich: Die besten Makler in 50 Städten",
+    description:
+      "Die bestbewerteten Immobilienmakler in 50 deutschen Städten im Vergleich – auf Basis echter Google-Bewertungen, ohne bezahlte Platzierungen.",
+    url: SITE,
+    inLanguage: "de-DE",
+    dateModified: isoDate(),
+    lastReviewed: isoDate(),
+    isPartOf: { "@id": `${SITE}/#website` },
+    author: PERSON,
+    publisher: ORGANIZATION,
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
 
       <div className="main">
@@ -123,7 +143,7 @@ export default function HomePage() {
               </div>
               <p className="hero-note">
                 100 % kostenlos &middot; keine bezahlten Platzierungen &middot; echte
-                Google-Bewertungen
+                Google-Bewertungen &middot; redaktionell unabhängig
               </p>
               <Byline />
             </div>

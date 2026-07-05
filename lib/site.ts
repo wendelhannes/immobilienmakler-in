@@ -38,7 +38,7 @@ export const ORGANIZATION = {
   },
   email: CONTACT_EMAIL,
   description:
-    "Unabhängiger Vergleich der bestbewerteten Immobilienmakler in deutschen Städten auf Basis echter Google-Bewertungen – plus SEO- & GEO-Optimierung für Maklerbüros.",
+    "Unabhängiger Vergleich der bestbewerteten Immobilienmakler in deutschen Städten auf Basis echter Google-Bewertungen.",
   founder: { "@id": `${SITE}/#hannes-wendel` },
   address: {
     "@type": "PostalAddress",
@@ -53,6 +53,7 @@ export const ORGANIZATION = {
     email: CONTACT_EMAIL,
     availableLanguage: "de",
   },
+  sameAs: [],
   knowsAbout: [
     "Immobilienmakler",
     "Immobilienbewertung",
