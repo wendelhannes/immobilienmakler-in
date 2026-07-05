@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Newsreader, DM_Sans, JetBrains_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next"
@@ -76,6 +77,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${serif.variable} ${sans.variable} ${mono.variable}`}
     >
       <body>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-JQ60H7JQEG"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-JQ60H7JQEG');`}
+        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
