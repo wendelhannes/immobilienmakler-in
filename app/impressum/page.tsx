@@ -29,8 +29,8 @@ export default function ImpressumPage() {
         Telefon: +49 176 72802025
         <br />
         E-Mail:{" "}
-        <a href="mailto:info@immobilienmakler-in.com">
-          info@immobilienmakler-in.com
+        <a href="mailto:wendel-hannes@hotmail.de">
+          wendel-hannes@hotmail.de
         </a>
       </p>
 
